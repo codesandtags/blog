@@ -65,7 +65,7 @@ typings/
 .cache/
 
 # Comment folder to publish in githubpages
-# public
+public
 
 # Mac files
 .DS_Store
