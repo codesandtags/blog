@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Edwin Torres <codesandtags@gmail.com>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/codesandtags/codesandtags.github.io"
   },
   "dependencies": {
     "gatsby": "^2.21.0",
@@ -39,7 +39,7 @@
   "devDependencies": {
     "prettier": "2.0.5"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://github.com/codesandtags/codesandtags.github.io",
   "keywords": [
     "gatsby"
   ],
@@ -47,7 +47,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/codesandtags/codesandtags.github.io.git"
   },
   "scripts": {
     "build": "gatsby build",

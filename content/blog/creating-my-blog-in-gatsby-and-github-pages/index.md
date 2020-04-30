@@ -1,8 +1,8 @@
 ---
 
-title: Hello World
-date: "2015-05-01T22:12:03.284Z"
-description: "Hello World"
+title: Creating my blog using Gatsby and Github Pages 
+date: "2020-05-01"
+description: "A nice way to have your own blog in Github"
 ---
 
 This is my first post on my new fake blog! How exciting!
