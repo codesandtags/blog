@@ -1,3 +1,10 @@
+# Jetbrains files
+.idea
+.idea/codesandtags.github.io.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/workspace.xml
+
 # Logs
 logs
 *.log
@@ -56,6 +63,8 @@ typings/
 
 # gatsby files
 .cache/
+
+# Comment folder to publish in githubpages
 public
 
 # Mac files
