@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Codes and Tags]]></title><description><![CDATA[This is my description that will be used in the meta tags and important for search results]]></description><link>https://codesandtags.github.io/blog</link><image><url>https://codesandtags.github.io/blog/icons/icon-512x512.png</url><title>Codes and Tags</title><link>https://codesandtags.github.io/blog</link></image><generator>GatsbyJS</generator><lastBuildDate>Fri, 01 May 2020 00:45:02 GMT</lastBuildDate><atom:link href="https://codesandtags.github.io/blog/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[Creating my blog with Gatsby and Github Pages]]></title><description><![CDATA[With the growing community interest in Gatsby, we hope to create more resources that make it easier for anyone to grasp the power of this incredible tool.]]></description><link>https://codesandtags.github.io/blog/creating-my-blog-with-gatsby-and-github-pages</link><guid isPermaLink="false">https://codesandtags.github.io/blog/creating-my-blog-with-gatsby-and-github-pages</guid><dc:creator><![CDATA[Edwin Torres]]></dc:creator><pubDate>Fri, 01 May 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;title&quot;: &quot;Creating my blog with Gatsby and Github Pages&quot;,
+  &quot;author&quot;: &quot;Edwin Torres&quot;,
+  &quot;date&quot;: &quot;2020-05-01T00:00:00.000Z&quot;,
+  &quot;hero&quot;: &quot;./images/hero.jpg&quot;,
+  &quot;excerpt&quot;: &quot;With the growing community interest in Gatsby, we hope to create more resources that make it easier for anyone to grasp the power of this incredible tool.&quot;
+};
+
+var makeShortcode = function makeShortcode(name) {
+  return function MDXDefaultShortcode(props) {
+    console.warn(&quot;Component &quot; + name + &quot; was not imported, exported, or provided by MDXProvider as global scope&quot;);
+    return mdx(&quot;div&quot;, props);
+  };
+};
+
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, [&quot;components&quot;]);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;p&quot;, null, &quot;My first post using &quot;, mdx(&quot;inlineCode&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;@narative/gatsby-theme-novela&quot;), &quot;. Novela is built by the team at &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://narative.co&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Narative&quot;), &quot;, and built for everyone that loves the web.&quot;), mdx(&quot;h2&quot;, {
+    &quot;id&quot;: &quot;headers&quot;
+  }, &quot;Headers&quot;), mdx(&quot;h1&quot;, {
+    &quot;id&quot;: &quot;h1&quot;
+  }, &quot;H1&quot;), mdx(&quot;p&quot;, null, &quot;It is recommended to NOT use H1s as it is reserved for the article heading. Any H1 is set as an H2.&quot;), mdx(&quot;h2&quot;, {
+    &quot;id&quot;: &quot;h2&quot;
+  }, &quot;H2&quot;), mdx(&quot;h3&quot;, {
+    &quot;id&quot;: &quot;h3&quot;
+  }, &quot;H3&quot;), mdx(&quot;h4&quot;, {
+    &quot;id&quot;: &quot;h4&quot;
+  }, &quot;H4&quot;), mdx(&quot;h5&quot;, {
+    &quot;id&quot;: &quot;h5&quot;
+  }, &quot;H5&quot;), mdx(&quot;h6&quot;, {
+    &quot;id&quot;: &quot;h6&quot;
+  }, &quot;H6&quot;), mdx(&quot;h2&quot;, {
+    &quot;id&quot;: &quot;emphasis&quot;
+  }, &quot;Emphasis&quot;), mdx(&quot;p&quot;, null, &quot;Emphasis, aka italics, with &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;asterisks&quot;), &quot; or &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;underscores&quot;), &quot;.&quot;), mdx(&quot;p&quot;, null, &quot;Strong emphasis, aka bold, with &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;asterisks&quot;), &quot; or &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;underscores&quot;), &quot;.&quot;), mdx(&quot;p&quot;, null, &quot;Combined emphasis with &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;asterisks and &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;strong&quot;
+  }, &quot;underscores&quot;)), &quot;.&quot;), mdx(&quot;p&quot;, null, &quot;Strikethrough uses two tildes. &quot;, mdx(&quot;del&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Scratch this.&quot;)), mdx(&quot;h2&quot;, {
+    &quot;id&quot;: &quot;lists&quot;
+  }, &quot;Lists&quot;), mdx(&quot;ol&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;First ordered list item&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Another item&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Actual numbers don\u2019t matter, just that it\u2019s a number&quot;)), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Unordered list can use asterisks&quot;)), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Or minuses&quot;)), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Or pluses&quot;)), mdx(&quot;h2&quot;, {
+    &quot;id&quot;: &quot;links&quot;
+  }, &quot;Links&quot;), mdx(&quot;p&quot;, null, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.google.com&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;I\u2019m an inline-style link&quot;)), mdx(&quot;p&quot;, null, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.google.com&quot;,
+    &quot;title&quot;: &quot;Google&apos;s Homepage&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;I\u2019m an inline-style link with title&quot;)), mdx(&quot;p&quot;, null, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.mozilla.org&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;I\u2019m a reference-style link&quot;)), mdx(&quot;p&quot;, null, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;../blob/master/LICENSE&quot;
+  }), &quot;I\u2019m a relative reference to a repository file&quot;)), mdx(&quot;p&quot;, null, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;http://slashdot.org&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;You can use numbers for reference-style link definitions&quot;)), mdx(&quot;p&quot;, null, &quot;Or leave it empty and use the &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;http://www.reddit.com&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;link text itself&quot;), &quot;.&quot;), mdx(&quot;p&quot;, null, &quot;URLs and URLs in angle brackets will automatically get turned into links.\n&quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;http://www.example.com&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;http://www.example.com&quot;), &quot; or &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;http://www.example.com&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;http://www.example.com&quot;), &quot; and sometimes\nexample.com (but not on Github, for example).&quot;), mdx(&quot;p&quot;, null, &quot;Some text to show that the reference links can follow later.&quot;), mdx(&quot;h2&quot;, {
+    &quot;id&quot;: &quot;images&quot;
+  }, &quot;Images&quot;), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;Image__Small&quot;
+  }, &quot;\n  &quot;, mdx(&quot;span&quot;, _extends({
+    parentName: &quot;div&quot;
+  }, {
+    &quot;className&quot;: &quot;gatsby-resp-image-wrapper&quot;,
+    &quot;style&quot;: {
+      &quot;position&quot;: &quot;relative&quot;,
+      &quot;display&quot;: &quot;block&quot;,
+      &quot;marginLeft&quot;: &quot;auto&quot;,
+      &quot;marginRight&quot;: &quot;auto&quot;,
+      &quot;maxWidth&quot;: &quot;1360px&quot;
+    }
+  }), &quot;\n      &quot;, mdx(&quot;span&quot;, _extends({
+    parentName: &quot;span&quot;
+  }, {
+    &quot;className&quot;: &quot;gatsby-resp-image-background-image&quot;,
+    &quot;style&quot;: {
+      &quot;paddingBottom&quot;: &quot;100%&quot;,
+      &quot;position&quot;: &quot;relative&quot;,
+      &quot;bottom&quot;: &quot;0&quot;,
+      &quot;left&quot;: &quot;0&quot;,
+      &quot;backgroundImage&quot;: &quot;url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGQABAAIDAAAAAAAAAAAAAAAAAAIDAQQF/8QAFwEBAQEBAAAAAAAAAAAAAAAAAQIAA//aAAwDAQACEAMQAAAB60c0vKSAvWoCrhj/xAAcEAADAAEFAAAAAAAAAAAAAAAAAQIDEBESIkH/2gAIAQEAAQUC0Z7zNshVOst9aUI//8QAGREAAQUAAAAAAAAAAAAAAAAAAQACEBES/9oACAEDAQE/AQ21kT//xAAXEQADAQAAAAAAAAAAAAAAAAAAAREQ/9oACAECAQE/AaV7/8QAIBAAAQMCBwAAAAAAAAAAAAAAAAECITFhAxARE0FR4f/aAAgBAQAGPwLLw05ESq9ITiNZY26NsNVsQTJ//8QAHxABAAIBAwUAAAAAAAAAAAAAAQARITFBcVFhgbHw/9oACAEBAAE/IWLNWG+Eyyi1bEBWRvpnoDtFtqPJ5iXFq6dyV3J9Vn//2gAMAwEAAgADAAAAEI/3ff/EABgRAAIDAAAAAAAAAAAAAAAAAAABECFh/9oACAEDAQE/EGWZmKP/xAAXEQADAQAAAAAAAAAAAAAAAAABEBEx/9oACAECAQE/EDGIK//EAB4QAQACAQUBAQAAAAAAAAAAAAEAETEhQVFxkWHB/9oACAEBAAE/EFCC13D2aKjTNB6aRBp2Ctrl4NMse3jzf6/MRs6TAJYLcsVUjk6uIiJr1dj2xqXDdq8HFT//2Q==&apos;)&quot;,
+      &quot;backgroundSize&quot;: &quot;cover&quot;,
+      &quot;display&quot;: &quot;block&quot;
+    }
+  })), &quot;\n  &quot;, mdx(&quot;picture&quot;, {
+    parentName: &quot;span&quot;
+  }, &quot;\n        &quot;, mdx(&quot;source&quot;, _extends({
+    parentName: &quot;picture&quot;
+  }, {
+    &quot;srcSet&quot;: [&quot;/blog/static/891a8f706331d47474c3f2fd9906d926/2035a/article-image-2.webp 1360w&quot;],
+    &quot;sizes&quot;: &quot;(max-width: 1360px) 100vw, 1360px&quot;,
+    &quot;type&quot;: &quot;image/webp&quot;
+  })), &quot;\n        &quot;, mdx(&quot;source&quot;, _extends({
+    parentName: &quot;picture&quot;
+  }, {
+    &quot;srcSet&quot;: [&quot;/blog/static/891a8f706331d47474c3f2fd9906d926/68efc/article-image-2.jpg 1360w&quot;],
+    &quot;sizes&quot;: &quot;(max-width: 1360px) 100vw, 1360px&quot;,
+    &quot;type&quot;: &quot;image/jpeg&quot;
+  })), &quot;\n        &quot;, mdx(&quot;img&quot;, _extends({
+    parentName: &quot;picture&quot;
+  }, {
+    &quot;className&quot;: &quot;gatsby-resp-image-image&quot;,
+    &quot;src&quot;: &quot;/blog/static/891a8f706331d47474c3f2fd9906d926/68efc/article-image-2.jpg&quot;,
+    &quot;alt&quot;: &quot;Alt text&quot;,
+    &quot;title&quot;: &quot;Logo Title Text 1&quot;,
+    &quot;loading&quot;: &quot;lazy&quot;,
+    &quot;style&quot;: {
+      &quot;width&quot;: &quot;100%&quot;,
+      &quot;height&quot;: &quot;100%&quot;,
+      &quot;margin&quot;: &quot;0&quot;,
+      &quot;verticalAlign&quot;: &quot;middle&quot;,
+      &quot;position&quot;: &quot;absolute&quot;,
+      &quot;top&quot;: &quot;0&quot;,
+      &quot;left&quot;: &quot;0&quot;
+    }
+  })), &quot;\n      &quot;), &quot;\n    &quot;)), mdx(&quot;p&quot;, null, &quot;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\u2019s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.&quot;), mdx(&quot;h2&quot;, {
+    &quot;id&quot;: &quot;code-and-syntax-highlighting&quot;
+  }, &quot;Code and Syntax Highlighting&quot;), mdx(&quot;pre&quot;, null, mdx(&quot;code&quot;, _extends({
+    parentName: &quot;pre&quot;
+  }, {
+    &quot;className&quot;: &quot;language-javascript&quot;
+  }), &quot;var s = \&quot;JavaScript syntax highlighting\&quot;;\nalert(s);\n&quot;)), mdx(&quot;pre&quot;, null, mdx(&quot;code&quot;, _extends({
+    parentName: &quot;pre&quot;
+  }, {}), &quot;No language indicated, so no syntax highlighting.\nBut let&apos;s throw in a &lt;b&gt;tag&lt;/b&gt;.\n&quot;)), mdx(&quot;h3&quot;, {
+    &quot;id&quot;: &quot;jsx&quot;
+  }, &quot;JSX&quot;), mdx(&quot;pre&quot;, null, mdx(&quot;code&quot;, _extends({
+    parentName: &quot;pre&quot;
+  }, {
+    &quot;className&quot;: &quot;language-jsx&quot;
+  }), &quot;import React from \&quot;react\&quot;;\nimport { ThemeProvider } from \&quot;theme-ui\&quot;;\nimport theme from \&quot;./theme\&quot;;\n\nexport default props =&gt; (\n  &lt;ThemeProvider theme={theme}&gt;{props.children}&lt;/ThemeProvider&gt;\n);\n&quot;)), mdx(&quot;h2&quot;, {
+    &quot;id&quot;: &quot;blockquotes&quot;
+  }, &quot;Blockquotes&quot;), mdx(&quot;p&quot;, null, &quot;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\u2019s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.&quot;), mdx(&quot;blockquote&quot;, null, mdx(&quot;p&quot;, {
+    parentName: &quot;blockquote&quot;
+  }, &quot;Blockquotes are very handy in email to emulate reply text.\nThis line is part of the same quote.&quot;)), mdx(&quot;p&quot;, null, &quot;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\u2019s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum&quot;), mdx(&quot;h2&quot;, {
+    &quot;id&quot;: &quot;horizontal-rule&quot;
+  }, &quot;Horizontal Rule&quot;), mdx(&quot;p&quot;, null, &quot;Horizontal Rule&quot;), mdx(&quot;p&quot;, null, &quot;Three or more\u2026&quot;), mdx(&quot;hr&quot;, null), mdx(&quot;p&quot;, null, &quot;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\u2019s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum&quot;), mdx(&quot;hr&quot;, null), mdx(&quot;p&quot;, null, &quot;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\u2019s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item></channel></rss>
