@@ -37,7 +37,7 @@ module.exports = {
       options: {
         contentPosts: "content/posts",
         contentAuthors: "content/authors",
-        basePath: "/",
+        basePath: "/blog",
         authorsPage: true,
         sources: {
           local: true,
@@ -50,7 +50,7 @@ module.exports = {
       options: {
         name: `Codes and Tags`,
         short_name: `Edwin Torres`,
-        start_url: `/`,
+        start_url: `/blog`,
         background_color: `#fff`,
         theme_color: `#fff`,
         display: `standalone`,

@@ -31,7 +31,7 @@
     "url": "git+https://github.com/codesandtags/codesandtags.github.io.git"
   },
   "scripts": {
-    "build": "gatsby build --prefix-paths",
+    "build": "gatsby clean && gatsby build --prefix-paths",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
