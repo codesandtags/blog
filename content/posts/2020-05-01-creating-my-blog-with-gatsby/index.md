@@ -109,7 +109,7 @@ You also can follow [this article](https://snyk.io/blog/deploying-a-gatsby-site-
 It's hard to tell you all things you can do with Gatsby, however you can start reviwing: 
 * Review [Gatsby Plugins](https://www.gatsbyjs.org/plugins/)
 * Review [Gatsby Resources](https://www.gatsbyjs.org/docs/awesome-gatsby-resources/)
-* Connect Gatsby with [Contentful in five minutes](https://www.contentful.com/r/knowledgebase/gatsbyjs-and-contentful-in-five-minutes/)
+* Connect Gatsby with [Contentful in five minutes](https://www.contentful.com/r/knowledgebase/gatsbyjs-and-contentful-in-five-minutes/) 
 * Publish your site in other hosting like [netlify](https://www.netlify.com/)
 * Improve the [GraphQL setup with Gatsby](https://www.gatsbyjs.org/docs/graphql-concepts/)
 * Add [Gatsby Integrations](https://www.gatsbyjs.com/docs/#integrations)
