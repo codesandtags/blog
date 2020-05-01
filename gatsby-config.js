@@ -4,32 +4,24 @@ module.exports = {
     title: `Codes and Tags`,
     name: `Edwin Torres`,
     siteUrl: `https://codesandtags.github.io/blog/`,
-    description: `This is my description that will be used in the meta tags and important for search results`,
+    description: `Codes and Tags is the blog created by Edwin Torres to share him experiences being Developer, Traveler and Teacher. Front-End`,
     hero: {
-      heading: `Welcome to my blog`,
+      heading: `Coding, Front-End, Software Architecture and other stuffs.`,
       maxWidth: 652,
     },
     social: [
       {
-        name: `twitter`,
-        url: `https://twitter.com/narative`,
-      },
-      {
         name: `github`,
-        url: `https://github.com/narative`,
+        url: `https://github.com/codesandtags`,
       },
       {
         name: `instagram`,
-        url: `https://instagram.com/narative.co`,
+        url: `https://www.instagram.com/ed_traveler/`,
       },
       {
         name: `linkedin`,
-        url: `https://www.linkedin.com/company/narative/`,
-      },
-      {
-        name: `dribbble`,
-        url: `https://dribbble.com/narativestudio`,
-      },
+        url: `https://www.linkedin.com/in/edwintorresdeveloper/`,
+      }
     ],
   },
   plugins: [
@@ -40,6 +32,7 @@ module.exports = {
         contentAuthors: "content/authors",
         basePath: "/",
         authorsPage: true,
+        mailchimp: true, // make sure this is true!
         sources: {
           local: true,
           // contentful: true,

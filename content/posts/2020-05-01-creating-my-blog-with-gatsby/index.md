@@ -3,128 +3,114 @@ title: Creating my blog with Gatsby and Github Pages
 author: Edwin Torres
 date: 2020-05-01
 hero: ./images/hero.jpg
-excerpt: With the growing community interest in Gatsby, we hope to create more resources that make it easier for anyone to grasp the power of this incredible tool.
+excerpt: How to create your own blog using Gatsby and Github Pages.
 ---
 
-My first post using `@narative/gatsby-theme-novela`. Novela is built by the team at [Narative](https://narative.co), and built for everyone that loves the web.
+Alright! Today is a great day, many years after I lost my old blog, I've decided to start from scratch
+and create again one blog to publish my experiences and don't fall in the inertia. Here I will describe my experience creating my own blog using **Gatsby** and **Github Pages**.
 
-## Headers
+This article will be structured in 
 
-# H1
+## What you will learn?
 
-It is recommended to NOT use H1s as it is reserved for the article heading. Any H1 is set as an H2.
+1. Overview of Gatsby and GitHub Pages
+2. Creating your project with Gatsby
+3. Publishing your project in Github Pages
+4. Adding Travis CI to automate the deploy process
+5. Next steps
 
-## H2
+## 1. Overview of Gatsby and GitHub Pages
 
-### H3
+First things first. Before to explain you, how to create your site I will tell you more about Gatsby and Github Pages, if you alreay know about them, go ahead to the next step.
 
-#### H4
+Taken from the official website [Gatsby](https://www.gatsbyjs.org/) is:
 
-##### H5
+> Gatsby is a free and open source framework based on React that helps developers build blazing fast websites and apps.
 
-###### H6
+So we can use the power of 
+[React](https://es.reactjs.org/), [GraphQL](https://graphql.org/), [Markdown](https://es.wikipedia.org/wiki/Markdown) and some data sources
+to create really fast web sites, re-using lots of [plugins](https://www.gatsbyjs.org/plugins/) and publishing in many Web hosting, in my case I will deploy in Github Pages.
 
-## Emphasis
+In other words [Github Pages](https://pages.github.com/) is a free option to deploy hosted repositories 
+in Github, also it give us an easy way to automate this process with some platforms like [Travis CI](http://travis-ci.org/). 
+  
+  
+## 2. Creating your project with Gatsby
 
-Emphasis, aka italics, with _asterisks_ or _underscores_.
+After I reviewd some tutorials and content in Internet, about how to create my own site with Gatsby, here are my steps.
 
-Strong emphasis, aka bold, with **asterisks** or **underscores**.
+1. Follow the [quick-start](https://www.gatsbyjs.org/docs/quick-start/) with Gatsby to install the `gatsby-cli`.
+2. Once you have installed the Gatsby CLI can create your Gatsby project based on some [Gatsby templates](https://www.gatsbyjs.org/starters/?v=2). 
+To be honest, the simplest way to create your own site is using a template instead of creating everything from scratch. 
+Also you can find [some examples made with Gatsby](https://github.com/gatsbyjs/gatsby/tree/master/examples) and other technologies.  
+3. In my case I've created my site based on the beautiful [narative theme](https://github.com/narative/gatsby-theme-novela). 
+Once of the benefits of using this template are: 
+* Really good structure to add author and post
+* Can be integrated with Contentful to create dynamic post instead of static post (commits in Github)
+* Can be integrated with Mailchimp to reuse tue Subscriptions for newsletter
+* The styles can be modifies based on the [theme-ui](https://theme-ui.com/)
+* The metadata and social networks can be modified in a simple way.
+* Is open source.   
 
-Combined emphasis with **asterisks and _underscores_**.
+If you want to see more templates, you can visit [this link](https://jamstackthemes.dev/#ssg=gatsby).
 
-Strikethrough uses two tildes. ~~Scratch this.~~
+## 3. Publishing your project in Github Pages
 
-## Lists
+I will no describe the step by step to publish your site in Github Pages, because in the [official page](https://pages.github.com/) is described really well.
+However I can provide you some learned lessons.
 
-1. First ordered list item
-2. Another item
-3. Actual numbers don't matter, just that it's a number
+* I recommend to install the [gh-pages dependency](https://www.npmjs.com/package/gh-pages) to avoid doing many manual things.
+* Don't forget to create the `gh-pages` branch in your repo.
+* If you are trying to select your `gh-pages` branch, please follow the [next link](https://help.github.com/en/enterprise/2.14/user/articles/configuring-a-publishing-source-for-github-pages).
+* Please review the [How Gatsby works with Github pages](https://www.gatsbyjs.org/docs/how-gatsby-works-with-github-pages/). 
 
-- Unordered list can use asterisks
+## 4. Adding Travis CI to automate the deploy process
 
-* Or minuses
+In few words, [Travis CI]() is
 
-- Or pluses
+> Easily sync your projects with Travis CI and you’ll be testing your code in minutes!
+  
+To be honest, this have changed my perspective and life when is needed to automate the deploy process based on commits in a branch.
+To deploy your site using Travis CI you need to create a `.travis.yml` file in your root folder project and add the next configuration.
 
-## Links
-
-[I'm an inline-style link](https://www.google.com)
-
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
-
-[I'm a reference-style link][arbitrary case-insensitive reference text]
-
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself].
-
-URLs and URLs in angle brackets will automatically get turned into links.
-http://www.example.com or <http://www.example.com> and sometimes
-example.com (but not on Github, for example).
-
-Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
-[1]: http://slashdot.org
-[link text itself]: http://www.reddit.com
-
-## Images
-
-<div className="Image__Small">
-  <img
-    src="./images/article-image-2.jpg"
-    title="Logo Title Text 1"
-    alt="Alt text"
-  />
-</div>
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-
-## Code and Syntax Highlighting
-
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
+```yaml
+language: node_js
+cache:
+  directories:
+    - ~/.npm
+notifications:
+  email:
+    recipients:
+      - [THE EMAIL WHERE WILL BE SENT THE NOTIFICATIONS]
+    on_success: always
+    on_failure: always
+node_js:
+  - '12.13.1'
+git:
+  depth: 3
+script:
+  - npm run build
+deploy:
+  provider: pages
+  skip_cleanup: true
+  keep_history: true
+  github_token: $GITHUB_TOKEN
+  local_dir: public
+  on:
+    branch: master
 ```
 
-```
-No language indicated, so no syntax highlighting.
-But let's throw in a <b>tag</b>.
-```
+You also can follow [this article](https://snyk.io/blog/deploying-a-gatsby-site-to-github-pages-from-travis-ci/) to get more details.
 
-### JSX
+* You can achieve the same result using [Circle CI](https://circleci.com/)
 
-```jsx
-import React from "react";
-import { ThemeProvider } from "theme-ui";
-import theme from "./theme";
+## 5. Next steps
 
-export default props => (
-  <ThemeProvider theme={theme}>{props.children}</ThemeProvider>
-);
-```
-
-## Blockquotes
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.
-
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
-
-## Horizontal Rule
-
-Horizontal Rule
-
-Three or more...
-
----
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
-
----
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+It's hard to tell you all things you can do with Gatsby, however you can start reviwing: 
+* Review [Gatsby Plugins](https://www.gatsbyjs.org/plugins/)
+* Review [Gatsby Resources](https://www.gatsbyjs.org/docs/awesome-gatsby-resources/)
+* Connect Gatsby with [Contentful in five minutes](https://www.contentful.com/r/knowledgebase/gatsbyjs-and-contentful-in-five-minutes/)
+* Publish your site in other hosting like [netlify](https://www.netlify.com/)
+* Improve the [GraphQL setup with Gatsby](https://www.gatsbyjs.org/docs/graphql-concepts/)
+* Add [Gatsby Integrations](https://www.gatsbyjs.com/docs/#integrations)
+  

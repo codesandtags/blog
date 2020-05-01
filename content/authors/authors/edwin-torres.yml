@@ -1,12 +1,9 @@
 name: Edwin Torres
 bio: |
-  Written by You. This is where your author bio lives. Share your work, your
-  joys and of course, your Twitter handle.
+  ♥️ Full-Stack Software Developer, I really love coding 👨🏻‍💻 travel ✈️ and share the knowledge.
 avatar: ./avatars/edwin-torres.jpg
 social:
-  - url: https://unsplash.com
-  - url: https://stackoverflow.com
-  - url: https://github.com
-  - url: https://github.com
-  - url: https://github.com
+  - url: https://www.instagram.com/ed_traveler/
+  - url: https://github.com/codesandtags
+  - url: https://www.linkedin.com/in/edwintorresdeveloper/
 featured: true
