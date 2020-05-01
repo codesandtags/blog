@@ -32,11 +32,17 @@ module.exports = {
         contentAuthors: "content/authors",
         basePath: "/",
         authorsPage: true,
-        mailchimp: true, // make sure this is true!
+        mailchimp: false, // make sure this is true!
         sources: {
           local: true,
           // contentful: true,
         },
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+        endpoint: '', // add your MC list endpoint here; see plugin repo for instructions
       },
     },
     {
