@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Codes and Tags]]></title><description><![CDATA[This is my description that will be used in the meta tags and important for search results]]></description><link>https://codesandtags.github.io/blog</link><image><url>https://codesandtags.github.io/blog/icons/icon-512x512.png</url><title>Codes and Tags</title><link>https://codesandtags.github.io/blog</link></image><generator>GatsbyJS</generator><lastBuildDate>Fri, 01 May 2020 00:48:27 GMT</lastBuildDate><atom:link href="https://codesandtags.github.io/blog/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[Creating my blog with Gatsby and Github Pages]]></title><description><![CDATA[With the growing community interest in Gatsby, we hope to create more resources that make it easier for anyone to grasp the power of this incredible tool.]]></description><link>https://codesandtags.github.io/blog/creating-my-blog-with-gatsby-and-github-pages</link><guid isPermaLink="false">https://codesandtags.github.io/blog/creating-my-blog-with-gatsby-and-github-pages</guid><dc:creator><![CDATA[Edwin Torres]]></dc:creator><pubDate>Fri, 01 May 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Codes and Tags]]></title><description><![CDATA[Codes and Tags is the blog created by Edwin Torres to share him experiences being Developer, Traveler and Teacher. Front-End]]></description><link>https://codesandtags.github.io/blog</link><image><url>https://codesandtags.github.io/blog/icons/icon-512x512.png</url><title>Codes and Tags</title><link>https://codesandtags.github.io/blog</link></image><generator>GatsbyJS</generator><lastBuildDate>Fri, 01 May 2020 03:20:02 GMT</lastBuildDate><atom:link href="https://codesandtags.github.io/blog/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[Creating my blog with Gatsby and Github Pages]]></title><description><![CDATA[How to create your own blog using Gatsby and Github Pages.]]></description><link>https://codesandtags.github.io/blog/creating-my-blog-with-gatsby-and-github-pages</link><guid isPermaLink="false">https://codesandtags.github.io/blog/creating-my-blog-with-gatsby-and-github-pages</guid><dc:creator><![CDATA[Edwin Torres]]></dc:creator><pubDate>Fri, 01 May 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
 
@@ -10,7 +10,7 @@ var _frontmatter = {
   &quot;author&quot;: &quot;Edwin Torres&quot;,
   &quot;date&quot;: &quot;2020-05-01T00:00:00.000Z&quot;,
   &quot;hero&quot;: &quot;./images/hero.jpg&quot;,
-  &quot;excerpt&quot;: &quot;With the growing community interest in Gatsby, we hope to create more resources that make it easier for anyone to grasp the power of this incredible tool.&quot;
+  &quot;excerpt&quot;: &quot;How to create your own blog using Gatsby and Github Pages.&quot;
 };
 
 var makeShortcode = function makeShortcode(name) {
@@ -31,187 +31,243 @@ return function MDXContent(_ref) {
   return mdx(MDXLayout, _extends({}, layoutProps, props, {
     components: components,
     mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;p&quot;, null, &quot;My first post using &quot;, mdx(&quot;inlineCode&quot;, {
+  }), mdx(&quot;p&quot;, null, &quot;Alright! Today is a great day, many years after I lost my old blog, I\u2019ve decided to start from scratch\nand create again one blog to publish my experiences and don\u2019t fall in the inertia. Here I will describe my experience creating my own blog using &quot;, mdx(&quot;strong&quot;, {
     parentName: &quot;p&quot;
-  }, &quot;@narative/gatsby-theme-novela&quot;), &quot;. Novela is built by the team at &quot;, mdx(&quot;a&quot;, _extends({
+  }, &quot;Gatsby&quot;), &quot; and &quot;, mdx(&quot;strong&quot;, {
     parentName: &quot;p&quot;
-  }, {
-    &quot;href&quot;: &quot;https://narative.co&quot;,
-    &quot;target&quot;: &quot;_blank&quot;,
-    &quot;rel&quot;: &quot;noreferrer&quot;
-  }), &quot;Narative&quot;), &quot;, and built for everyone that loves the web.&quot;), mdx(&quot;h2&quot;, {
-    &quot;id&quot;: &quot;headers&quot;
-  }, &quot;Headers&quot;), mdx(&quot;h1&quot;, {
-    &quot;id&quot;: &quot;h1&quot;
-  }, &quot;H1&quot;), mdx(&quot;p&quot;, null, &quot;It is recommended to NOT use H1s as it is reserved for the article heading. Any H1 is set as an H2.&quot;), mdx(&quot;h2&quot;, {
-    &quot;id&quot;: &quot;h2&quot;
-  }, &quot;H2&quot;), mdx(&quot;h3&quot;, {
-    &quot;id&quot;: &quot;h3&quot;
-  }, &quot;H3&quot;), mdx(&quot;h4&quot;, {
-    &quot;id&quot;: &quot;h4&quot;
-  }, &quot;H4&quot;), mdx(&quot;h5&quot;, {
-    &quot;id&quot;: &quot;h5&quot;
-  }, &quot;H5&quot;), mdx(&quot;h6&quot;, {
-    &quot;id&quot;: &quot;h6&quot;
-  }, &quot;H6&quot;), mdx(&quot;h2&quot;, {
-    &quot;id&quot;: &quot;emphasis&quot;
-  }, &quot;Emphasis&quot;), mdx(&quot;p&quot;, null, &quot;Emphasis, aka italics, with &quot;, mdx(&quot;em&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;asterisks&quot;), &quot; or &quot;, mdx(&quot;em&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;underscores&quot;), &quot;.&quot;), mdx(&quot;p&quot;, null, &quot;Strong emphasis, aka bold, with &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;asterisks&quot;), &quot; or &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;underscores&quot;), &quot;.&quot;), mdx(&quot;p&quot;, null, &quot;Combined emphasis with &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;asterisks and &quot;, mdx(&quot;em&quot;, {
-    parentName: &quot;strong&quot;
-  }, &quot;underscores&quot;)), &quot;.&quot;), mdx(&quot;p&quot;, null, &quot;Strikethrough uses two tildes. &quot;, mdx(&quot;del&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;Scratch this.&quot;)), mdx(&quot;h2&quot;, {
-    &quot;id&quot;: &quot;lists&quot;
-  }, &quot;Lists&quot;), mdx(&quot;ol&quot;, null, mdx(&quot;li&quot;, {
+  }, &quot;Github Pages&quot;), &quot;.&quot;), mdx(&quot;p&quot;, null, &quot;This article will be structured in &quot;), mdx(&quot;h2&quot;, {
+    &quot;id&quot;: &quot;what-you-will-learn&quot;
+  }, &quot;What you will learn?&quot;), mdx(&quot;ol&quot;, null, mdx(&quot;li&quot;, {
     parentName: &quot;ol&quot;
-  }, &quot;First ordered list item&quot;), mdx(&quot;li&quot;, {
+  }, &quot;Overview of Gatsby and GitHub Pages&quot;), mdx(&quot;li&quot;, {
     parentName: &quot;ol&quot;
-  }, &quot;Another item&quot;), mdx(&quot;li&quot;, {
+  }, &quot;Creating your project with Gatsby&quot;), mdx(&quot;li&quot;, {
     parentName: &quot;ol&quot;
-  }, &quot;Actual numbers don\u2019t matter, just that it\u2019s a number&quot;)), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, &quot;Unordered list can use asterisks&quot;)), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, &quot;Or minuses&quot;)), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, &quot;Or pluses&quot;)), mdx(&quot;h2&quot;, {
-    &quot;id&quot;: &quot;links&quot;
-  }, &quot;Links&quot;), mdx(&quot;p&quot;, null, mdx(&quot;a&quot;, _extends({
+  }, &quot;Publishing your project in Github Pages&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Adding Travis CI to automate the deploy process&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Next steps&quot;)), mdx(&quot;h2&quot;, {
+    &quot;id&quot;: &quot;1-overview-of-gatsby-and-github-pages&quot;
+  }, &quot;1. Overview of Gatsby and GitHub Pages&quot;), mdx(&quot;p&quot;, null, &quot;First things first. Before to explain you, how to create your site I will tell you more about Gatsby and Github Pages, if you alreay know about them, go ahead to the next step.&quot;), mdx(&quot;p&quot;, null, &quot;Taken from the official website &quot;, mdx(&quot;a&quot;, _extends({
     parentName: &quot;p&quot;
   }, {
-    &quot;href&quot;: &quot;https://www.google.com&quot;,
+    &quot;href&quot;: &quot;https://www.gatsbyjs.org/&quot;,
     &quot;target&quot;: &quot;_blank&quot;,
     &quot;rel&quot;: &quot;noreferrer&quot;
-  }), &quot;I\u2019m an inline-style link&quot;)), mdx(&quot;p&quot;, null, mdx(&quot;a&quot;, _extends({
-    parentName: &quot;p&quot;
-  }, {
-    &quot;href&quot;: &quot;https://www.google.com&quot;,
-    &quot;title&quot;: &quot;Google&apos;s Homepage&quot;,
-    &quot;target&quot;: &quot;_blank&quot;,
-    &quot;rel&quot;: &quot;noreferrer&quot;
-  }), &quot;I\u2019m an inline-style link with title&quot;)), mdx(&quot;p&quot;, null, mdx(&quot;a&quot;, _extends({
-    parentName: &quot;p&quot;
-  }, {
-    &quot;href&quot;: &quot;https://www.mozilla.org&quot;,
-    &quot;target&quot;: &quot;_blank&quot;,
-    &quot;rel&quot;: &quot;noreferrer&quot;
-  }), &quot;I\u2019m a reference-style link&quot;)), mdx(&quot;p&quot;, null, mdx(&quot;a&quot;, _extends({
-    parentName: &quot;p&quot;
-  }, {
-    &quot;href&quot;: &quot;../blob/master/LICENSE&quot;
-  }), &quot;I\u2019m a relative reference to a repository file&quot;)), mdx(&quot;p&quot;, null, mdx(&quot;a&quot;, _extends({
-    parentName: &quot;p&quot;
-  }, {
-    &quot;href&quot;: &quot;http://slashdot.org&quot;,
-    &quot;target&quot;: &quot;_blank&quot;,
-    &quot;rel&quot;: &quot;noreferrer&quot;
-  }), &quot;You can use numbers for reference-style link definitions&quot;)), mdx(&quot;p&quot;, null, &quot;Or leave it empty and use the &quot;, mdx(&quot;a&quot;, _extends({
-    parentName: &quot;p&quot;
-  }, {
-    &quot;href&quot;: &quot;http://www.reddit.com&quot;,
-    &quot;target&quot;: &quot;_blank&quot;,
-    &quot;rel&quot;: &quot;noreferrer&quot;
-  }), &quot;link text itself&quot;), &quot;.&quot;), mdx(&quot;p&quot;, null, &quot;URLs and URLs in angle brackets will automatically get turned into links.\n&quot;, mdx(&quot;a&quot;, _extends({
-    parentName: &quot;p&quot;
-  }, {
-    &quot;href&quot;: &quot;http://www.example.com&quot;,
-    &quot;target&quot;: &quot;_blank&quot;,
-    &quot;rel&quot;: &quot;noreferrer&quot;
-  }), &quot;http://www.example.com&quot;), &quot; or &quot;, mdx(&quot;a&quot;, _extends({
-    parentName: &quot;p&quot;
-  }, {
-    &quot;href&quot;: &quot;http://www.example.com&quot;,
-    &quot;target&quot;: &quot;_blank&quot;,
-    &quot;rel&quot;: &quot;noreferrer&quot;
-  }), &quot;http://www.example.com&quot;), &quot; and sometimes\nexample.com (but not on Github, for example).&quot;), mdx(&quot;p&quot;, null, &quot;Some text to show that the reference links can follow later.&quot;), mdx(&quot;h2&quot;, {
-    &quot;id&quot;: &quot;images&quot;
-  }, &quot;Images&quot;), mdx(&quot;div&quot;, {
-    &quot;className&quot;: &quot;Image__Small&quot;
-  }, &quot;\n  &quot;, mdx(&quot;span&quot;, _extends({
-    parentName: &quot;div&quot;
-  }, {
-    &quot;className&quot;: &quot;gatsby-resp-image-wrapper&quot;,
-    &quot;style&quot;: {
-      &quot;position&quot;: &quot;relative&quot;,
-      &quot;display&quot;: &quot;block&quot;,
-      &quot;marginLeft&quot;: &quot;auto&quot;,
-      &quot;marginRight&quot;: &quot;auto&quot;,
-      &quot;maxWidth&quot;: &quot;1360px&quot;
-    }
-  }), &quot;\n      &quot;, mdx(&quot;span&quot;, _extends({
-    parentName: &quot;span&quot;
-  }, {
-    &quot;className&quot;: &quot;gatsby-resp-image-background-image&quot;,
-    &quot;style&quot;: {
-      &quot;paddingBottom&quot;: &quot;100%&quot;,
-      &quot;position&quot;: &quot;relative&quot;,
-      &quot;bottom&quot;: &quot;0&quot;,
-      &quot;left&quot;: &quot;0&quot;,
-      &quot;backgroundImage&quot;: &quot;url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGQABAAIDAAAAAAAAAAAAAAAAAAIDAQQF/8QAFwEBAQEBAAAAAAAAAAAAAAAAAQIAA//aAAwDAQACEAMQAAAB60c0vKSAvWoCrhj/xAAcEAADAAEFAAAAAAAAAAAAAAAAAQIDEBESIkH/2gAIAQEAAQUC0Z7zNshVOst9aUI//8QAGREAAQUAAAAAAAAAAAAAAAAAAQACEBES/9oACAEDAQE/AQ21kT//xAAXEQADAQAAAAAAAAAAAAAAAAAAAREQ/9oACAECAQE/AaV7/8QAIBAAAQMCBwAAAAAAAAAAAAAAAAECITFhAxARE0FR4f/aAAgBAQAGPwLLw05ESq9ITiNZY26NsNVsQTJ//8QAHxABAAIBAwUAAAAAAAAAAAAAAQARITFBcVFhgbHw/9oACAEBAAE/IWLNWG+Eyyi1bEBWRvpnoDtFtqPJ5iXFq6dyV3J9Vn//2gAMAwEAAgADAAAAEI/3ff/EABgRAAIDAAAAAAAAAAAAAAAAAAABECFh/9oACAEDAQE/EGWZmKP/xAAXEQADAQAAAAAAAAAAAAAAAAABEBEx/9oACAECAQE/EDGIK//EAB4QAQACAQUBAQAAAAAAAAAAAAEAETEhQVFxkWHB/9oACAEBAAE/EFCC13D2aKjTNB6aRBp2Ctrl4NMse3jzf6/MRs6TAJYLcsVUjk6uIiJr1dj2xqXDdq8HFT//2Q==&apos;)&quot;,
-      &quot;backgroundSize&quot;: &quot;cover&quot;,
-      &quot;display&quot;: &quot;block&quot;
-    }
-  })), &quot;\n  &quot;, mdx(&quot;picture&quot;, {
-    parentName: &quot;span&quot;
-  }, &quot;\n        &quot;, mdx(&quot;source&quot;, _extends({
-    parentName: &quot;picture&quot;
-  }, {
-    &quot;srcSet&quot;: [&quot;/blog/static/891a8f706331d47474c3f2fd9906d926/2035a/article-image-2.webp 1360w&quot;],
-    &quot;sizes&quot;: &quot;(max-width: 1360px) 100vw, 1360px&quot;,
-    &quot;type&quot;: &quot;image/webp&quot;
-  })), &quot;\n        &quot;, mdx(&quot;source&quot;, _extends({
-    parentName: &quot;picture&quot;
-  }, {
-    &quot;srcSet&quot;: [&quot;/blog/static/891a8f706331d47474c3f2fd9906d926/68efc/article-image-2.jpg 1360w&quot;],
-    &quot;sizes&quot;: &quot;(max-width: 1360px) 100vw, 1360px&quot;,
-    &quot;type&quot;: &quot;image/jpeg&quot;
-  })), &quot;\n        &quot;, mdx(&quot;img&quot;, _extends({
-    parentName: &quot;picture&quot;
-  }, {
-    &quot;className&quot;: &quot;gatsby-resp-image-image&quot;,
-    &quot;src&quot;: &quot;/blog/static/891a8f706331d47474c3f2fd9906d926/68efc/article-image-2.jpg&quot;,
-    &quot;alt&quot;: &quot;Alt text&quot;,
-    &quot;title&quot;: &quot;Logo Title Text 1&quot;,
-    &quot;loading&quot;: &quot;lazy&quot;,
-    &quot;style&quot;: {
-      &quot;width&quot;: &quot;100%&quot;,
-      &quot;height&quot;: &quot;100%&quot;,
-      &quot;margin&quot;: &quot;0&quot;,
-      &quot;verticalAlign&quot;: &quot;middle&quot;,
-      &quot;position&quot;: &quot;absolute&quot;,
-      &quot;top&quot;: &quot;0&quot;,
-      &quot;left&quot;: &quot;0&quot;
-    }
-  })), &quot;\n      &quot;), &quot;\n    &quot;)), mdx(&quot;p&quot;, null, &quot;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\u2019s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.&quot;), mdx(&quot;h2&quot;, {
-    &quot;id&quot;: &quot;code-and-syntax-highlighting&quot;
-  }, &quot;Code and Syntax Highlighting&quot;), mdx(&quot;pre&quot;, null, mdx(&quot;code&quot;, _extends({
-    parentName: &quot;pre&quot;
-  }, {
-    &quot;className&quot;: &quot;language-javascript&quot;
-  }), &quot;var s = \&quot;JavaScript syntax highlighting\&quot;;\nalert(s);\n&quot;)), mdx(&quot;pre&quot;, null, mdx(&quot;code&quot;, _extends({
-    parentName: &quot;pre&quot;
-  }, {}), &quot;No language indicated, so no syntax highlighting.\nBut let&apos;s throw in a &lt;b&gt;tag&lt;/b&gt;.\n&quot;)), mdx(&quot;h3&quot;, {
-    &quot;id&quot;: &quot;jsx&quot;
-  }, &quot;JSX&quot;), mdx(&quot;pre&quot;, null, mdx(&quot;code&quot;, _extends({
-    parentName: &quot;pre&quot;
-  }, {
-    &quot;className&quot;: &quot;language-jsx&quot;
-  }), &quot;import React from \&quot;react\&quot;;\nimport { ThemeProvider } from \&quot;theme-ui\&quot;;\nimport theme from \&quot;./theme\&quot;;\n\nexport default props =&gt; (\n  &lt;ThemeProvider theme={theme}&gt;{props.children}&lt;/ThemeProvider&gt;\n);\n&quot;)), mdx(&quot;h2&quot;, {
-    &quot;id&quot;: &quot;blockquotes&quot;
-  }, &quot;Blockquotes&quot;), mdx(&quot;p&quot;, null, &quot;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\u2019s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.&quot;), mdx(&quot;blockquote&quot;, null, mdx(&quot;p&quot;, {
+  }), &quot;Gatsby&quot;), &quot; is:&quot;), mdx(&quot;blockquote&quot;, null, mdx(&quot;p&quot;, {
     parentName: &quot;blockquote&quot;
-  }, &quot;Blockquotes are very handy in email to emulate reply text.\nThis line is part of the same quote.&quot;)), mdx(&quot;p&quot;, null, &quot;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\u2019s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum&quot;), mdx(&quot;h2&quot;, {
-    &quot;id&quot;: &quot;horizontal-rule&quot;
-  }, &quot;Horizontal Rule&quot;), mdx(&quot;p&quot;, null, &quot;Horizontal Rule&quot;), mdx(&quot;p&quot;, null, &quot;Three or more\u2026&quot;), mdx(&quot;hr&quot;, null), mdx(&quot;p&quot;, null, &quot;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\u2019s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum&quot;), mdx(&quot;hr&quot;, null), mdx(&quot;p&quot;, null, &quot;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\u2019s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum&quot;));
+  }, &quot;Gatsby is a free and open source framework based on React that helps developers build blazing fast websites and apps.&quot;)), mdx(&quot;p&quot;, null, &quot;So we can use the power of\n&quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://es.reactjs.org/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;React&quot;), &quot;, &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://graphql.org/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;GraphQL&quot;), &quot;, &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://es.wikipedia.org/wiki/Markdown&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Markdown&quot;), &quot; and some data sources\nto create really fast web sites, re-using lots of &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.gatsbyjs.org/plugins/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;plugins&quot;), &quot; and publishing in many Web hosting, in my case I will deploy in Github Pages.&quot;), mdx(&quot;p&quot;, null, &quot;In other words &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://pages.github.com/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Github Pages&quot;), &quot; is a free option to deploy hosted repositories\nin Github, also it give us an easy way to automate this process with some platforms like &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;http://travis-ci.org/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Travis CI&quot;), &quot;. &quot;), mdx(&quot;h2&quot;, {
+    &quot;id&quot;: &quot;2-creating-your-project-with-gatsby&quot;
+  }, &quot;2. Creating your project with Gatsby&quot;), mdx(&quot;p&quot;, null, &quot;After I reviewd some tutorials and content in Internet, about how to create my own site with Gatsby, here are my steps.&quot;), mdx(&quot;ol&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Follow the &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.gatsbyjs.org/docs/quick-start/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;quick-start&quot;), &quot; with Gatsby to install the &quot;, mdx(&quot;inlineCode&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;gatsby-cli&quot;), &quot;.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Once you have installed the Gatsby CLI can create your Gatsby project based on some &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.gatsbyjs.org/starters/?v=2&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Gatsby templates&quot;), &quot;.\nTo be honest, the simplest way to create your own site is using a template instead of creating everything from scratch.\nAlso you can find &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://github.com/gatsbyjs/gatsby/tree/master/examples&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;some examples made with Gatsby&quot;), &quot; and other technologies.  &quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;In my case I\u2019ve created my site based on the beautiful &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://github.com/narative/gatsby-theme-novela&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;narative theme&quot;), &quot;.\nOnce of the benefits of using this template are: &quot;)), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Really good structure to add author and post&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Can be integrated with Contentful to create dynamic post instead of static post (commits in Github)&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Can be integrated with Mailchimp to reuse tue Subscriptions for newsletter&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;The styles can be modifies based on the &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://theme-ui.com/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;theme-ui&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;The metadata and social networks can be modified in a simple way.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Is open source.   &quot;)), mdx(&quot;p&quot;, null, &quot;If you want to see more templates, you can visit &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://jamstackthemes.dev/#ssg=gatsby&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;this link&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, {
+    &quot;id&quot;: &quot;3-publishing-your-project-in-github-pages&quot;
+  }, &quot;3. Publishing your project in Github Pages&quot;), mdx(&quot;p&quot;, null, &quot;I will no describe the step by step to publish your site in Github Pages, because in the &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://pages.github.com/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;official page&quot;), &quot; is described really well.\nHowever I can provide you some learned lessons.&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;I recommend to install the &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.npmjs.com/package/gh-pages&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;gh-pages dependency&quot;), &quot; to avoid doing many manual things.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Don\u2019t forget to create the &quot;, mdx(&quot;inlineCode&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;gh-pages&quot;), &quot; branch in your repo.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;If you are trying to select your &quot;, mdx(&quot;inlineCode&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;gh-pages&quot;), &quot; branch, please follow the &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://help.github.com/en/enterprise/2.14/user/articles/configuring-a-publishing-source-for-github-pages&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;next link&quot;), &quot;.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Please review the &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.gatsbyjs.org/docs/how-gatsby-works-with-github-pages/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;How Gatsby works with Github pages&quot;), &quot;. &quot;)), mdx(&quot;h2&quot;, {
+    &quot;id&quot;: &quot;4-adding-travis-ci-to-automate-the-deploy-process&quot;
+  }, &quot;4. Adding Travis CI to automate the deploy process&quot;), mdx(&quot;p&quot;, null, &quot;In few words, &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;&quot;
+  }), &quot;Travis CI&quot;), &quot; is&quot;), mdx(&quot;blockquote&quot;, null, mdx(&quot;p&quot;, {
+    parentName: &quot;blockquote&quot;
+  }, &quot;Easily sync your projects with Travis CI and you\u2019ll be testing your code in minutes!&quot;)), mdx(&quot;p&quot;, null, &quot;To be honest, this have changed my perspective and life when is needed to automate the deploy process based on commits in a branch.\nTo deploy your site using Travis CI you need to create a &quot;, mdx(&quot;inlineCode&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;.travis.yml&quot;), &quot; file in your root folder project and add the next configuration.&quot;), mdx(&quot;pre&quot;, null, mdx(&quot;code&quot;, _extends({
+    parentName: &quot;pre&quot;
+  }, {
+    &quot;className&quot;: &quot;language-yaml&quot;
+  }), &quot;language: node_js\ncache:\n  directories:\n    - ~/.npm\nnotifications:\n  email:\n    recipients:\n      - [THE EMAIL WHERE WILL BE SENT THE NOTIFICATIONS]\n    on_success: always\n    on_failure: always\nnode_js:\n  - &apos;12.13.1&apos;\ngit:\n  depth: 3\nscript:\n  - npm run build\ndeploy:\n  provider: pages\n  skip_cleanup: true\n  keep_history: true\n  github_token: $GITHUB_TOKEN\n  local_dir: public\n  on:\n    branch: master\n&quot;)), mdx(&quot;p&quot;, null, &quot;You also can follow &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://snyk.io/blog/deploying-a-gatsby-site-to-github-pages-from-travis-ci/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;this article&quot;), &quot; to get more details.&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;You can achieve the same result using &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://circleci.com/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Circle CI&quot;))), mdx(&quot;h2&quot;, {
+    &quot;id&quot;: &quot;5-next-steps&quot;
+  }, &quot;5. Next steps&quot;), mdx(&quot;p&quot;, null, &quot;It\u2019s hard to tell you all things you can do with Gatsby, however you can start reviwing: &quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Review &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.gatsbyjs.org/plugins/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Gatsby Plugins&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Review &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.gatsbyjs.org/docs/awesome-gatsby-resources/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Gatsby Resources&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Connect Gatsby with &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.contentful.com/r/knowledgebase/gatsbyjs-and-contentful-in-five-minutes/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Contentful in five minutes&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Publish your site in other hosting like &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.netlify.com/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;netlify&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Improve the &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.gatsbyjs.org/docs/graphql-concepts/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;GraphQL setup with Gatsby&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Add &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.gatsbyjs.com/docs/#integrations&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Gatsby Integrations&quot;))));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item></channel></rss>
