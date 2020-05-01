@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Codes and Tags]]></title><description><![CDATA[Codes and Tags is the blog created by Edwin Torres to share him experiences being Developer, Traveler and Teacher. Front-End]]></description><link>https://codesandtags.github.io/blog</link><image><url>https://codesandtags.github.io/blog/icons/icon-512x512.png</url><title>Codes and Tags</title><link>https://codesandtags.github.io/blog</link></image><generator>GatsbyJS</generator><lastBuildDate>Fri, 01 May 2020 04:06:29 GMT</lastBuildDate><atom:link href="https://codesandtags.github.io/blog/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[Creating my blog with Gatsby and Github Pages]]></title><description><![CDATA[How to create your own blog using Gatsby and Github Pages.]]></description><link>https://codesandtags.github.io/blog/creating-my-blog-with-gatsby-and-github-pages</link><guid isPermaLink="false">https://codesandtags.github.io/blog/creating-my-blog-with-gatsby-and-github-pages</guid><dc:creator><![CDATA[Edwin Torres]]></dc:creator><pubDate>Fri, 01 May 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Codes and Tags]]></title><description><![CDATA[Codes and Tags is the blog created by Edwin Torres to share him experiences being Developer, Traveler and Teacher. Front-End]]></description><link>https://codesandtags.github.io/blog</link><image><url>https://codesandtags.github.io/blog/icons/icon-512x512.png</url><title>Codes and Tags</title><link>https://codesandtags.github.io/blog</link></image><generator>GatsbyJS</generator><lastBuildDate>Fri, 01 May 2020 17:54:25 GMT</lastBuildDate><atom:link href="https://codesandtags.github.io/blog/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[Creating my blog with Gatsby and Github Pages]]></title><description><![CDATA[How to create your own blog using Gatsby and Github Pages.]]></description><link>https://codesandtags.github.io/blog/creating-my-blog-with-gatsby-and-github-pages</link><guid isPermaLink="false">https://codesandtags.github.io/blog/creating-my-blog-with-gatsby-and-github-pages</guid><dc:creator><![CDATA[Edwin Torres]]></dc:creator><pubDate>Fri, 01 May 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
 
@@ -243,7 +243,7 @@ return function MDXContent(_ref) {
     &quot;href&quot;: &quot;https://www.contentful.com/r/knowledgebase/gatsbyjs-and-contentful-in-five-minutes/&quot;,
     &quot;target&quot;: &quot;_blank&quot;,
     &quot;rel&quot;: &quot;noreferrer&quot;
-  }), &quot;Contentful in five minutes&quot;)), mdx(&quot;li&quot;, {
+  }), &quot;Contentful in five minutes&quot;), &quot; &quot;), mdx(&quot;li&quot;, {
     parentName: &quot;ul&quot;
   }, &quot;Publish your site in other hosting like &quot;, mdx(&quot;a&quot;, _extends({
     parentName: &quot;li&quot;
@@ -270,6 +270,242 @@ return function MDXContent(_ref) {
   }), &quot;Gatsby Integrations&quot;)), mdx(&quot;li&quot;, {
     parentName: &quot;ul&quot;
   }, &quot;Improve your SEO and Analytics tracking.&quot;)));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Learning to learn]]></title><description><![CDATA[These are my personal notes in the Udemy Course, Learning to Learn by Andrei Neagogie.]]></description><link>https://codesandtags.github.io/blog/learning-to-learn</link><guid isPermaLink="false">https://codesandtags.github.io/blog/learning-to-learn</guid><dc:creator><![CDATA[Edwin Torres]]></dc:creator><pubDate>Fri, 01 May 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;title&quot;: &quot;Learning to learn&quot;,
+  &quot;author&quot;: &quot;Edwin Torres&quot;,
+  &quot;date&quot;: &quot;2020-05-01T00:00:00.000Z&quot;,
+  &quot;hero&quot;: &quot;./images/hero.jpg&quot;,
+  &quot;excerpt&quot;: &quot;These are my personal notes in the Udemy Course, Learning to Learn by Andrei Neagogie.&quot;
+};
+
+var makeShortcode = function makeShortcode(name) {
+  return function MDXDefaultShortcode(props) {
+    console.warn(&quot;Component &quot; + name + &quot; was not imported, exported, or provided by MDXProvider as global scope&quot;);
+    return mdx(&quot;div&quot;, props);
+  };
+};
+
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, [&quot;components&quot;]);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;p&quot;, null, &quot;Recently I\u2019ve started a huge personal challenge that I will describe with more details in the next months,\nhowever a really critical part of this challenge is, &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;How can I learn faster?&quot;), &quot;. Well, I\u2019ve bought\na really nice course in Udemy, &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.udemy.com/course/learning-to-learn-efficient-learning-zero-to-mastery/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Learning to learn&quot;), &quot;\nby &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.udemy.com/user/andrei-neagoie/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Andrei Neagoie&quot;), &quot; and these are my notes.&quot;), mdx(&quot;p&quot;, null, &quot;Also I want to mention that I love the productivity stuffs, and I admire people like\n&quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://es.wikipedia.org/wiki/Bill_Gates&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Bill Gates&quot;), &quot;, and &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://en.wikipedia.org/wiki/Tim_Ferriss&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Tim Ferris&quot;), &quot;. &quot;), mdx(&quot;h1&quot;, {
+    &quot;id&quot;: &quot;the-principles&quot;
+  }, &quot;The principles&quot;), mdx(&quot;ol&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;The &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://en.wikipedia.org/wiki/Method_of_loci&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;method of Loci&quot;), &quot; about memory enhacement.  &quot;, mdx(&quot;ul&quot;, {
+    parentName: &quot;li&quot;
+  }, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://deck.of.cards/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;https://deck.of.cards/&quot;)))), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Learning vs Winning to the system, by Paul Grahan&quot;, mdx(&quot;ul&quot;, {
+    parentName: &quot;li&quot;
+  }, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;http://paulgraham.com/lesson.html&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;http://paulgraham.com/lesson.html&quot;)))), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;What is success?. This is subjective meaning, however it can be achieved with the next characteristics.&quot;, mdx(&quot;ul&quot;, {
+    parentName: &quot;li&quot;
+  }, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Drive &quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Persistence&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Going a good learner &quot;))), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;The obstacle &amp; The dip&quot;, mdx(&quot;ol&quot;, {
+    parentName: &quot;li&quot;
+  }, mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.sethgodin.com/#books-courses-and-more&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Seth Godin&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Sometimes we have to know when to turn around and pick the right path in order to use our resources efficiently.&quot;))), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Compound learning&quot;, mdx(&quot;ol&quot;, {
+    parentName: &quot;li&quot;
+  }, mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;The principle behind is: You don\u2019t have to dedicate many hours one day to learning something, you need instead to learning at least 20 - 30 minutes per day, everyday to compound the learning in your mind.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Improve by 1% a day, and in 70 days you\u2019re twice a good. - Alan Wiss P.h D&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.calculatorsoup.com/calculators/financial/compound-interest-calculator.php&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;https://www.calculatorsoup.com/calculators/financial/compound-interest-calculator.php&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.bankrate.com/calculators/savings/compound-savings-calculator-tool.aspx&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;https://www.bankrate.com/calculators/savings/compound-savings-calculator-tool.aspx&quot;)))), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Failures don\u2019t count on you&quot;, mdx(&quot;ol&quot;, {
+    parentName: &quot;li&quot;
+  }, mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Every time you make a mistake, any time you fail you are learning, it gives you feedback on why you should do next time.&quot;))), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Choice vs Chore&quot;, mdx(&quot;ol&quot;, {
+    parentName: &quot;li&quot;
+  }, mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Chores are temporary and they won\u2019t last long, but if you start to shift your focus and realize that learning is a choice you can not do anything today&quot;))), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;It\u2019s all in the frame.&quot;, mdx(&quot;ol&quot;, {
+    parentName: &quot;li&quot;
+  }, mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Not everything in life is objective, rather than is subjective and everything depends of perspective, so we can reframe that.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Shift your focus, shift your perspective on you can control, instead of you can not control.&quot;))), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Pareto principle&quot;, mdx(&quot;ol&quot;, {
+    parentName: &quot;li&quot;
+  }, mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Also know as the 80/20 rule. The law of vital few.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;80 percent of sales comes from 20 percent of clients.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;80 percent of code comes from 20 percent of programmers.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;It\u2019s about eliminating things.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Composition by Pietro monad. $50 Million Dollars&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Is this the best use of my time?&quot;))), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Skill Staking&quot;, mdx(&quot;ul&quot;, {
+    parentName: &quot;li&quot;
+  }, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Mastering by &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.amazon.com/-/es/Robert-Greene/dp/014312417X&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Robert Greene&quot;), &quot; says there are 3 keys. &quot;, mdx(&quot;ol&quot;, {
+    parentName: &quot;li&quot;
+  }, mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Curiosity&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Value of learning&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Staking your skills in different unique ways.&quot;))), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;For example, if you are a programmer and you combine your programming skills with business skills, or communication skills you will be more valuable.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;It\u2019s not about being the greatest in one thing, you just need to be pretty good at list of useful skills that when combined, make you truly one of a kind.&quot;))), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Happiness Factors&quot;, mdx(&quot;ul&quot;, {
+    parentName: &quot;li&quot;
+  }, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;To be an efficient learner, you need to enjoy what you\u2019re doing to learning.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;What are the things that make you happy in your life?&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Create monitor factors and monitor them.&quot;))), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Productivity time&quot;, mdx(&quot;ul&quot;, {
+    parentName: &quot;li&quot;
+  }, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;What is your most productivity time? Morning ? Night ?&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Every person is different and your job is to figure out what your productivity times are.&quot;))), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Self learning paradigm&quot;, mdx(&quot;ol&quot;, {
+    parentName: &quot;li&quot;
+  }, mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;The core of self learning, is this idea of personal autonomy to become a self learner and efficient learner.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;This is a choice you have to make, based on your mainly motivation.    &quot;)))), mdx(&quot;h1&quot;, {
+    &quot;id&quot;: &quot;the-lies&quot;
+  }, &quot;The lies&quot;), mdx(&quot;h1&quot;, {
+    &quot;id&quot;: &quot;the-science&quot;
+  }, &quot;The Science&quot;), mdx(&quot;h1&quot;, {
+    &quot;id&quot;: &quot;the-techniques&quot;
+  }, &quot;The Techniques&quot;), mdx(&quot;h1&quot;, {
+    &quot;id&quot;: &quot;lifelong-learning&quot;
+  }, &quot;Lifelong Learning&quot;));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item></channel></rss>
