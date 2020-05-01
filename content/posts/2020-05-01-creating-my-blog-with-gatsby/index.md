@@ -113,4 +113,5 @@ It's hard to tell you all things you can do with Gatsby, however you can start r
 * Publish your site in other hosting like [netlify](https://www.netlify.com/)
 * Improve the [GraphQL setup with Gatsby](https://www.gatsbyjs.org/docs/graphql-concepts/)
 * Add [Gatsby Integrations](https://www.gatsbyjs.com/docs/#integrations)
+* Improve your SEO and Analytics tracking.
   
