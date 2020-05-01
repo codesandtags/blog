@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Novela by Narative`,
-    name: `Narative`,
-    siteUrl: `https://novela.narative.co`,
+    title: `Codes and Tags`,
+    name: `Edwin Torres`,
+    siteUrl: `https://codesandtags.github.io/blog/`,
     description: `This is my description that will be used in the meta tags and important for search results`,
     hero: {
-      heading: `Welcome to Novela, the simplest way to start publishing with Gatsby.`,
+      heading: `Welcome to my blog`,
       maxWidth: 652,
     },
     social: [
@@ -48,8 +48,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Novela by Narative`,
-        short_name: `Novela`,
+        name: `Codes and Tags`,
+        short_name: `Edwin Torres`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#fff`,
