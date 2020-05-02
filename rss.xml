@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Codes and Tags]]></title><description><![CDATA[Codes and Tags is the blog created by Edwin Torres to share him experiences being Developer, Traveler and Teacher. Front-End]]></description><link>https://codesandtags.github.io/blog</link><image><url>https://codesandtags.github.io/blog/icons/icon-512x512.png</url><title>Codes and Tags</title><link>https://codesandtags.github.io/blog</link></image><generator>GatsbyJS</generator><lastBuildDate>Fri, 01 May 2020 18:00:55 GMT</lastBuildDate><atom:link href="https://codesandtags.github.io/blog/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[Creating my blog with Gatsby and Github Pages]]></title><description><![CDATA[How to create your own blog using Gatsby and Github Pages.]]></description><link>https://codesandtags.github.io/blog/creating-my-blog-with-gatsby-and-github-pages</link><guid isPermaLink="false">https://codesandtags.github.io/blog/creating-my-blog-with-gatsby-and-github-pages</guid><dc:creator><![CDATA[Edwin Torres]]></dc:creator><pubDate>Fri, 01 May 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Codes and Tags]]></title><description><![CDATA[Codes and Tags is the blog created by Edwin Torres to share him experiences being Developer, Traveler and Teacher. Front-End]]></description><link>https://codesandtags.github.io/blog</link><image><url>https://codesandtags.github.io/blog/icons/icon-512x512.png</url><title>Codes and Tags</title><link>https://codesandtags.github.io/blog</link></image><generator>GatsbyJS</generator><lastBuildDate>Sat, 02 May 2020 00:06:51 GMT</lastBuildDate><atom:link href="https://codesandtags.github.io/blog/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[Creating my blog with Gatsby and Github Pages]]></title><description><![CDATA[How to create your own blog using Gatsby and Github Pages.]]></description><link>https://codesandtags.github.io/blog/creating-my-blog-with-gatsby-and-github-pages</link><guid isPermaLink="false">https://codesandtags.github.io/blog/creating-my-blog-with-gatsby-and-github-pages</guid><dc:creator><![CDATA[Edwin Torres]]></dc:creator><pubDate>Fri, 01 May 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
 
@@ -499,7 +499,61 @@ return function MDXContent(_ref) {
     parentName: &quot;ol&quot;
   }, &quot;This is a choice you have to make, based on your mainly motivation.    &quot;)))), mdx(&quot;h1&quot;, {
     &quot;id&quot;: &quot;the-lies&quot;
-  }, &quot;The lies&quot;), mdx(&quot;h1&quot;, {
+  }, &quot;The lies&quot;), mdx(&quot;p&quot;, null, &quot;There are a couple of lies in the world and the learning process you need to know.&quot;), mdx(&quot;ol&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Follow your passion&quot;, mdx(&quot;ul&quot;, {
+    parentName: &quot;li&quot;
+  }, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Become &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.amazon.es/Good-They-Cant-Ignore-You/dp/1455509124&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;so good they can\u2019t ignore you&quot;), &quot; by Carl Newport.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Passion is simple overrated, many people who actually love what they do don\u2019t have a passion for it.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;More than passion you need creativity, control and impact. Learning is a craft and you can learn to love the process.&quot;))), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;You can avoid risk&quot;, mdx(&quot;ul&quot;, {
+    parentName: &quot;li&quot;
+  }, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Risk is part of the process, and you have to be able to tolerate and enjoy taking risk.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;If you really want to be good, you need to stretch your boundaries, and people who don\u2019t take risks in their life, are going to be left behind by those that take risk. &quot;))), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Trust this one person&quot;, mdx(&quot;ul&quot;, {
+    parentName: &quot;li&quot;
+  }, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Don\u2019t follow one single person and think that everything he or she says is true, and is right for us.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Each person give advices based on the experiences in their life.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Create your option based on different opinions and your own experiences, because there can be charlatans.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;The people who tell you that they know everything are often the ones that know the least.&quot;))), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;10.000 hours rule&quot;, mdx(&quot;ul&quot;, {
+    parentName: &quot;li&quot;
+  }, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;It\u2019s a &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.theguardian.com/science/2019/aug/21/practice-does-not-always-make-perfect-violinists-10000-hour-rule&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;popular rule by Malcom Gladwell&quot;), &quot;, however is not totally true.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;The more you practice the better you get, but it means that you won\u2019t need at least 10.000 hours to achieve it.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Remember there are a lot of variables that makes difference in this topic ( Genetic, Environment, Country). And stay focus is more relevant.&quot;)))), mdx(&quot;h1&quot;, {
+    &quot;id&quot;: &quot;the-pillars&quot;
+  }, &quot;The Pillars&quot;), mdx(&quot;h1&quot;, {
     &quot;id&quot;: &quot;the-science&quot;
   }, &quot;The Science&quot;), mdx(&quot;h1&quot;, {
     &quot;id&quot;: &quot;the-techniques&quot;
