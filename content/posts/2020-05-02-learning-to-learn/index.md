@@ -1,7 +1,7 @@
 ---
 title: Learning to learn
 author: Edwin Torres
-date: 2020-05-01
+date: 2020-05-02
 hero: ./images/hero.jpg
 excerpt: These are my personal notes in the Udemy Course, Learning to Learn by Andrei Neagogie.
 ---
@@ -105,6 +105,49 @@ There are a couple of lies in the world and the learning process you need to kno
 
 # The Science
 
+1. Focus vs Diffuse mode
+    - Barbara Oakey [learning how to learn](https://www.youtube.com/watch?v=O96fE1E-rf8) . Two states that our brain can be in: Focus and Diffuse mode.
+    - Focus mode, our brain has the 100% of attention in one thing. It activates the prefrontal cortex in your brain.
+    - Diffuse mode, your brain is thinking in several things. It activates many regions in your brain. Things like going for a talk or even sleeping.
+    - As you can’t become expert overnight the best strategy is combine the two modes creating connections and [Myelin](https://en.wikipedia.org/wiki/Myelin). So multitasking is an awful strategy.
+2. The Science of sleep
+    - For long term learning, lack of sleep is just a horrible strategy, because it creates toxic products in our brain.
+    - When you sleep your brain actually cell shrink and fluids flow through these gaps and they clear these toxins for you.
+    - The idea is to find a balance, don't sleep too much, and don't sleep too little.
+3. Brain Training
+    - When two neurons are connected this is call synapses.
+    - The brain is like a muscle, never has the same state.
+    - Physical exercise creates estimates and help our brain, because relax it and makes the brain stays in the diffuse mode.
+4. The Science of feedback
+    - Feedback is an integral part of learning. Either be positive or negative. However, getting negative feedback indicates, what we need to fix.
+    - Here is the importance of mentors or coaches that can accelerate your learning.
+5. Procrastination
+    - Procrastination is an issue with managing our emotion and not our time.
+    - To get rid of procrastination we need to take the initiative and start doing the task.
+    - This is a useful tool to control our procrastination in Internet. https://www.inmotion.app/
+6. Short and Long term memory
+    - Long term memory is created by practice and practice, like riding bicycle. Usually you put fundamental concepts and principles that guide your life.
+    - Short term memory is also known as working memory.  To move from the Short term memory to Long term memory, you can use spaced repetition technique (several days).
+    - Article about those concepts. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2657600/
+7. Active and Passive Learning
+    - Passive learning is when you do the easy things, like watch videos, listen podcast or just reading something.
+    - Active learning involves the practice, take notes, take action, teach to someone.
+    - The idea behind is combine them. Passive + Active. One hour of test is better than one hour of studying.
+8. The Science of Motivation
+    - Intrinsic motivation: Things you believe or you are. Three main motivators Autonomy, Mastery and Purpose.
+    - External motivation: Things like money, status, gifts. This extrinsic motivation can generate side effects.
+9. Goals
+10. It pays to not be busy
+11. Chunking
+12. How to solve problems
+13. Deliberate practice
+14. Spaced repetition
+15. Habits as energy savers
+16. Be adventurous
+17. Have and endpoint
+18. Be bored
+
 # The Techniques
 
-# Lifelong Learning
+
+Cheers 🍻
