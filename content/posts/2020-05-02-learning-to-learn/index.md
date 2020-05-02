@@ -88,6 +88,21 @@ There are a couple of lies in the world and the learning process you need to kno
 
 # The Pillars
 
+1. Everything is a game
+    - One of the most important pillar to being an efficient learner.
+    - Everything you do or you want to learn, cab be learned, there is where the growth mindset is really important and the game to create a strategy makes sense.
+    - If you have the Locus of control, you start being aware you have the control of your life and the are prepared to be a better learner.
+2. Feyman Technique
+    - It was mentioned by [Richard Feynman](https://es.wikipedia.org/wiki/Richard_Feynman), a famous Novel Prize in Physicist
+    - You need to explain the things you learn in the most simple way. The idea is to become in a good learner to understand a topic you want to be able to explain it in simple terms.
+3. Trunk based knowledge
+    - Instead of working from the leafs we should start learning at the roots at the trunk and form that trunk in those leafs.
+    - If you want to have a long term learning, you should start from the principles, fundamentals at that topic.
+    - [Article](https://medium.com/accelerated-intelligence/be-prepared-to-lose-your-job-in-the-future-if-you-dont-learn-this-one-skill-now-8a87ade2a268) Be Prepared To Lose Your Job In The Future… If You Don’t Learn This One Skill Now
+4. Efficiency trumps grit
+    - Being busy just shows that you have lack of time management skills and you’ll discover that efficient learning isn’t about being the absolute hardest worker, it’s about being smart with your time. 🙈
+    - We have limited time in our life, we have limited skills that we can acquire in our life. So we  want to be as efficient as possible with our time.
+
 # The Science
 
 # The Techniques
