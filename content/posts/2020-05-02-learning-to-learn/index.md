@@ -67,6 +67,27 @@ Also I want to mention that I love the productivity stuffs, and I admire people 
 
 # The lies
 
+There are a couple of lies in the world and the learning process you need to know.
+
+1. Follow your passion
+    - Become [so good they can't ignore you](https://www.amazon.es/Good-They-Cant-Ignore-You/dp/1455509124) by Carl Newport.
+    - Passion is simple overrated, many people who actually love what they do don’t have a passion for it.
+    - More than passion you need creativity, control and impact. Learning is a craft and you can learn to love the process.
+2. You can avoid risk
+    - Risk is part of the process, and you have to be able to tolerate and enjoy taking risk.
+    - If you really want to be good, you need to stretch your boundaries, and people who don’t take risks in their life, are going to be left behind by those that take risk. 
+3. Trust this one person
+    - Don’t follow one single person and think that everything he or she says is true, and is right for us.
+    - Each person give advices based on the experiences in their life.
+    - Create your option based on different opinions and your own experiences, because there can be charlatans.
+    - The people who tell you that they know everything are often the ones that know the least.
+4. 10.000 hours rule
+    - It’s a [popular rule by Malcom Gladwell](https://www.theguardian.com/science/2019/aug/21/practice-does-not-always-make-perfect-violinists-10000-hour-rule), however is not totally true.
+    - The more you practice the better you get, but it means that you won’t need at least 10.000 hours to achieve it.
+    - Remember there are a lot of variables that makes difference in this topic ( Genetic, Environment, Country). And stay focus is more relevant.
+
+# The Pillars
+
 # The Science
 
 # The Techniques
