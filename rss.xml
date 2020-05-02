@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Codes and Tags]]></title><description><![CDATA[Codes and Tags is the blog created by Edwin Torres to share him experiences being Developer, Traveler and Teacher. Front-End]]></description><link>https://codesandtags.github.io/blog</link><image><url>https://codesandtags.github.io/blog/icons/icon-512x512.png</url><title>Codes and Tags</title><link>https://codesandtags.github.io/blog</link></image><generator>GatsbyJS</generator><lastBuildDate>Sat, 02 May 2020 00:06:51 GMT</lastBuildDate><atom:link href="https://codesandtags.github.io/blog/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[Creating my blog with Gatsby and Github Pages]]></title><description><![CDATA[How to create your own blog using Gatsby and Github Pages.]]></description><link>https://codesandtags.github.io/blog/creating-my-blog-with-gatsby-and-github-pages</link><guid isPermaLink="false">https://codesandtags.github.io/blog/creating-my-blog-with-gatsby-and-github-pages</guid><dc:creator><![CDATA[Edwin Torres]]></dc:creator><pubDate>Fri, 01 May 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Codes and Tags]]></title><description><![CDATA[Codes and Tags is the blog created by Edwin Torres to share him experiences being Developer, Traveler and Teacher. Front-End]]></description><link>https://codesandtags.github.io/blog</link><image><url>https://codesandtags.github.io/blog/icons/icon-512x512.png</url><title>Codes and Tags</title><link>https://codesandtags.github.io/blog</link></image><generator>GatsbyJS</generator><lastBuildDate>Sat, 02 May 2020 01:28:59 GMT</lastBuildDate><atom:link href="https://codesandtags.github.io/blog/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[Creating my blog with Gatsby and Github Pages]]></title><description><![CDATA[How to create your own blog using Gatsby and Github Pages.]]></description><link>https://codesandtags.github.io/blog/creating-my-blog-with-gatsby-and-github-pages</link><guid isPermaLink="false">https://codesandtags.github.io/blog/creating-my-blog-with-gatsby-and-github-pages</guid><dc:creator><![CDATA[Edwin Torres]]></dc:creator><pubDate>Fri, 01 May 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
 
@@ -553,7 +553,55 @@ return function MDXContent(_ref) {
     parentName: &quot;ul&quot;
   }, &quot;Remember there are a lot of variables that makes difference in this topic ( Genetic, Environment, Country). And stay focus is more relevant.&quot;)))), mdx(&quot;h1&quot;, {
     &quot;id&quot;: &quot;the-pillars&quot;
-  }, &quot;The Pillars&quot;), mdx(&quot;h1&quot;, {
+  }, &quot;The Pillars&quot;), mdx(&quot;ol&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Everything is a game&quot;, mdx(&quot;ul&quot;, {
+    parentName: &quot;li&quot;
+  }, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;One of the most important pillar to being an efficient learner.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Everything you do or you want to learn, cab be learned, there is where the growth mindset is really important and the game to create a strategy makes sense.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;If you have the Locus of control, you start being aware you have the control of your life and the are prepared to be a better learner.&quot;))), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Feyman Technique&quot;, mdx(&quot;ul&quot;, {
+    parentName: &quot;li&quot;
+  }, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;It was mentioned by &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://es.wikipedia.org/wiki/Richard_Feynman&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Richard Feynman&quot;), &quot;, a famous Novel Prize in Physicist&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;You need to explain the things you learn in the most simple way. The idea is to become in a good learner to understand a topic you want to be able to explain it in simple terms.&quot;))), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Trunk based knowledge&quot;, mdx(&quot;ul&quot;, {
+    parentName: &quot;li&quot;
+  }, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Instead of working from the leafs we should start learning at the roots at the trunk and form that trunk in those leafs.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;If you want to have a long term learning, you should start from the principles, fundamentals at that topic.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://medium.com/accelerated-intelligence/be-prepared-to-lose-your-job-in-the-future-if-you-dont-learn-this-one-skill-now-8a87ade2a268&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Article&quot;), &quot; Be Prepared To Lose Your Job In The Future\u2026 If You Don\u2019t Learn This One Skill Now&quot;))), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Efficiency trumps grit&quot;, mdx(&quot;ul&quot;, {
+    parentName: &quot;li&quot;
+  }, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Being busy just shows that you have lack of time management skills and you\u2019ll discover that efficient learning isn\u2019t about being the absolute hardest worker, it\u2019s about being smart with your time. \uD83D\uDE48&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;We have limited time in our life, we have limited skills that we can acquire in our life. So we  want to be as efficient as possible with our time.&quot;)))), mdx(&quot;h1&quot;, {
     &quot;id&quot;: &quot;the-science&quot;
   }, &quot;The Science&quot;), mdx(&quot;h1&quot;, {
     &quot;id&quot;: &quot;the-techniques&quot;
