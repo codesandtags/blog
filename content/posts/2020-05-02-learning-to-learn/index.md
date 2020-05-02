@@ -137,15 +137,37 @@ There are a couple of lies in the world and the learning process you need to kno
     - Intrinsic motivation: Things you believe or you are. Three main motivators Autonomy, Mastery and Purpose.
     - External motivation: Things like money, status, gifts. This extrinsic motivation can generate side effects.
 9. Goals
+    - Amygdala is the part of our brain which handles our emotions and detects fear. And when there is something huge or challenging it can allow us to run or fight.
+    - Robert Maurer in his book the [Kaizen Method](https://www.amazon.es/peque%C3%B1o-puede-cambiar-Crecimiento-personal/dp/8479538996). Wrotes that the idea is to take a big challenge in small steps day by day, to hack the amygdala and eliminates the fear.
+    - A nice technique is to use [SMART goals](https://www.ucop.edu/local-human-resources/_files/performance-appraisal/How%20to%20write%20SMART%20Goals%20v2.pdf). Here video describe [how to properly set goals](https://www.youtube.com/watch?v=PCRSVRD2EAk) or you can review this detail guide about SMART goals.
 10. It pays to not be busy
+    - Nowadays in this world being busy means “good” but, at the end it shows a lack of management time.
+    - We have a region in the brain called the hippocampus which is crucial for learning, and if we want to strengthen the neurons there we need to do exercise, then if we are busy we won’t find time to it.
 11. Chunking
+    - When we focus on something we create chunks of knowledge, we create patterns and connect them with existing patterns.
+    - Bottom up learning and Top down learning, to connect chunks, creating a mind map.
 12. How to solve problems
+    - This is the most demand skill guarantee for the next 20 years (even more years). Because people pay for solving problems, and if you have a unique skill to solve problems you become more valuable.
+    - Some problems requires you stay in focus mode for structured problems or diffuse mode for intuitive or creative problems.
 13. Deliberate practice
+    - The most effective and most powerful types of practice in any field work by harnessing the adaptability of the human body and brain to create, step by step, the ability to do things that were previously not possible. Taken [rom this article ](http://nautil.us/issue/35/boundaries/not-all-practice-makes-perfect).
+    - Anders Ericsson wrote [a book about learning](https://www.amazon.com/Peak-Secrets-New-Science-Expertise-ebook/dp/B011H56MKS).
+    - Deliberate practices is we are right on the edge of our limits, and then come back and practice until get a level up, and repeat that cycle. Masters can visualize and create experience in their minds. 
+    - To get deliberate practice we need to define specific goals, intense focus, immediate feedback. It takes place outside of comfort zone.
+    - The good news are, the better you get at something the more enjoyable it becomes.
 14. Spaced repetition
+    - Repeat things after few days is the best way to build strengthen the synaptic connections in our neurons.
+    - A wonderful comic about spaced repetition. https://ncase.me/remember/
 15. Habits as energy savers
+    - Research has shown that writing your daily list the evening before such as your goals actually helps to accomplish your goals the next day.
+    - The habits saves energy to your brain, because you don’t have to think too much about the thing you’re doing. It becomes easier and easier.
 16. Be adventurous
+    - We remember things when we’re in an adventurous state when our emotions are high.
 17. Have and endpoint
+    - Define an end-point and a end-point to finish something helps your brain to stay focus.
 18. Be bored
+    - To be bored sometimes is good, given it allows that diffuse mode of thinking happen.
+    - This [video explains](https://www.youtube.com/watch?v=LKPwKFigF8U) the importance to be bored
 
 # The Techniques
 
