@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Codes and Tags]]></title><description><![CDATA[Codes and Tags is the blog created by Edwin Torres to share him experiences being Developer, Traveler and Teacher. Front-End]]></description><link>https://codesandtags.github.io/blog</link><image><url>https://codesandtags.github.io/blog/icons/icon-512x512.png</url><title>Codes and Tags</title><link>https://codesandtags.github.io/blog</link></image><generator>GatsbyJS</generator><lastBuildDate>Sat, 02 May 2020 19:18:12 GMT</lastBuildDate><atom:link href="https://codesandtags.github.io/blog/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[Learning to learn]]></title><description><![CDATA[These are my personal notes in the Udemy Course, Learning to Learn by Andrei Neagogie.]]></description><link>https://codesandtags.github.io/blog/learning-to-learn</link><guid isPermaLink="false">https://codesandtags.github.io/blog/learning-to-learn</guid><dc:creator><![CDATA[Edwin Torres]]></dc:creator><pubDate>Sat, 02 May 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Codes and Tags]]></title><description><![CDATA[Codes and Tags is the blog created by Edwin Torres to share him experiences being Developer, Traveler and Teacher. Front-End]]></description><link>https://codesandtags.github.io/blog</link><image><url>https://codesandtags.github.io/blog/icons/icon-512x512.png</url><title>Codes and Tags</title><link>https://codesandtags.github.io/blog</link></image><generator>GatsbyJS</generator><lastBuildDate>Sun, 03 May 2020 00:59:32 GMT</lastBuildDate><atom:link href="https://codesandtags.github.io/blog/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[Learning to learn]]></title><description><![CDATA[These are my personal notes in the Udemy Course, Learning to Learn by Andrei Neagogie.]]></description><link>https://codesandtags.github.io/blog/learning-to-learn</link><guid isPermaLink="false">https://codesandtags.github.io/blog/learning-to-learn</guid><dc:creator><![CDATA[Edwin Torres]]></dc:creator><pubDate>Sat, 02 May 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
 
@@ -531,7 +531,7 @@ return function MDXContent(_ref) {
     parentName: &quot;ul&quot;
   }, &quot;Research has shown that writing your daily list the evening before such as your goals actually helps to accomplish your goals the next day.&quot;), mdx(&quot;li&quot;, {
     parentName: &quot;ul&quot;
-  }, &quot;The habits saves energy to your brain, because you don\u2019t have to think too much about the thing you\u2019re doing. It becomes easier and easier.&quot;))), mdx(&quot;li&quot;, {
+  }, &quot;The habits save energy to your brain, because you don\u2019t have to think too much about the thing you\u2019re doing. It becomes easier and easier.&quot;))), mdx(&quot;li&quot;, {
     parentName: &quot;ol&quot;
   }, &quot;Be adventurous&quot;, mdx(&quot;ul&quot;, {
     parentName: &quot;li&quot;
@@ -543,13 +543,13 @@ return function MDXContent(_ref) {
     parentName: &quot;li&quot;
   }, mdx(&quot;li&quot;, {
     parentName: &quot;ul&quot;
-  }, &quot;Define an end-point and a end-point to finish something helps your brain to stay focus.&quot;))), mdx(&quot;li&quot;, {
+  }, &quot;Define an end-point, and a end-point to finish something helps your brain to stay focus.&quot;))), mdx(&quot;li&quot;, {
     parentName: &quot;ol&quot;
   }, &quot;Be bored&quot;, mdx(&quot;ul&quot;, {
     parentName: &quot;li&quot;
   }, mdx(&quot;li&quot;, {
     parentName: &quot;ul&quot;
-  }, &quot;To be bored sometimes is good, given it allows that diffuse mode of thinking happen.&quot;), mdx(&quot;li&quot;, {
+  }, &quot;To be bored sometimes is good, given it allows that diffuse mode of thinking happens.&quot;), mdx(&quot;li&quot;, {
     parentName: &quot;ul&quot;
   }, &quot;This &quot;, mdx(&quot;a&quot;, _extends({
     parentName: &quot;li&quot;
@@ -557,9 +557,287 @@ return function MDXContent(_ref) {
     &quot;href&quot;: &quot;https://www.youtube.com/watch?v=LKPwKFigF8U&quot;,
     &quot;target&quot;: &quot;_blank&quot;,
     &quot;rel&quot;: &quot;noreferrer&quot;
-  }), &quot;video explains&quot;), &quot; the importance to be bored&quot;)))), mdx(&quot;h1&quot;, {
+  }), &quot;video explains&quot;), &quot; the importance to be bored.&quot;)))), mdx(&quot;h1&quot;, {
     &quot;id&quot;: &quot;the-techniques&quot;
-  }, &quot;The Techniques&quot;), mdx(&quot;p&quot;, null, &quot;Cheers \uD83C\uDF7B&quot;));
+  }, &quot;The Techniques&quot;), mdx(&quot;ol&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Pomodoro Technique&quot;, mdx(&quot;ul&quot;, {
+    parentName: &quot;li&quot;
+  }, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;This technique was developed by &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://en.wikipedia.org/wiki/Pomodoro_Technique&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Francisco Cirillo&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;25 minutes on (no interruptions) focus, 5 minutes off. 25 minutes focus mode, 5 minutes diffuse mode.&quot;)), mdx(&quot;ol&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;start&quot;: 3
+  }), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Here you can find some options to use the pomodo online. &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.marinaratimer.com/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;https://www.marinaratimer.com/&quot;)))), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Chunk the subject&quot;, mdx(&quot;ul&quot;, {
+    parentName: &quot;li&quot;
+  }, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Chunking is related to habits to get the autopilot. Each chunk of knowledge leads to further and further progress.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Here comes the technique Divide and Conquer.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Some examples are, Dueling for language learning, Khan Academic for Maths, and this one about computation. &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.youtube.com/watch?v=SzJ46YA_RaA&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;https://www.youtube.com/watch?v=SzJ46YA_RaA&quot;)))), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Spaced repetition revised&quot;, mdx(&quot;ul&quot;, {
+    parentName: &quot;li&quot;
+  }, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Over-learning = not  good, so you need to take some breaks and repeat again after.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;After certain point those neuron connection get strong enough that don\u2019t have to repeat as often. This is called as brain consolidation.&quot;))), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Dliberated practice revised&quot;, mdx(&quot;ul&quot;, {
+    parentName: &quot;li&quot;
+  }, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Doing the things that are hard but also work smart.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;The idea of deliberate practice is to avoid the the easy stuffs and then take challenging projects. Expanding our comfort zone.&quot;))), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Create a roadmap&quot;, mdx(&quot;ul&quot;, {
+    parentName: &quot;li&quot;
+  }, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Define your goals is really important to understand why are you learning something. This should be aligned with your internal motivations / intrinsic motivations.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Once you have identified your goal, create a roadmap with the strategy to achieve it. Be careful and select the best content and resource in your road.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;These are tools to create your roadmap. &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://coggle.it/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Coggle&quot;), &quot; and &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://miro.com/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Miro&quot;), &quot;.&quot;))), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Interleaving&quot;, mdx(&quot;ul&quot;, {
+    parentName: &quot;li&quot;
+  }, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Mix up your learning by being creative and flexible. The idea is instead of practicing one skill over and over and over, you want to shift three or more different skills.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Learning three similar but in a different way.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.scientificamerican.com/article/the-interleaving-effect-mixing-it-up-boosts-learning/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Article The Interleaving Effect: Mixing It Up Boosts Learning&quot;)))), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Einstellung&quot;, mdx(&quot;ul&quot;, {
+    parentName: &quot;li&quot;
+  }, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Here is the &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://es.wikipedia.org/wiki/Efecto_Einstellung&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Einstellung effect&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;It\u2019s a rigid mindset where you don\u2019t use new ideas to solve problems.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;To solve that problem you need to accept there is other points and alternatives to solve a problem.&quot;))), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Importance of community&quot;, mdx(&quot;ul&quot;, {
+    parentName: &quot;li&quot;
+  }, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Stay and community and share similar things, getting motivation from others and receive feedback it\u2019s really valuable in your learning process. &quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;You\u2019re the average of the five people you hang out with most, so be surrounded by people  that you like to be.&quot;))), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Habits revised&quot;, mdx(&quot;ul&quot;, {
+    parentName: &quot;li&quot;
+  }, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.amazon.com/-/es/Charles-Duhigg/dp/081298160X&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;The power of habits book&quot;), &quot;.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;The habits are formed by the cue, the routine, the reward and the belief.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.amazon.com/-/es/James-Clear/dp/0735211299&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Atomic habits book&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;There are four laws for habits. Obvious, easy, attractive and satisfying.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Some tools &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://habitica.com/static/home&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;https://habitica.com/static/home&quot;)))), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;System vs Goals&quot;, mdx(&quot;ul&quot;, {
+    parentName: &quot;li&quot;
+  }, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Goals are good but systems are better. &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.amazon.com/-/es/Scott-Adams-ebook/dp/B00COOFBA4&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;How to fail at almost everything&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Create a system defines rules and uses chunks to achieve a goal. e.g. SMART goals.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.youtube.com/watch?v=NVGuFdX5guE&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;https://www.youtube.com/watch?v=NVGuFdX5guE&quot;)))), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;The power of the Senses&quot;, mdx(&quot;ul&quot;, {
+    parentName: &quot;li&quot;
+  }, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;The senses play an important role in the memories. &quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Humans are bad remembering facts, but are good remembering stories and emotions. So try to be stimulated and your senses.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Create analogies or metaphors in your mind.&quot;))), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Method of Loci&quot;, mdx(&quot;ul&quot;, {
+    parentName: &quot;li&quot;
+  }, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.nototo.app/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;https://www.nototo.app/&quot;)))), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Pareto Principle&quot;, mdx(&quot;ul&quot;, {
+    parentName: &quot;li&quot;
+  }, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;What the critical skills are needed to accomplish something in the most efficient way.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;The Pareto Principle is about of selection, If you focus in the 20% of the most relevant things you will get the 80% of results.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;If you want to learn any language here is the Pareto Principle in action &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://mostcommonwords.co/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;https://mostcommonwords.co/&quot;), &quot; &quot;))), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Parkinson\u2019s Law&quot;, mdx(&quot;ul&quot;, {
+    parentName: &quot;li&quot;
+  }, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Work expands so as to fill the time available for its completion.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;If you put deadlines you can get the benefits of Parkinson\u2019s Law.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.amazon.com/-/es/Cal-Newport/dp/1455586692&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Deep work by Carl Newport&quot;)))), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Stakes and Rewards&quot;, mdx(&quot;ul&quot;, {
+    parentName: &quot;li&quot;
+  }, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Focus on small rewards system. Intrinsic vs extrinsic.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;This is a community to focus on your Stakes &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.stickk.com/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;https://www.stickk.com/&quot;)))), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Concepts vs Facts&quot;, mdx(&quot;ul&quot;, {
+    parentName: &quot;li&quot;
+  }, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Concepts are more important than facts. Facts are easy to find in Google, but concepts are high level topics.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;That\u2019s why is more important to get the foundations and the concepts. The trunk based learning.&quot;))), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Test Yourself&quot;, mdx(&quot;ul&quot;, {
+    parentName: &quot;li&quot;
+  }, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;You need to practice and put yourself into your limits. Active learning.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;You need to quiz yourself and to be honest about what have you learned.&quot;))), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;The first 20 hours and ultralearning books.&quot;, mdx(&quot;ul&quot;, {
+    parentName: &quot;li&quot;
+  }, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.amazon.es/First-20-Hours-Learn-Anything/dp/1591846943&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;The first 20 hours&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.amazon.com/-/es/Scott-Young/dp/006285268X&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Ultralearning&quot;))))), mdx(&quot;p&quot;, null, &quot;Cheers and keep learning! \uD83C\uDF7B&quot;));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Creating my blog with Gatsby and Github Pages]]></title><description><![CDATA[How to create your own blog using Gatsby and Github Pages.]]></description><link>https://codesandtags.github.io/blog/creating-my-blog-with-gatsby-and-github-pages</link><guid isPermaLink="false">https://codesandtags.github.io/blog/creating-my-blog-with-gatsby-and-github-pages</guid><dc:creator><![CDATA[Edwin Torres]]></dc:creator><pubDate>Fri, 01 May 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
