@@ -160,16 +160,81 @@ There are a couple of lies in the world and the learning process you need to kno
     - A wonderful comic about spaced repetition. https://ncase.me/remember/
 15. Habits as energy savers
     - Research has shown that writing your daily list the evening before such as your goals actually helps to accomplish your goals the next day.
-    - The habits saves energy to your brain, because you don’t have to think too much about the thing you’re doing. It becomes easier and easier.
+    - The habits save energy to your brain, because you don’t have to think too much about the thing you’re doing. It becomes easier and easier.
 16. Be adventurous
     - We remember things when we’re in an adventurous state when our emotions are high.
 17. Have and endpoint
-    - Define an end-point and a end-point to finish something helps your brain to stay focus.
+    - Define an end-point, and a end-point to finish something helps your brain to stay focus.
 18. Be bored
-    - To be bored sometimes is good, given it allows that diffuse mode of thinking happen.
-    - This [video explains](https://www.youtube.com/watch?v=LKPwKFigF8U) the importance to be bored
+    - To be bored sometimes is good, given it allows that diffuse mode of thinking happens.
+    - This [video explains](https://www.youtube.com/watch?v=LKPwKFigF8U) the importance to be bored.
 
 # The Techniques
 
+1. Pomodoro Technique
+    - This technique was developed by [Francisco Cirillo](https://en.wikipedia.org/wiki/Pomodoro_Technique)
+    - 25 minutes on (no interruptions) focus, 5 minutes off. 25 minutes focus mode, 5 minutes diffuse mode.
+    3. Here you can find some options to use the pomodo online. https://www.marinaratimer.com/
+2. Chunk the subject
+    - Chunking is related to habits to get the autopilot. Each chunk of knowledge leads to further and further progress.
+    - Here comes the technique Divide and Conquer.
+    - Some examples are, Dueling for language learning, Khan Academic for Maths, and this one about computation. https://www.youtube.com/watch?v=SzJ46YA_RaA
+3. Spaced repetition revised
+    - Over-learning = not  good, so you need to take some breaks and repeat again after.
+    - After certain point those neuron connection get strong enough that don’t have to repeat as often. This is called as brain consolidation.
+4. Dliberated practice revised
+    - Doing the things that are hard but also work smart.
+    - The idea of deliberate practice is to avoid the the easy stuffs and then take challenging projects. Expanding our comfort zone.
+5. Create a roadmap
+    - Define your goals is really important to understand why are you learning something. This should be aligned with your internal motivations / intrinsic motivations.
+    - Once you have identified your goal, create a roadmap with the strategy to achieve it. Be careful and select the best content and resource in your road.
+    - These are tools to create your roadmap. [Coggle](https://coggle.it/) and [Miro](https://miro.com/).
+6. Interleaving
+    - Mix up your learning by being creative and flexible. The idea is instead of practicing one skill over and over and over, you want to shift three or more different skills.
+    - Learning three similar but in a different way.
+    - [Article The Interleaving Effect: Mixing It Up Boosts Learning](https://www.scientificamerican.com/article/the-interleaving-effect-mixing-it-up-boosts-learning/)
+7. Einstellung
+    - Here is the [Einstellung effect](https://es.wikipedia.org/wiki/Efecto_Einstellung)
+    - It’s a rigid mindset where you don’t use new ideas to solve problems.
+    - To solve that problem you need to accept there is other points and alternatives to solve a problem.
+8. Importance of community
+    - Stay and community and share similar things, getting motivation from others and receive feedback it’s really valuable in your learning process. 
+    - You’re the average of the five people you hang out with most, so be surrounded by people  that you like to be.
+9. Habits revised
+    - [The power of habits book](https://www.amazon.com/-/es/Charles-Duhigg/dp/081298160X).
+    - The habits are formed by the cue, the routine, the reward and the belief.
+    - [Atomic habits book](https://www.amazon.com/-/es/James-Clear/dp/0735211299)
+    - There are four laws for habits. Obvious, easy, attractive and satisfying.
+    - Some tools https://habitica.com/static/home
+10. System vs Goals
+    - Goals are good but systems are better. [How to fail at almost everything](https://www.amazon.com/-/es/Scott-Adams-ebook/dp/B00COOFBA4)
+    - Create a system defines rules and uses chunks to achieve a goal. e.g. SMART goals.
+    - https://www.youtube.com/watch?v=NVGuFdX5guE
+11. The power of the Senses
+    - The senses play an important role in the memories. 
+    - Humans are bad remembering facts, but are good remembering stories and emotions. So try to be stimulated and your senses.
+    - Create analogies or metaphors in your mind.
+12. Method of Loci
+    - https://www.nototo.app/
+13. Pareto Principle
+    - What the critical skills are needed to accomplish something in the most efficient way.
+    - The Pareto Principle is about of selection, If you focus in the 20% of the most relevant things you will get the 80% of results.
+    - If you want to learn any language here is the Pareto Principle in action https://mostcommonwords.co/ 
+14. Parkinson's Law
+    - Work expands so as to fill the time available for its completion.
+    - If you put deadlines you can get the benefits of Parkinson’s Law.
+    - [Deep work by Carl Newport](https://www.amazon.com/-/es/Cal-Newport/dp/1455586692)
+15. Stakes and Rewards
+    - Focus on small rewards system. Intrinsic vs extrinsic.
+    - This is a community to focus on your Stakes https://www.stickk.com/
+16. Concepts vs Facts
+    - Concepts are more important than facts. Facts are easy to find in Google, but concepts are high level topics.
+    - That’s why is more important to get the foundations and the concepts. The trunk based learning.
+17. Test Yourself
+    - You need to practice and put yourself into your limits. Active learning.
+    - You need to quiz yourself and to be honest about what have you learned.
+18. The first 20 hours and ultralearning books.
+    - [The first 20 hours](https://www.amazon.es/First-20-Hours-Learn-Anything/dp/1591846943)
+    - [Ultralearning](https://www.amazon.com/-/es/Scott-Young/dp/006285268X)
 
-Cheers 🍻
+Cheers and keep learning! 🍻
