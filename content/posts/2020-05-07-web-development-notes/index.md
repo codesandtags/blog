@@ -24,94 +24,100 @@ These notes are just the most relevant parts or resources for me, so I recommend
  - Some videos of Crash Course Computer Sciences Computer: [Networks](https://www.youtube.com/watch?v=3QhU9jd03a0&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo&index=29), [Internet](https://www.youtube.com/watch?v=AEaKrq3SpW8&index=30&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo)  and the [World Wide Web](https://www.youtube.com/watch?v=guvsH5OFizE&index=31&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo) .
 
 # 3. HTML
+ - MDN Official resources to review anything https://developer.mozilla.org/en-US/docs/Web
+ - Use the Rubber Duck Technique https://rubberduckdebugging.com/
+ - [HTMLs Quizzes by w3schools](https://www.w3schools.com/html/exercise.asp)
+ - [Free codecamp exercises](https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/) 
+
+# 4. CSS
+ - An awesome site which explains [how works the font types](https://www.supremo.co.uk/typeterms/)
+ - One of the best resources is [CSS Tricks](https://css-tricks.com/)  and [CSS Tricks Almanacs](https://css-tricks.com/almanac/) for properties.
+ - In this site you will understand [the balance and complement color](https://paletton.com/). 
+ - CSS Selectors : start *, class, id, element, element nested, greater than, plus
+ - What selectors win out in the cascade depends on? Specificity, Importance, Source order. [Specificity calculator](https://specificity.keegan.st/). 
+ - [Game to practice](https://flukeout.github.io/) the specificity concepts.
+ - [Google Fonts](https://fonts.google.com/).
+ - [CSS Quizzes by w3schools](https://www.w3schools.com/css/css_quiz.asp).
+ - [CSS Minifier](https://cssminifier.com/) to reduce the Critical Render Path. 
+ - [Critical Render Path MDN](https://developer.mozilla.org/en-US/docs/Web/Performance/Critical_rendering_path) and [Critical rendering path explained](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/analyzing-crp?hl=es).
+ - Playing with [Froggy for Flexbox](http://flexboxfroggy.com/).
+ - [Mastering Transitions and Transforms](https://thoughtbot.com/blog/transitions-and-transforms).
+ - With [Can I Use](https://caniuse.com/) we can review if our attributes are supported by browsers.
+ - Always [Playground for CSS](https://codepen.io/), Javascript and other Web stuffs with.
+
+# Bootstrap and templates
 1. x
 2. x
 
-# 4. Advance HTML
+# CSS Grid and Flex
 1. x
 2. x
 
-# 5. CSS
+# Career of Developer
 1. x
 2. x
 
-# 6. Advance CSS
+# JavaScript
 1. x
 2. x
 
-# 7. Bootstrap and templates
+# DOM Manipulation
 1. x
 2. x
 
-# 8. CSS Grid and Flex
+# Advance JavaScript
 1. x
 2. x
 
-# 9. Career of Developer
+# Command Line
 1. x
 2. x
 
-# 10. JavaScript
+# Development Environment
 1. x
 2. x
 
-# 11. DOM Manipulation
+# Git + Github + Open Source
 1. x
 2. x
 
-# 12. Advance JavaScript
+# A Day in the life Developer
 1. x
 2. x
 
-# 13. Command Line
+# NPM Scripts
 1. x
 2. x
 
-# 14. Development Environment
+# React
 1. x
 2. x
 
-# 15. Git + Github + Open Source
+# HTTP / JSON / AJAX
 1. x
 2. x
 
-# 16. A Day in the life Developer
+# Backend Introduction
 1. x
 2. x
 
-# 17. NPM Scripts
+# APIs
 1. x
 2. x
 
-# 18. React
+# NodeJS + ExpressJS
 1. x
 2. x
 
-# 19. HTTP / JSON / AJAX
+# Databases
 1. x
 2. x
 
-# 20. Backend Introduction
+# Deployment
 1. x
 2. x
 
-# 21. APIs
-1. x
-2. x
-
-# 22. NodeJS + ExpressJS
-1. x
-2. x
-
-# 23. Databases
-1. x
-2. x
-
-# 24. Deployment
-1. x
-2. x
-
-# 25. Where to go from here?
+# Where to go from here?
 1. x
 2. x
 
