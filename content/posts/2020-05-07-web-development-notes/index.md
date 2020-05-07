@@ -78,7 +78,8 @@ These notes are just the most relevant parts or resources for me, so I recommend
  
 # JavaScript
  - [Eloquent JavaScript Ebook](https://eloquentjavascript.net/) 
- - [You don’t know JavaScript Series](https://github.com/getify/You-Dont-Know-JS) 
+ - [You don’t know JavaScript Series](https://github.com/getify/You-Dont-Know-JS)
+ - [JavaScript modern tutorial](https://javascript.info/) 
  - [Data Structures](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Map): Arrays, Object, Map, Set, WeakMap, WeakSet
  - Playgrounds [Jsbin](https://jsbin.com/) [codepen](https://codepen.io/) 
  - [DOM === document](https://developer.mozilla.org/es/docs/DOM). 
@@ -94,24 +95,22 @@ These notes are just the most relevant parts or resources for me, so I recommend
  - [JavaScript Coercion](https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/) and [JavaScript Equality Table](https://dorey.github.io/JavaScript-Equality-Table/).
  - Iterating: Arrays and Strings
  - Enumerating : Objects
- - JavaScript Engine Memory Heap: Limited memory (variables)
+ - JavaScript Engine Memory Heap: Limited
+  memory (variables)
  - JavaScript Engine Call Stack: Allocates execution blocks and calls. 
  - To generate a Maximum call stack sized exceed. ```(function a() { a() })();```
  - To crash the browser : ```let drunk = []; while(true) { drunk.push['🍻'] }```
  - Call Stack, Web API, Callback Queue, Event Loop
 
-
 # Command Line
-1. x
-2. x
-
-# Development Environment
-1. x
-2. x
+ - [Oh My Zsh](https://ohmyz.sh/)
+ - [Nice article to setup Oh My Zsh](https://medium.com/@ivanaugustobd/your-terminal-can-be-much-much-more-productive-5256424658e8)
+ - [Some issues and solutions with fonts in Oh My Zsh](https://github.com/romkatv/powerlevel10k/issues/157)
 
 # Git + Github + Open Source
-1. x
-2. x
+ - [Pull Request](https://github.com/zero-to-mastery/start-here-guidelines/pull/5108#issuecomment-625023782) to become in contributor for ZTM in Github organization.
+ - [Pull Request](https://github.com/zero-to-mastery/ZtM-Job-Board/pull/1100) to add my profile in the ZTM Board Job.
+ - [Zero To Mastery Job Board](https://zero-to-mastery.github.io/ZtM-Job-Board/). 
 
 # A Day in the life Developer
 1. x
@@ -158,6 +157,7 @@ These notes are just the most relevant parts or resources for me, so I recommend
 
  * [Sindre Sorhus](https://github.com/sindresorhus) 
  * [Sarah Drasner](https://github.com/sdras)
+ * [Andrei Neagoie](https://github.com/aneagoie)
 
 
 Cheers and keep learning! 🍻
