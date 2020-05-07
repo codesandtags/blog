@@ -46,28 +46,60 @@ These notes are just the most relevant parts or resources for me, so I recommend
  - Always [Playground for CSS](https://codepen.io/), Javascript and other Web stuffs with.
 
 # Bootstrap and templates
-1. x
-2. x
+ - To create landing pages and campaigns with [Mailchimp](https://mailchimp.com/)
+ - [Animate CSS](https://daneden.github.io/animate.css/) 
+ - [The Creative Tim Templates](https://www.creative-tim.com/)
+ - [Mashup Free Templates](http://www.mashup-template.com/)
+ - [Bootstrap Templates 1](https://startbootstrap.com/templates/) 
+ - [Bootstrap Templates 2](https://mdbootstrap.com/freebies/) 
+ - [Templates for startups](https://cruip.com/)
 
 # CSS Grid and Flex
-1. x
-2. x
+ - Flex is really useful if you have layout with one dimension, CSS Grid is useful when you have layouts with two dimensions (Row, Columns).
+ - Despite CSS grid is not 100% supported in all browsers, the support is greater every time. [Can I Use CSS Grid](https://caniuse.com/#feat=css-grid) and [Can I Use Flexbox](https://caniuse.com/#feat=flexbox).
+ - [CSS Grid cheat sheet](http://grid.malven.co/). 
+ - [Game for CSS Grid](http://cssgridgarden.com/).
+ - [CSS Grid Exercise 1 solution](https://codepen.io/codesandtags/pen/ZEbvjrB) 
+ - [CSS Grid Exercise 2 solution](https://codepen.io/codesandtags/pen/eYpyPOb?editors=1100) 
+ - [Site to get free illustrations](https://undraw.co/illustrations) for your projects.
 
 # Career of Developer
-1. x
-2. x
-
+ - [Glassdoor to get Reviews](https://www.glassdoor.com/Salaries/index.htm) and information about companies and salaries in the industry.
+ - [Jetbrains research about the Developer Survey 2019](https://www.jetbrains.com/lp/devecosystem-2019/).
+ - [Stackoverflow Developer Survey 2019](https://insights.stackoverflow.com/survey/2019).
+ - [Stackoverflow Trends](https://insights.stackoverflow.com/trends?tags=reactjs%2Cangular%2Cvue.js). 
+ - [Github Octoverse statistics](https://octoverse.github.com/).
+ - [JavaScript Roadmap](https://hackernoon.com/the-2019-web-developer-roadmap-ab89ac3c380e). 
+ - [State of salaries by Hired](https://hired.com/page/state-of-salaries).
+ - Become in a Freelance in [Upwork](https://www.upwork.com/).
+ - [Zero to Mastery Community](https://zerotomastery.io/community/?utm_source=udemy&utm_medium=coursecontent).
+ - [Front-End Learning path in ZTM](https://i.udemycdn.com/redactor/raw/2020-01-18_15-59-49-3ee1a8bf731b133914f2a795867a6238.jpg)
+ - [CSS Grid generator](https://cssgrid-generator.netlify.app/) by Sarah Drasner
+ 
 # JavaScript
-1. x
-2. x
-
-# DOM Manipulation
-1. x
-2. x
+ - [Eloquent JavaScript Ebook](https://eloquentjavascript.net/) 
+ - [You don’t know JavaScript Series](https://github.com/getify/You-Dont-Know-JS) 
+ - [Data Structures](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Map): Arrays, Object, Map, Set, WeakMap, WeakSet
+ - Playgrounds [Jsbin](https://jsbin.com/) [codepen](https://codepen.io/) 
+ - [DOM === document](https://developer.mozilla.org/es/docs/DOM). 
+ - [Document selector and performance](https://gomakethings.com/javascript-selector-performance/) 
+ - [DOM event list](https://developer.mozilla.org/es/docs/Web/Events) 
+ - [You might not need jQuery](http://youmightnotneedjquery.com/) 
+ - The keyword this represents where the object is inside of.
 
 # Advance JavaScript
-1. x
-2. x
+ - [BabelJS](https://babeljs.io/) 
+ - [Array Explorer with some examples](https://sdras.github.io/array-explorer/) by Sarah Drasner 
+ - [Object explorer with some examples](https://sdras.github.io/object-explorer/) by Sarah Drasner 
+ - [JavaScript Coercion](https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/) and [JavaScript Equality Table](https://dorey.github.io/JavaScript-Equality-Table/).
+ - Iterating: Arrays and Strings
+ - Enumerating : Objects
+ - JavaScript Engine Memory Heap: Limited memory (variables)
+ - JavaScript Engine Call Stack: Allocates execution blocks and calls. 
+ - To generate a Maximum call stack sized exceed. ```(function a() { a() })();```
+ - To crash the browser : ```let drunk = []; while(true) { drunk.push['🍻'] }```
+ - Call Stack, Web API, Callback Queue, Event Loop
+
 
 # Command Line
 1. x
@@ -101,6 +133,7 @@ These notes are just the most relevant parts or resources for me, so I recommend
 1. x
 2. x
 
+
 # APIs
 1. x
 2. x
@@ -120,5 +153,11 @@ These notes are just the most relevant parts or resources for me, so I recommend
 # Where to go from here?
 1. x
 2. x
+
+# Github Awesome Profiles
+
+ * [Sindre Sorhus](https://github.com/sindresorhus) 
+ * [Sarah Drasner](https://github.com/sdras)
+
 
 Cheers and keep learning! 🍻

@@ -6,7 +6,7 @@ module.exports = {
     siteUrl: `https://codesandtags.github.io/blog/`,
     description: `Codes and Tags is a blog created by Edwin Torres to share him experiences being Developer, Traveler and Teacher as Full-Stack Developer`,
     hero: {
-      heading: `Coding, Front-End, Software Architecture and other stuffs.`,
+      heading: `Coding, stories, and other technical stuff.`,
       maxWidth: 652,
     },
     social: [
@@ -21,7 +21,7 @@ module.exports = {
       {
         name: `linkedin`,
         url: `https://www.linkedin.com/in/edwintorresdeveloper/`,
-      }
+      },
     ],
   },
   plugins: [
