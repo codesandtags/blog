@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Codes and Tags]]></title><description><![CDATA[Codes and Tags is a blog created by Edwin Torres to share him experiences being Developer, Traveler and Teacher as Full-Stack Developer]]></description><link>https://codesandtags.github.io/blog</link><image><url>https://codesandtags.github.io/blog/icons/icon-512x512.png</url><title>Codes and Tags</title><link>https://codesandtags.github.io/blog</link></image><generator>GatsbyJS</generator><lastBuildDate>Thu, 07 May 2020 05:08:12 GMT</lastBuildDate><atom:link href="https://codesandtags.github.io/blog/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[The Complete Web Developer in 2020]]></title><description><![CDATA[These are my personal notes in the Udemy Course, The Complete Web Developer in 2020.]]></description><link>https://codesandtags.github.io/blog/the-complete-web-developer-in-2020</link><guid isPermaLink="false">https://codesandtags.github.io/blog/the-complete-web-developer-in-2020</guid><dc:creator><![CDATA[Edwin Torres]]></dc:creator><pubDate>Thu, 07 May 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Codes and Tags]]></title><description><![CDATA[Codes and Tags is a blog created by Edwin Torres to share him experiences being Developer, Traveler and Teacher as Full-Stack Developer]]></description><link>https://codesandtags.github.io/blog</link><image><url>https://codesandtags.github.io/blog/icons/icon-512x512.png</url><title>Codes and Tags</title><link>https://codesandtags.github.io/blog</link></image><generator>GatsbyJS</generator><lastBuildDate>Thu, 07 May 2020 14:34:34 GMT</lastBuildDate><atom:link href="https://codesandtags.github.io/blog/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[The Complete Web Developer in 2020]]></title><description><![CDATA[These are my personal notes in the Udemy Course, The Complete Web Developer in 2020.]]></description><link>https://codesandtags.github.io/blog/the-complete-web-developer-in-2020</link><guid isPermaLink="false">https://codesandtags.github.io/blog/the-complete-web-developer-in-2020</guid><dc:creator><![CDATA[Edwin Torres]]></dc:creator><pubDate>Thu, 07 May 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
 
@@ -671,19 +671,67 @@ return function MDXContent(_ref) {
     &quot;href&quot;: &quot;https://zero-to-mastery.github.io/ZtM-Job-Board/&quot;,
     &quot;target&quot;: &quot;_blank&quot;,
     &quot;rel&quot;: &quot;noreferrer&quot;
-  }), &quot;Zero To Mastery Job Board&quot;), &quot;. &quot;)), mdx(&quot;h1&quot;, {
+  }), &quot;Zero To Mastery Job Board&quot;), &quot;.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://github.com/zero-to-mastery/resources&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Zero To Mastery Resources&quot;), &quot;.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Create your &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://github.com/cobidev/simplefolio&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Developer Portoflio&quot;), &quot; by @cobidev  &quot;)), mdx(&quot;h1&quot;, {
     &quot;id&quot;: &quot;a-day-in-the-life-developer&quot;
-  }, &quot;A Day in the life Developer&quot;), mdx(&quot;ol&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ol&quot;
-  }, &quot;x&quot;), mdx(&quot;li&quot;, {
-    parentName: &quot;ol&quot;
-  }, &quot;x&quot;)), mdx(&quot;h1&quot;, {
+  }, &quot;A Day in the life Developer&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://javascriptweekly.com/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;JavaScript Weekly&quot;), &quot; &quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://css-weekly.com/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;CSS Weekly&quot;), &quot; &quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://softwareengineeringdaily.com/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Software Engineering Daily&quot;), &quot; &quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.producthunt.com/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Product Hunt&quot;), &quot; &quot;)), mdx(&quot;h1&quot;, {
     &quot;id&quot;: &quot;npm-scripts&quot;
-  }, &quot;NPM Scripts&quot;), mdx(&quot;ol&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ol&quot;
-  }, &quot;x&quot;), mdx(&quot;li&quot;, {
-    parentName: &quot;ol&quot;
-  }, &quot;x&quot;)), mdx(&quot;h1&quot;, {
+  }, &quot;NPM Scripts&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://semver.npmjs.com/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Semantic Versioning Calculator&quot;))), mdx(&quot;h1&quot;, {
     &quot;id&quot;: &quot;react&quot;
   }, &quot;React&quot;), mdx(&quot;ol&quot;, null, mdx(&quot;li&quot;, {
     parentName: &quot;ol&quot;
