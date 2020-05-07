@@ -110,15 +110,18 @@ These notes are just the most relevant parts or resources for me, so I recommend
 # Git + Github + Open Source
  - [Pull Request](https://github.com/zero-to-mastery/start-here-guidelines/pull/5108#issuecomment-625023782) to become in contributor for ZTM in Github organization.
  - [Pull Request](https://github.com/zero-to-mastery/ZtM-Job-Board/pull/1100) to add my profile in the ZTM Board Job.
- - [Zero To Mastery Job Board](https://zero-to-mastery.github.io/ZtM-Job-Board/). 
+ - [Zero To Mastery Job Board](https://zero-to-mastery.github.io/ZtM-Job-Board/).
+ - [Zero To Mastery Resources](https://github.com/zero-to-mastery/resources).
+ - Create your [Developer Portoflio](https://github.com/cobidev/simplefolio) by @cobidev  
 
 # A Day in the life Developer
-1. x
-2. x
+ - [JavaScript Weekly](https://javascriptweekly.com/) 
+ - [CSS Weekly](https://css-weekly.com/) 
+ - [Software Engineering Daily](https://softwareengineeringdaily.com/) 
+ - [Product Hunt](https://www.producthunt.com/) 
 
 # NPM Scripts
-1. x
-2. x
+ - [Semantic Versioning Calculator](https://semver.npmjs.com/)
 
 # React
 1. x
