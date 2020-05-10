@@ -16,7 +16,7 @@ These notes are just the most relevant parts or resources for me, so I recommend
  - DNS: Domain Name Server
  - [Magical blue cable - The submarine cable map](https://www.submarinecablemap.com/)
  - [People think that data is in the cloud, but it’s not. It’s in the ocean](https://www.nytimes.com/interactive/2019/03/10/technology/internet-cables-oceans.html). 
- - [Video about how works the submarine cable in Spanish](https://www.youtube.com/watch?v=u1xxZ8r2rRc)
+ - [Video about how the submarine cable works in Spanish](https://www.youtube.com/watch?v=u1xxZ8r2rRc)
 
 # 2. History of the Web
  - [Tim Berners-Lee](https://www.w3.org/People/Berners-Lee/) was working at CERN, and then in 1989 created the first approach of Internet [WWW](http://info.cern.ch/hypertext/WWW/TheProject.html)
@@ -24,8 +24,8 @@ These notes are just the most relevant parts or resources for me, so I recommend
  - Some videos of Crash Course Computer Sciences Computer: [Networks](https://www.youtube.com/watch?v=3QhU9jd03a0&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo&index=29), [Internet](https://www.youtube.com/watch?v=AEaKrq3SpW8&index=30&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo)  and the [World Wide Web](https://www.youtube.com/watch?v=guvsH5OFizE&index=31&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo) .
 
 # 3. HTML
- - MDN Official resources to review anything https://developer.mozilla.org/en-US/docs/Web
- - Use the Rubber Duck Technique https://rubberduckdebugging.com/
+ - [MDN Official](https://developer.mozilla.org/en-US/docs/Web) resources to review anything.
+ - Use the [Rubber Duck Technique](https://rubberduckdebugging.com/).
  - [HTMLs Quizzes by w3schools](https://www.w3schools.com/html/exercise.asp)
  - [Free codecamp exercises](https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/) 
 
@@ -112,7 +112,8 @@ These notes are just the most relevant parts or resources for me, so I recommend
  - [Pull Request](https://github.com/zero-to-mastery/ZtM-Job-Board/pull/1100) to add my profile in the ZTM Board Job.
  - [Zero To Mastery Job Board](https://zero-to-mastery.github.io/ZtM-Job-Board/).
  - [Zero To Mastery Resources](https://github.com/zero-to-mastery/resources).
- - Create your [Developer Portoflio](https://github.com/cobidev/simplefolio) by @cobidev  
+ - Create your [Developer Portoflio](https://github.com/cobidev/simplefolio) by @cobidev
+ - [Github Corner logo](https://github.com/tholman/github-corners)  
 
 # A Day in the life Developer
  - [JavaScript Weekly](https://javascriptweekly.com/) 
@@ -124,43 +125,56 @@ These notes are just the most relevant parts or resources for me, so I recommend
  - [Semantic Versioning Calculator](https://semver.npmjs.com/)
 
 # React
-1. x
-2. x
-
-# HTTP / JSON / AJAX
-1. x
-2. x
-
-# Backend Introduction
-1. x
-2. x
-
+ - [Atomic Design Concepts](https://bradfrost.com/blog/post/atomic-web-design/) for Web Components
+ - [Virtual DOM vs DOM](https://es.reactjs.org/docs/faq-internals.html)
+ - [React CHANGELOG](https://github.com/facebook/react/blob/master/CHANGELOG.md) 
+ - [Create React App](https://github.com/facebook/create-react-app) 
+ - [Tachyons](https://tachyons.io/) Create fast interfaces with few CSS 
+ - [API Robot](https://robohash.org/) 
+ - [React Fragment and semantic](http://blog.jmes.tech/react-fragment-and-semantic-html/)
+ - Redux for management state, share data between containers and predictable using the 3 principles.
+ - [3 Redux Principles](https://medium.com/swlh/redux-core-principles-explained-with-simple-terms-55988f34f9a0): Single source of true, state is read only, changes use pure functions.
+ - **Redux action**: Something that user does.
+ - **Redux reducer**: A pure function which update the state (immutable)
+ - **Redux store**: An object which represents the single source of true
+ - [Redux based on Architecture Flux pattern](https://facebook.github.io/flux/docs/in-depth-overview) 
+ - Redux offers a way to replace the state and transform to props to the components.
+ - To connect redux wieth react, it implements HoF (Hight order Functions)
+ - [useState performance and good practices](https://reactjs.org/docs/hooks-faq.html#is-it-safe-to-omit-functions-from-the-list-of-dependencies) 
+ - [React Router](https://reacttraining.com/react-router/web/guides/quick-start) 
+ - [RamdaJs](https://ramdajs.com/), A practical functional library for JavaScript programmers.
+ - [React Styled components](https://styled-components.com/), Use the best bits of ES6 and CSS to style your apps without stress 💅.
+ - [React CSS Modules](https://github.com/css-modules/css-modules).
+ - [Gatsby](https://www.gatsbyjs.org/), Fast in every way that matters.
+ - [Semantic UI](https://semantic-ui.com/), User Inter
+ face is the language of the web.
+ - [ImmutableJS](https://immutable-js.github.io/immutable-js/) collections for JavaScript.
+ - [MDB](https://mdbootstrap.com/docs/react/) with React
+ 
+# HTTP/JSON/AJAX + Asynchronous JavaScript
+ - A great list for [Http Status Dog](https://httpstatusdogs.com/) and [Http Status Cat](https://http.cat/) and [Http Reference](https://www.w3schools.com/tags/ref_httpmessages.asp).
+ - [Query Strings vs Query Params](https://medium.com/@fullsour/when-should-you-use-path-variable-and-query-parameter-a346790e8a6d)
+ - [Why you require HTTPS](https://www.granite5.com/insights/use-https-vs-http-benefits-switching/) 
+ - [JSON format](https://www.w3schools.com/js/js_json_intro.asp) and [JSON Reference](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/JSON)) 
+ - [JSONP](https://en.wikipedia.org/wiki/JSONP).
+ - [AJAX](https://www.w3schools.com/js/js_ajax_intro.asp). 
+ - [Fetch API](https://developer.mozilla.org/es/docs/Web/API/Fetch_API) and [Response Object](https://developer.mozilla.org/es/docs/Web/API/Response). 
+ - [Promises](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Promise) has 3 states: Fulfilled, rejected, pending
+ - [Async await looks syntactic sugar](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/funcion_asincrona). 
+ - [ECMAScript update list with examples](https://github.com/daumann/ECMAScript-new-features-list)
 
 # APIs
-1. x
-2. x
-
-# NodeJS + ExpressJS
-1. x
-2. x
-
-# Databases
-1. x
-2. x
-
-# Deployment
-1. x
-2. x
-
-# Where to go from here?
-1. x
-2. x
+ - [JSON Place Holder](https://jsonplaceholder.typicode.com/) 
+ - [Start Wars API](https://swapi.dev/) 
+ - [Pokémon API](https://pokeapi.co/) 
+ - [Twilio SMS API](https://www.twilio.com/docs/sms/api) 
 
 # Github Awesome Profiles
 
  * [Sindre Sorhus](https://github.com/sindresorhus) 
  * [Sarah Drasner](https://github.com/sdras)
  * [Andrei Neagoie](https://github.com/aneagoie)
+ * [Edwin Torres](https://github.com/codesandtags)
 
 
 Cheers and keep learning! 🍻
