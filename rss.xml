@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Codes and Tags]]></title><description><![CDATA[Codes and Tags is a blog created by Edwin Torres to share him experiences being Developer, Traveler and Teacher as Full-Stack Developer]]></description><link>https://codesandtags.github.io/blog</link><image><url>https://codesandtags.github.io/blog/icons/icon-512x512.png</url><title>Codes and Tags</title><link>https://codesandtags.github.io/blog</link></image><generator>GatsbyJS</generator><lastBuildDate>Thu, 07 May 2020 14:34:34 GMT</lastBuildDate><atom:link href="https://codesandtags.github.io/blog/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[The Complete Web Developer in 2020]]></title><description><![CDATA[These are my personal notes in the Udemy Course, The Complete Web Developer in 2020.]]></description><link>https://codesandtags.github.io/blog/the-complete-web-developer-in-2020</link><guid isPermaLink="false">https://codesandtags.github.io/blog/the-complete-web-developer-in-2020</guid><dc:creator><![CDATA[Edwin Torres]]></dc:creator><pubDate>Thu, 07 May 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Codes and Tags]]></title><description><![CDATA[Codes and Tags is a blog created by Edwin Torres to share him experiences being Developer, Traveler and Teacher as Full-Stack Developer]]></description><link>https://codesandtags.github.io/blog</link><image><url>https://codesandtags.github.io/blog/icons/icon-512x512.png</url><title>Codes and Tags</title><link>https://codesandtags.github.io/blog</link></image><generator>GatsbyJS</generator><lastBuildDate>Sun, 10 May 2020 01:18:48 GMT</lastBuildDate><atom:link href="https://codesandtags.github.io/blog/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[The Complete Web Developer in 2020]]></title><description><![CDATA[These are my personal notes in the Udemy Course, The Complete Web Developer in 2020.]]></description><link>https://codesandtags.github.io/blog/the-complete-web-developer-in-2020</link><guid isPermaLink="false">https://codesandtags.github.io/blog/the-complete-web-developer-in-2020</guid><dc:creator><![CDATA[Edwin Torres]]></dc:creator><pubDate>Thu, 07 May 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
 
@@ -75,7 +75,7 @@ return function MDXContent(_ref) {
     &quot;href&quot;: &quot;https://www.youtube.com/watch?v=u1xxZ8r2rRc&quot;,
     &quot;target&quot;: &quot;_blank&quot;,
     &quot;rel&quot;: &quot;noreferrer&quot;
-  }), &quot;Video about how works the submarine cable in Spanish&quot;))), mdx(&quot;h1&quot;, {
+  }), &quot;Video about how the submarine cable works in Spanish&quot;))), mdx(&quot;h1&quot;, {
     &quot;id&quot;: &quot;2-history-of-the-web&quot;
   }, &quot;2. History of the Web&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
     parentName: &quot;ul&quot;
@@ -123,21 +123,21 @@ return function MDXContent(_ref) {
     &quot;id&quot;: &quot;3-html&quot;
   }, &quot;3. HTML&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
     parentName: &quot;ul&quot;
-  }, &quot;MDN Official resources to review anything &quot;, mdx(&quot;a&quot;, _extends({
+  }, mdx(&quot;a&quot;, _extends({
     parentName: &quot;li&quot;
   }, {
     &quot;href&quot;: &quot;https://developer.mozilla.org/en-US/docs/Web&quot;,
     &quot;target&quot;: &quot;_blank&quot;,
     &quot;rel&quot;: &quot;noreferrer&quot;
-  }), &quot;https://developer.mozilla.org/en-US/docs/Web&quot;)), mdx(&quot;li&quot;, {
+  }), &quot;MDN Official&quot;), &quot; resources to review anything.&quot;), mdx(&quot;li&quot;, {
     parentName: &quot;ul&quot;
-  }, &quot;Use the Rubber Duck Technique &quot;, mdx(&quot;a&quot;, _extends({
+  }, &quot;Use the &quot;, mdx(&quot;a&quot;, _extends({
     parentName: &quot;li&quot;
   }, {
     &quot;href&quot;: &quot;https://rubberduckdebugging.com/&quot;,
     &quot;target&quot;: &quot;_blank&quot;,
     &quot;rel&quot;: &quot;noreferrer&quot;
-  }), &quot;https://rubberduckdebugging.com/&quot;)), mdx(&quot;li&quot;, {
+  }), &quot;Rubber Duck Technique&quot;), &quot;.&quot;), mdx(&quot;li&quot;, {
     parentName: &quot;ul&quot;
   }, mdx(&quot;a&quot;, _extends({
     parentName: &quot;li&quot;
@@ -687,7 +687,15 @@ return function MDXContent(_ref) {
     &quot;href&quot;: &quot;https://github.com/cobidev/simplefolio&quot;,
     &quot;target&quot;: &quot;_blank&quot;,
     &quot;rel&quot;: &quot;noreferrer&quot;
-  }), &quot;Developer Portoflio&quot;), &quot; by @cobidev  &quot;)), mdx(&quot;h1&quot;, {
+  }), &quot;Developer Portoflio&quot;), &quot; by @cobidev&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://github.com/tholman/github-corners&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Github Corner logo&quot;), &quot;  &quot;)), mdx(&quot;h1&quot;, {
     &quot;id&quot;: &quot;a-day-in-the-life-developer&quot;
   }, &quot;A Day in the life Developer&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
     parentName: &quot;ul&quot;
@@ -733,53 +741,309 @@ return function MDXContent(_ref) {
     &quot;rel&quot;: &quot;noreferrer&quot;
   }), &quot;Semantic Versioning Calculator&quot;))), mdx(&quot;h1&quot;, {
     &quot;id&quot;: &quot;react&quot;
-  }, &quot;React&quot;), mdx(&quot;ol&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ol&quot;
-  }, &quot;x&quot;), mdx(&quot;li&quot;, {
-    parentName: &quot;ol&quot;
-  }, &quot;x&quot;)), mdx(&quot;h1&quot;, {
-    &quot;id&quot;: &quot;http--json--ajax&quot;
-  }, &quot;HTTP / JSON / AJAX&quot;), mdx(&quot;ol&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ol&quot;
-  }, &quot;x&quot;), mdx(&quot;li&quot;, {
-    parentName: &quot;ol&quot;
-  }, &quot;x&quot;)), mdx(&quot;h1&quot;, {
-    &quot;id&quot;: &quot;backend-introduction&quot;
-  }, &quot;Backend Introduction&quot;), mdx(&quot;ol&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ol&quot;
-  }, &quot;x&quot;), mdx(&quot;li&quot;, {
-    parentName: &quot;ol&quot;
-  }, &quot;x&quot;)), mdx(&quot;h1&quot;, {
+  }, &quot;React&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://bradfrost.com/blog/post/atomic-web-design/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Atomic Design Concepts&quot;), &quot; for Web Components&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://es.reactjs.org/docs/faq-internals.html&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Virtual DOM vs DOM&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://github.com/facebook/react/blob/master/CHANGELOG.md&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;React CHANGELOG&quot;), &quot; &quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://github.com/facebook/create-react-app&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Create React App&quot;), &quot; &quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://tachyons.io/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Tachyons&quot;), &quot; Create fast interfaces with few CSS &quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://robohash.org/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;API Robot&quot;), &quot; &quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;http://blog.jmes.tech/react-fragment-and-semantic-html/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;React Fragment and semantic&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Redux for management state, share data between containers and predictable using the 3 principles.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://medium.com/swlh/redux-core-principles-explained-with-simple-terms-55988f34f9a0&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;3 Redux Principles&quot;), &quot;: Single source of true, state is read only, changes use pure functions.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;strong&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;Redux action&quot;), &quot;: Something that user does.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;strong&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;Redux reducer&quot;), &quot;: A pure function which update the state (immutable)&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;strong&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;Redux store&quot;), &quot;: An object which represents the single source of true&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://facebook.github.io/flux/docs/in-depth-overview&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Redux based on Architecture Flux pattern&quot;), &quot; &quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Redux offers a way to replace the state and transform to props to the components.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;To connect redux wieth react, it implements HoF (Hight order Functions)&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://reactjs.org/docs/hooks-faq.html#is-it-safe-to-omit-functions-from-the-list-of-dependencies&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;useState performance and good practices&quot;), &quot; &quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://reacttraining.com/react-router/web/guides/quick-start&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;React Router&quot;), &quot; &quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://ramdajs.com/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;RamdaJs&quot;), &quot;, A practical functional library for JavaScript programmers.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://styled-components.com/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;React Styled components&quot;), &quot;, Use the best bits of ES6 and CSS to style your apps without stress \uD83D\uDC85.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://github.com/css-modules/css-modules&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;React CSS Modules&quot;), &quot;.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.gatsbyjs.org/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Gatsby&quot;), &quot;, Fast in every way that matters.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://semantic-ui.com/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Semantic UI&quot;), &quot;, User Inter\nface is the language of the web.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://immutable-js.github.io/immutable-js/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;ImmutableJS&quot;), &quot; collections for JavaScript.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://mdbootstrap.com/docs/react/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;MDB&quot;), &quot; with React&quot;)), mdx(&quot;h1&quot;, {
+    &quot;id&quot;: &quot;httpjsonajax--asynchronous-javascript&quot;
+  }, &quot;HTTP/JSON/AJAX + Asynchronous JavaScript&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;A great list for &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://httpstatusdogs.com/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Http Status Dog&quot;), &quot; and &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://http.cat/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Http Status Cat&quot;), &quot; and &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.w3schools.com/tags/ref_httpmessages.asp&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Http Reference&quot;), &quot;.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://medium.com/@fullsour/when-should-you-use-path-variable-and-query-parameter-a346790e8a6d&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Query Strings vs Query Params&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.granite5.com/insights/use-https-vs-http-benefits-switching/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Why you require HTTPS&quot;), &quot; &quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.w3schools.com/js/js_json_intro.asp&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;JSON format&quot;), &quot; and &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/JSON&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;JSON Reference&quot;), &quot;) &quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://en.wikipedia.org/wiki/JSONP&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;JSONP&quot;), &quot;.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.w3schools.com/js/js_ajax_intro.asp&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;AJAX&quot;), &quot;. &quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://developer.mozilla.org/es/docs/Web/API/Fetch_API&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Fetch API&quot;), &quot; and &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://developer.mozilla.org/es/docs/Web/API/Response&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Response Object&quot;), &quot;. &quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Promise&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Promises&quot;), &quot; has 3 states: Fulfilled, rejected, pending&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/funcion_asincrona&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Async await looks syntactic sugar&quot;), &quot;. &quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://github.com/daumann/ECMAScript-new-features-list&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;ECMAScript update list with examples&quot;))), mdx(&quot;h1&quot;, {
     &quot;id&quot;: &quot;apis&quot;
-  }, &quot;APIs&quot;), mdx(&quot;ol&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ol&quot;
-  }, &quot;x&quot;), mdx(&quot;li&quot;, {
-    parentName: &quot;ol&quot;
-  }, &quot;x&quot;)), mdx(&quot;h1&quot;, {
-    &quot;id&quot;: &quot;nodejs--expressjs&quot;
-  }, &quot;NodeJS + ExpressJS&quot;), mdx(&quot;ol&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ol&quot;
-  }, &quot;x&quot;), mdx(&quot;li&quot;, {
-    parentName: &quot;ol&quot;
-  }, &quot;x&quot;)), mdx(&quot;h1&quot;, {
-    &quot;id&quot;: &quot;databases&quot;
-  }, &quot;Databases&quot;), mdx(&quot;ol&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ol&quot;
-  }, &quot;x&quot;), mdx(&quot;li&quot;, {
-    parentName: &quot;ol&quot;
-  }, &quot;x&quot;)), mdx(&quot;h1&quot;, {
-    &quot;id&quot;: &quot;deployment&quot;
-  }, &quot;Deployment&quot;), mdx(&quot;ol&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ol&quot;
-  }, &quot;x&quot;), mdx(&quot;li&quot;, {
-    parentName: &quot;ol&quot;
-  }, &quot;x&quot;)), mdx(&quot;h1&quot;, {
-    &quot;id&quot;: &quot;where-to-go-from-here&quot;
-  }, &quot;Where to go from here?&quot;), mdx(&quot;ol&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ol&quot;
-  }, &quot;x&quot;), mdx(&quot;li&quot;, {
-    parentName: &quot;ol&quot;
-  }, &quot;x&quot;)), mdx(&quot;h1&quot;, {
+  }, &quot;APIs&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://jsonplaceholder.typicode.com/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;JSON Place Holder&quot;), &quot; &quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://swapi.dev/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Start Wars API&quot;), &quot; &quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://pokeapi.co/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Pok\xE9mon API&quot;), &quot; &quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.twilio.com/docs/sms/api&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Twilio SMS API&quot;), &quot; &quot;)), mdx(&quot;h1&quot;, {
     &quot;id&quot;: &quot;github-awesome-profiles&quot;
   }, &quot;Github Awesome Profiles&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
     parentName: &quot;ul&quot;
@@ -805,7 +1069,15 @@ return function MDXContent(_ref) {
     &quot;href&quot;: &quot;https://github.com/aneagoie&quot;,
     &quot;target&quot;: &quot;_blank&quot;,
     &quot;rel&quot;: &quot;noreferrer&quot;
-  }), &quot;Andrei Neagoie&quot;))), mdx(&quot;p&quot;, null, &quot;Cheers and keep learning! \uD83C\uDF7B&quot;));
+  }), &quot;Andrei Neagoie&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://github.com/codesandtags&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Edwin Torres&quot;))), mdx(&quot;p&quot;, null, &quot;Cheers and keep learning! \uD83C\uDF7B&quot;));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Learning to learn]]></title><description><![CDATA[These are my personal notes in the Udemy Course, Learning to Learn by Andrei Neagogie.]]></description><link>https://codesandtags.github.io/blog/learning-to-learn</link><guid isPermaLink="false">https://codesandtags.github.io/blog/learning-to-learn</guid><dc:creator><![CDATA[Edwin Torres]]></dc:creator><pubDate>Sat, 02 May 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
