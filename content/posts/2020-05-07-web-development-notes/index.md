@@ -167,7 +167,39 @@ These notes are just the most relevant parts or resources for me, so I recommend
  - [JSON Place Holder](https://jsonplaceholder.typicode.com/) 
  - [Start Wars API](https://swapi.dev/) 
  - [Pokémon API](https://pokeapi.co/) 
- - [Twilio SMS API](https://www.twilio.com/docs/sms/api) 
+ - [Twilio SMS API](https://www.twilio.com/docs/sms/api)
+ - [Numbers API](http://numbersapi.com/)
+ - [Chuck Norris API](https://api.chucknorris.io/)
+ - [Open International Space API](http://open-notify.org/Open-Notify-API/ISS-Location-Now/)
+ - [IBM API Speech to Text](https://www.ibm.com/cloud/watson-speech-to-text)
+ - 🔥 [Public APIs XYZ](https://public-apis.xyz/)  
+ 
+#Face Recognition Project
+ - [Free Logos](https://iconos8.es/)
+ - [Particles JS](https://vincentgarreau.com/particles.js/) and [Particles React](https://www.npmjs.com/package/react-particles-js)
+ - [React Tilt](https://www.npmjs.com/package/react-tilt) 
+ - [Clarifai Platform for AI](https://www.clarifai.com/)
+ - [Clarifai Models](https://www.clarifai.com/models) 
+ - [Face Detection Recognition Model](https://www.clarifai.com/models/face-detection-image-recognition-model-a403429f2ddf4b49b307e318f00e528b-detection) 
+ - [Clarifai client for JavaScript](https://github.com/Clarifai/clarifai-javascript) 
+ - [Example of project](https://codesandtags.github.io/face-recognition-brain/) 
+ - [Firebase Auth Documentation Web](https://firebase.google.com/docs/auth/web/password-auth?hl=es) 
+ - [Firebase Auth Update and get user](https://firebase.google.com/docs/auth/web/manage-users?hl=es-419#get_the_currently_signed-in_user) 
+ - [Firebase Admin](https://firebase.google.com/docs/auth/admin/verify-id-tokens#web) 
+ - [Article using Firebase and Authorization in NodeJs and Express](https://dev.to/emeka/securing-your-express-node-js-api-with-firebase-auth-4b5f)  
+ - [Revoke token with Firebase](https://firebase.google.com/docs/auth/admin/manage-sessions?hl=es-419) 
+ 
+# NodeJS + ExpressJS
+ - [JavaScript Robotic and IoT](http://johnny-five.io/) 
+ - [NodeJS Documentation](https://nodejs.org/es/docs/) 
+ - [NodeJS Globals](https://nodejs.org/api/globals.html#globals_global) 
+ - From the 12.12.x and higher the imports in NodeJS can use the ES6 way, instead of CommonJS.
+ - Common libraries most used in NodeJS: fs, path, http, nodemon
+ - [ExpressJS](http://expressjs.com/) 
+ - Most used attributes in express request: body, params, query, headers.
+ - Most used attributes in express response: status, send
+ - Most used methods with fs : readFile, readFileSync, appendFile, writeFile, unlink
+ - [Contest Happens every December](https://adventofcode.com/)
 
 # Github Awesome Profiles
 
