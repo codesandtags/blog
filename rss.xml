@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Codes and Tags]]></title><description><![CDATA[Codes and Tags is a blog created by Edwin Torres to share him experiences being Developer, Traveler and Teacher as Full-Stack Developer]]></description><link>https://codesandtags.github.io/blog</link><image><url>https://codesandtags.github.io/blog/icons/icon-512x512.png</url><title>Codes and Tags</title><link>https://codesandtags.github.io/blog</link></image><generator>GatsbyJS</generator><lastBuildDate>Mon, 11 May 2020 21:49:49 GMT</lastBuildDate><atom:link href="https://codesandtags.github.io/blog/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[The Complete Web Developer in 2020]]></title><description><![CDATA[These are my personal notes in the Udemy Course, The Complete Web Developer in 2020.]]></description><link>https://codesandtags.github.io/blog/the-complete-web-developer-in-2020</link><guid isPermaLink="false">https://codesandtags.github.io/blog/the-complete-web-developer-in-2020</guid><dc:creator><![CDATA[Edwin Torres]]></dc:creator><pubDate>Thu, 07 May 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Codes and Tags]]></title><description><![CDATA[Codes and Tags is a blog created by Edwin Torres to share him experiences being Developer, Traveler and Teacher as Full-Stack Developer]]></description><link>https://codesandtags.github.io/blog</link><image><url>https://codesandtags.github.io/blog/icons/icon-512x512.png</url><title>Codes and Tags</title><link>https://codesandtags.github.io/blog</link></image><generator>GatsbyJS</generator><lastBuildDate>Tue, 12 May 2020 02:02:06 GMT</lastBuildDate><atom:link href="https://codesandtags.github.io/blog/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[The Complete Web Developer in 2020]]></title><description><![CDATA[These are my personal notes in the Udemy Course, The Complete Web Developer in 2020.]]></description><link>https://codesandtags.github.io/blog/the-complete-web-developer-in-2020</link><guid isPermaLink="false">https://codesandtags.github.io/blog/the-complete-web-developer-in-2020</guid><dc:creator><![CDATA[Edwin Torres]]></dc:creator><pubDate>Thu, 07 May 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
 
@@ -1083,7 +1083,9 @@ return function MDXContent(_ref) {
     &quot;href&quot;: &quot;https://public-apis.xyz/&quot;,
     &quot;target&quot;: &quot;_blank&quot;,
     &quot;rel&quot;: &quot;noreferrer&quot;
-  }), &quot;Public APIs XYZ&quot;), &quot;  &quot;)), mdx(&quot;p&quot;, null, &quot;#Face Recognition Project&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+  }), &quot;Public APIs XYZ&quot;), &quot;  &quot;)), mdx(&quot;h1&quot;, {
+    &quot;id&quot;: &quot;face-recognition-project&quot;
+  }, &quot;Face Recognition Project&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
     parentName: &quot;ul&quot;
   }, mdx(&quot;a&quot;, _extends({
     parentName: &quot;li&quot;
@@ -1246,6 +1248,46 @@ return function MDXContent(_ref) {
     &quot;target&quot;: &quot;_blank&quot;,
     &quot;rel&quot;: &quot;noreferrer&quot;
   }), &quot;Contest Happens every December&quot;))), mdx(&quot;h1&quot;, {
+    &quot;id&quot;: &quot;databases&quot;
+  }, &quot;Databases&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Relational: MySQL, PostgreSQL, Oracle, MSSQL, Sybase, Derby, SQlite&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Non Relational (NoSQL) : Redis, MongoDB, Cassandra, CouchDB, Apache HBASE, Rick&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;http://knexjs.org/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;SQL Query builder for JavaScript&quot;))), mdx(&quot;h1&quot;, {
+    &quot;id&quot;: &quot;deployment&quot;
+  }, &quot;Deployment&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://devcenter.heroku.com/articles/getting-started-with-nodejs&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Heroku Node JS&quot;), &quot; &quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://nodejs.dev/how-to-read-environment-variables-from-nodejs&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Environment variables&quot;), &quot;  &quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;li&quot;
+  }, {
+    &quot;href&quot;: &quot;https://medium.com/quick-code/deploying-production-build-of-react-app-to-heroku-2548d8bf6936&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Heroku deployment article&quot;), &quot; &quot;)), mdx(&quot;h1&quot;, {
     &quot;id&quot;: &quot;github-awesome-profiles&quot;
   }, &quot;Github Awesome Profiles&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
     parentName: &quot;ul&quot;
