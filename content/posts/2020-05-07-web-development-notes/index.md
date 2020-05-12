@@ -174,7 +174,7 @@ These notes are just the most relevant parts or resources for me, so I recommend
  - [IBM API Speech to Text](https://www.ibm.com/cloud/watson-speech-to-text)
  - 🔥 [Public APIs XYZ](https://public-apis.xyz/)  
  
-#Face Recognition Project
+# Face Recognition Project
  - [Free Logos](https://iconos8.es/)
  - [Particles JS](https://vincentgarreau.com/particles.js/) and [Particles React](https://www.npmjs.com/package/react-particles-js)
  - [React Tilt](https://www.npmjs.com/package/react-tilt) 
@@ -200,6 +200,16 @@ These notes are just the most relevant parts or resources for me, so I recommend
  - Most used attributes in express response: status, send
  - Most used methods with fs : readFile, readFileSync, appendFile, writeFile, unlink
  - [Contest Happens every December](https://adventofcode.com/)
+ 
+# Databases
+ - Relational: MySQL, PostgreSQL, Oracle, MSSQL, Sybase, Derby, SQlite
+ - Non Relational (NoSQL) : Redis, MongoDB, Cassandra, CouchDB, Apache HBASE, Rick
+ - [SQL Query builder for JavaScript](http://knexjs.org/)
+  
+# Deployment
+ - [Heroku Node JS](https://devcenter.heroku.com/articles/getting-started-with-nodejs) 
+ - [Environment variables](https://nodejs.dev/how-to-read-environment-variables-from-nodejs)  
+ - [Heroku deployment article](https://medium.com/quick-code/deploying-production-build-of-react-app-to-heroku-2548d8bf6936) 
 
 # Github Awesome Profiles
 
