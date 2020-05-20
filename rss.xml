@@ -1,4 +1,119 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Codes and Tags]]></title><description><![CDATA[Codes and Tags is a blog created by Edwin Torres to share him experiences being Developer, Traveler and Teacher as Full-Stack Developer]]></description><link>https://codesandtags.github.io/blog</link><image><url>https://codesandtags.github.io/blog/icons/icon-512x512.png</url><title>Codes and Tags</title><link>https://codesandtags.github.io/blog</link></image><generator>GatsbyJS</generator><lastBuildDate>Tue, 12 May 2020 02:03:12 GMT</lastBuildDate><atom:link href="https://codesandtags.github.io/blog/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[The Complete Web Developer in 2020]]></title><description><![CDATA[These are my personal notes in the Udemy Course, The Complete Web Developer in 2020.]]></description><link>https://codesandtags.github.io/blog/the-complete-web-developer-in-2020</link><guid isPermaLink="false">https://codesandtags.github.io/blog/the-complete-web-developer-in-2020</guid><dc:creator><![CDATA[Edwin Torres]]></dc:creator><pubDate>Thu, 07 May 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Codes and Tags]]></title><description><![CDATA[Codes and Tags is a blog created by Edwin Torres to share him experiences being Developer, Traveler and Teacher as Full-Stack Developer]]></description><link>https://codesandtags.github.io/blog</link><image><url>https://codesandtags.github.io/blog/icons/icon-512x512.png</url><title>Codes and Tags</title><link>https://codesandtags.github.io/blog</link></image><generator>GatsbyJS</generator><lastBuildDate>Wed, 20 May 2020 03:41:40 GMT</lastBuildDate><atom:link href="https://codesandtags.github.io/blog/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[How to create a triangle in CSS]]></title><description><![CDATA[Do you know how to create a triangle in CSS without using images?, Well here is a short explanation]]></description><link>https://codesandtags.github.io/blog/how-to-create-a-triangle-in-css</link><guid isPermaLink="false">https://codesandtags.github.io/blog/how-to-create-a-triangle-in-css</guid><dc:creator><![CDATA[Edwin Torres]]></dc:creator><pubDate>Wed, 20 May 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;title&quot;: &quot;How to create a triangle in CSS&quot;,
+  &quot;author&quot;: &quot;Edwin Torres&quot;,
+  &quot;date&quot;: &quot;2020-05-20T00:00:00.000Z&quot;,
+  &quot;hero&quot;: &quot;./images/hero.png&quot;,
+  &quot;excerpt&quot;: &quot;Do you know how to create a triangle in CSS without using images?, Well here is a short explanation&quot;
+};
+
+var makeShortcode = function makeShortcode(name) {
+  return function MDXDefaultShortcode(props) {
+    console.warn(&quot;Component &quot; + name + &quot; was not imported, exported, or provided by MDXProvider as global scope&quot;);
+    return mdx(&quot;div&quot;, props);
+  };
+};
+
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, [&quot;components&quot;]);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;p&quot;, null, &quot;A couple of days before, I had to face this common challenge, however, there are many solutions (using images, using divs, and using pseudo-elements with and empty content). For me, the best solution was using pseudo-elements, so that here is my solution.&quot;), mdx(&quot;p&quot;, null, &quot;If you want to read more about this common pattern, please review &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://css-tricks.com/snippets/css/css-triangle/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;this article in CSS Tricks&quot;), &quot; (One of the best pages for CSS Content).&quot;), mdx(&quot;h2&quot;, {
+    &quot;id&quot;: &quot;understanding-before-and-after-pseudo-elements-in-css&quot;
+  }, &quot;Understanding ::before and ::after pseudo-elements in CSS&quot;), mdx(&quot;p&quot;, null, &quot;In few words a &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;pseudo-element&quot;), &quot; is : &quot;), mdx(&quot;blockquote&quot;, null, mdx(&quot;p&quot;, {
+    parentName: &quot;blockquote&quot;
+  }, &quot;A CSS pseudo-element is a keyword added to a selector that lets you style a specific part of the selected element(s). For example, ::first-line can be used to change the font of the first line of a paragraph. &quot;)), mdx(&quot;h2&quot;, {
+    &quot;id&quot;: &quot;creating-the-triangle&quot;
+  }, &quot;Creating the triangle&quot;), mdx(&quot;p&quot;, null, &quot;After understanding the above concept, it means we can add some content, or create another element given a selector.\nIn our case, if we define a &quot;, mdx(&quot;inlineCode&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;border-width&quot;), &quot; and we have an empty &quot;, mdx(&quot;inlineCode&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;content&quot;), &quot;, the border will start from the center of the element.&quot;), mdx(&quot;iframe&quot;, {
+    src: &quot;https://giphy.com/embed/DfSXiR60W9MVq&quot;,
+    width: &quot;100%&quot;,
+    height: &quot;100%&quot;,
+    style: {
+      &quot;width&quot;: &quot;100%&quot;,
+      &quot;maxWidth&quot;: &quot;850px&quot;,
+      &quot;margin&quot;: &quot;20px auto&quot;
+    },
+    frameBorder: &quot;0&quot;,
+    className: &quot;giphy-embed&quot;,
+    allowFullScreen: true
+  }), mdx(&quot;p&quot;, null, &quot;Then, pretty much we need to play with the &quot;, mdx(&quot;inlineCode&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;border-color&quot;), &quot;, &quot;, mdx(&quot;inlineCode&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;border-width&quot;), &quot; and the &quot;, mdx(&quot;inlineCode&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;position:absolute&quot;), &quot; to create our triangle. Below, you will find a couple of examples in my &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://codepen.io/codesandtags/embed/ExVGWvG?height=265&amp;theme-id=dark&amp;default-tab=result&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;codepen&quot;), &quot;. &quot;), mdx(&quot;iframe&quot;, {
+    height: &quot;450&quot;,
+    style: {
+      &quot;width&quot;: &quot;100%&quot;,
+      &quot;maxWidth&quot;: &quot;850px&quot;,
+      &quot;margin&quot;: &quot;20px auto&quot;
+    },
+    scrolling: &quot;no&quot;,
+    title: &quot;Triangles CSS&quot;,
+    src: &quot;https://codepen.io/codesandtags/embed/ExVGWvG?height=265&amp;theme-id=dark&amp;default-tab=result&quot;,
+    frameBorder: &quot;no&quot;,
+    allowtransparency: &quot;true&quot;,
+    allowFullScreen: &quot;true&quot;
+  }, &quot;See the Pen &quot;, mdx(&quot;a&quot;, {
+    href: &quot;https://codepen.io/codesandtags/pen/ExVGWvG&quot;
+  }, &quot;Triangles CSS&quot;), &quot; by Edwin Torres (&quot;, mdx(&quot;a&quot;, {
+    href: &quot;https://codepen.io/codesandtags&quot;
+  }, &quot;@codesandtags&quot;), &quot;) on &quot;, mdx(&quot;a&quot;, {
+    href: &quot;https://codepen.io&quot;
+  }, &quot;CodePen&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, {
+    &quot;id&quot;: &quot;whats-the-next&quot;
+  }, &quot;What\u2019s the next?&quot;), mdx(&quot;p&quot;, null, &quot;Well, I think that\u2019s all using a short example. Given the above examples, you can add letters, transformations, animations, and whatever you can imagine, using the pseudo-elements.\nTo get a complete list, please &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;check the documentation&quot;), &quot; and don\u2019t forget review the &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://caniuse.com/#search=%3A%3Abefore&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;compatibility with browsers&quot;), &quot;.&quot;), mdx(&quot;p&quot;, null, &quot;Cheers and keep learning! \uD83C\uDF7B&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[The Complete Web Developer in 2020]]></title><description><![CDATA[These are my personal notes in the Udemy Course, The Complete Web Developer in 2020.]]></description><link>https://codesandtags.github.io/blog/the-complete-web-developer-in-2020</link><guid isPermaLink="false">https://codesandtags.github.io/blog/the-complete-web-developer-in-2020</guid><dc:creator><![CDATA[Edwin Torres]]></dc:creator><pubDate>Thu, 07 May 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
 
