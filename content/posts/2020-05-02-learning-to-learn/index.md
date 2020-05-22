@@ -1,4 +1,3 @@
-
 ---
 title: Learning to learn
 author: Edwin Torres
