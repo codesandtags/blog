@@ -70,5 +70,15 @@ module.exports = {
         endpoint: 'https://github.us8.list-manage.com/subscribe/post?u=8dbe735d8d5499c1098e8f8ff&amp;id=6324a629f0',
       },
     },
+    {
+      resolve: "gatsby-remark-embed-video",
+      options: {
+        width: 800,
+        ratio: 1.77,
+        height: 400,
+        related: false,
+        noIframeBorder: true
+      },
+    },
   ],
 };
