@@ -2,7 +2,7 @@
 title: Roadmap Web Developer Front End 2020
 author: Edwin Torres
 date: 2020-05-22
-hero: ./images/hero.webp
+hero: ./images/hero.jpeg
 excerpt: These notes are part of the recommendations of Andrei Neagoie in the Real Web Developer Roadmap 2020
 ---
 
