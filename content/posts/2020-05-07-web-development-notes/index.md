@@ -7,7 +7,7 @@ excerpt: These are my personal notes in the Udemy Course, The Complete Web Devel
 ---
 
 As part of my personal training I've decided to re force my knowledge in web development, so I bought one of the best courses
-(in my personal opinion), [the-complete-web-developer-zero-to-mastery 2020](https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery/) by [Andrei Neagoie](https://www.udemy.com/user/andrei-neagoie/) and here are my notes. 
+(in my personal opinion), [Complete Web Developer 2020 Course by ZTM](https://academy.zerotomastery.io/purchase?product_id=1527922&coupon_code=FRIENDS10&affcode=441520_49y0uhps) and here are my notes. 
 These notes are just the most relevant parts or resources for me, so I recommend you review the course for more details. 
 
 # 1. How the internet works
@@ -218,5 +218,7 @@ These notes are just the most relevant parts or resources for me, so I recommend
  * [Andrei Neagoie](https://github.com/aneagoie)
  * [Edwin Torres](https://github.com/codesandtags)
 
+PS: If you are starting your Web Development career, I suggest you can start with this 
+[Complete Web Developer 2020 Course by ZTM](https://academy.zerotomastery.io/purchase?product_id=1527922&coupon_code=FRIENDS10&affcode=441520_49y0uhps) and get a 10% discount using that link.
 
 Cheers and keep learning! 🍻

@@ -1,3 +1,4 @@
+
 ---
 title: Learning to learn
 author: Edwin Torres
@@ -236,5 +237,9 @@ There are a couple of lies in the world and the learning process you need to kno
 18. The first 20 hours and ultralearning books.
     - [The first 20 hours](https://www.amazon.es/First-20-Hours-Learn-Anything/dp/1591846943)
     - [Ultralearning](https://www.amazon.com/-/es/Scott-Young/dp/006285268X)
+
+PS: If you are starting to learn, I suggest you can start with this 
+[Learning to learn Course by ZTM](https://academy.zerotomastery.io/purchase?product_id=1527922&coupon_code=FRIENDS10&affcode=441520_49y0uhps) and get a 10% discount using that link.
+
 
 Cheers and keep learning! 🍻
