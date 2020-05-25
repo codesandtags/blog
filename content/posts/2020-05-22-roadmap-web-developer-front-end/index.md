@@ -44,7 +44,7 @@ Important note: The links and notes marked with the 🚀 are highly recommend
 * [SEO](https://developer.mozilla.org/es/docs/Glossary/SEO)
 * [Forms](https://developer.mozilla.org/es/docs/Learn/HTML/Forms)
 
-[Responsive Mobile First 🚀](https://css-tricks.com/notes-agency-starting-their-first-responsive-web-project/)
+### [Responsive Mobile First 🚀](https://css-tricks.com/notes-agency-starting-their-first-responsive-web-project/)
 
 ### CSS3 🚀
 * [Animations](https://css-tricks.com/css-animation-libraries/)
