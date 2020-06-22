@@ -8,7 +8,7 @@
     "url": "https://github.com/codesandtags/codesandtags.github.io"
   },
   "dependencies": {
-    "@narative/gatsby-theme-novela": "0.15.7",
+    "@narative/gatsby-theme-novela": "0.16.4",
     "gatsby": "^2.22.9",
     "gatsby-plugin-google-analytics": "^2.3.2",
     "gatsby-plugin-mailchimp": "^5.1.2",
