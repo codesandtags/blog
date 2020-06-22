@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{QZFl:function(e,n,t){e.exports=t.p+"static/404-error-fedf7125acf620e856b6d09ef44eee51.gif"},w2l6:function(e,n,t){"use strict";t.r(n);t("q1tI");var s=t("dH/O"),c=t("noox"),l=t("WsIH"),i=(t("gZs9"),t("QZFl")),o=t.n(i),u=t("qKvR");n.default=function(){return Object(u.jsx)(s.a,null,Object(u.jsx)(l.a,null),Object(u.jsx)(c.a,null,Object(u.jsx)("div",null,Object(u.jsx)("img",{src:o.a,width:"100%"}))))}}}]);
+//# sourceMappingURL=component---src-pages-404-js-ac0cdd43916381062281.js.map
