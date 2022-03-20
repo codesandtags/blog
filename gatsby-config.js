@@ -1,12 +1,12 @@
 module.exports = {
-  pathPrefix: "/blog",
+  pathPrefix: "/blog/",
   siteMetadata: {
     title: `Codes and Tags`,
     name: `Edwin Torres`,
-    siteUrl: `https://codesandtags.github.io/blog/`,
+    siteUrl: `https://www.codesandtags.io/blog/`,
     description: `Codes and Tags is a blog created by Edwin Torres to share him experiences being Developer, Traveler and Teacher as Full-Stack Developer`,
     hero: {
-      heading: `Coding, stories, and other technical stuff.`,
+      heading: `Coding, stories, algorithms, blockchain and other technical stuff.`,
       maxWidth: 652,
     },
     social: [
