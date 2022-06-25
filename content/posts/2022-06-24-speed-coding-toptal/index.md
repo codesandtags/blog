@@ -3,11 +3,8 @@ title: Speed Coding Toptal
 author: Edwin Torres
 date: 2022-03-19
 hero: ./images/hero.png
-excerpt: Mi primer acercamiento a los retos de speed coding y como abordé los problemas.
+excerpt: Este es mi primer acercamiento a los retos de speed coding y acá cuento ¿cómo abordé los problemas del Speed Coding creado por Toptal en el CollisionConf?.
 ---
-
-![Speed Coding](./images/hero.png)
-
 ## ¿Cómo abordé un reto de Speed Coding creado por Toptal?
 
 Hace unos días estuve en el [CollisionConf](https://collisionconf.com/) *(Collision is one of the world’s biggest tech conferences)*, donde participaron muchas startups, vinieron speakers de talla mundial, habían inversores buscando oportunidades, CEO/CTO/Directores/Estudiantes con una historia y muchas ganas de aprender.
@@ -43,7 +40,7 @@ En este punto hice varias cosas como:
 5. Simulaba un click sobre botón Submit que ejecutaba las pruebas.
 6. Simulaba un click sobre botón Submit para enviar el ejercicio y moverme al siguiente hasta terminar.
 
-Ver código fuente
+[Ver código fuente - speed-coding.js](https://github.com/codesandtags/speed-coding/blob/main/src/toptal/speed-coding.js)
 
 Esta estrategia me permitió subir a un puntaje apróximadamente de unos `1,500` puntos.
 
@@ -59,7 +56,7 @@ En este punto realicé las siguientes cosas:
 3. Me dí cuenta que lo más importante en el API era enviar en sus datos las respuestas de los test con el valor correcto, y esto significaba que tenía que ejecutar localmente las validaciones con mis funciones generadas para cada problema.
 4. En este punto lo más retante fue identificar la mejor forma de ejecutar las funciones con parámetros variables y ajustar el formato de la respuesta en la petición, como por ejemplo los test_cases y el code.
 
-Ver código fuente
+[Ver código fuente - speed-coding-api.js](https://github.com/codesandtags/speed-coding/blob/main/src/toptal/speed-coding-api.js)
 
 Esta estrategia me permitió subir a un puntaje apróximado de  `3928` puntos.
 
