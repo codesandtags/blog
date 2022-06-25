@@ -1,7 +1,7 @@
 ---
 title: Speed Coding Toptal
 author: Edwin Torres
-date: 2022-03-19
+date: 2022-06-24
 hero: ./images/hero.png
 excerpt: Este es mi primer acercamiento a los retos de speed coding y acá cuento ¿cómo abordé los problemas del Speed Coding creado por Toptal en el CollisionConf?.
 ---
