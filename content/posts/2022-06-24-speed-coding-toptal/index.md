@@ -13,7 +13,7 @@ Justo faltando un día para que acabara el evento, me encontré en un stand de l
 
 ## ¿Cómo era la prueba?
 
-La prueba consistia en resolver en menos de 3 minutos (apróximadamente) unos 15 ejercicios de programación en Javascript, los cuales salían de forma aleatoria, empezando por los fáciles y terminando por el que más complejidad tenía. La interfaz gráfica usaba [Ace Editor](https://ace.c9.io/)  para ingresar el código esperado, ejecutar los Unit Test y enviar la solución.
+La prueba consistia en resolver en menos de 3 minutos (apróximadamente) unos `15 ejercicios de programación` en Javascript, los cuales salían de forma aleatoria, empezando por los fáciles y terminando por el que más complejidad tenía. La interfaz gráfica usaba [Ace Editor](https://ace.c9.io/)  para ingresar el código esperado, ejecutar los Unit Test y enviar la solución.
 
 Por cada ejercicio solucionado te dan una serie de puntos, y también dependiendo la cantidad de segundos que te sobren te van dando una bonificación.
 
@@ -24,7 +24,7 @@ Por cada ejercicio solucionado te dan una serie de puntos, y también dependiend
 
 Dado que era mi primer acercamiento al Speed Coding, abordé el tema como todo un novato, empecé a familiarizarme con la interfaz gráfica, fue explorando los ejercicios que tenían, y empecé a guardar las preguntas para solucionarlas una a una con más tiempo.  Una vez tenía todas las preguntas y respuestas, decidí empezar a copiar y pegar las respuestas (ya que es imposible escribir ese código manualmente en ese tiempo). 
 
-Haciendo esto llegué a ganar alrededor de unos 300 puntos, (sin embargo los primeros lugares tenían un poco más de 4000 puntos). En ese momento supe que no era la mejor estrategia y tenia que buscar algo más efectivo.
+Haciendo esto llegué a ganar alrededor de unos `300 puntos`, (sin embargo los primeros lugares tenían un poco más de `4000 puntos`). En ese momento supe que no era la mejor estrategia y tenia que buscar algo más efectivo.
 
 
 ## Segunda estrategia - Automatizando envios en la interfaz gráfica
