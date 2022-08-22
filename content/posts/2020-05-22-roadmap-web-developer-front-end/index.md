@@ -6,7 +6,7 @@ hero: ./images/hero.jpeg
 excerpt: These notes are part of the recommendations of Andrei Neagoie in the Real Web Developer Roadmap 2020
 ---
 
-These notes are part of the recommendations of [Andrei Neagoie](https://zerotomastery.io/about/instructor/andrei-neagoie/) in the [Real Web Developer Roadmap 2020](https://www.youtube.com/watch?v=57GuRoJ5Bfw). I invite you to [review the course](https://zerotomastery.io/courses/) and get your own insights. So, this an awesome feedback about what should we focus in this 2020 as Web Developers.
+These notes are part of the recommendations of [Andrei Neagoie](https://zerotomastery.io/about/instructor/andrei-neagoie/) in the [Real Web Developer Roadmap 2020](https://www.youtube.com/watch?v=aDSTky-eJ8g). I invite you to [review the course](https://zerotomastery.io/courses/) and get your own insights. So, this an awesome feedback about what should we focus in this 2020 as Web Developers.
 This first part covers the FrontEnd point of view in the roadmap, the BackEnd part is coming 😅
 
 Important note: The links and notes marked with the 🚀 are highly recommend

@@ -1,5 +1,5 @@
 ---
-title: The Complete Web Developer in 2020
+title: The Complete Web Developer in 2022
 author: Edwin Torres
 date: 2020-05-07
 hero: ./images/hero.jpg
@@ -7,7 +7,7 @@ excerpt: These are my personal notes in the Udemy Course, The Complete Web Devel
 ---
 
 As part of my personal training I've decided to re force my knowledge in web development, so I bought one of the best courses
-(in my personal opinion), [Complete Web Developer 2020 Course by ZTM](https://academy.zerotomastery.io/purchase?product_id=1527922&coupon_code=FRIENDS10&affcode=441520_49y0uhps) and here are my notes. 
+(in my personal opinion), [Complete Web Developer 2022 Course by ZTM](https://academy.zerotomastery.io/purchase?product_id=1527922&coupon_code=FRIENDS10&affcode=441520_49y0uhps) and here are my notes. 
 These notes are just the most relevant parts or resources for me, so I recommend you review the course for more details. 
 
 # 1. How the internet works
