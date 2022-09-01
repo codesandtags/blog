@@ -66,3 +66,34 @@ This week I've recieved the book [Engineers Survival Guide](https://www.amazon.c
 ### Let people fail. Help them fall slowly
 - "Trust in yourself and your peers, make sure the direction is set, and let them drive. Let them fail; failure is nothing but a great learning opportunity. Just make sure you have built a safety net around them, so if they fail, neither of your careers are at risk"
 - "Do not be a micromanager. Set a direction and let people do their best while preparing a safety net in case they fall"
+
+
+### The Tiebreaker - Reaching consensus
+
+- "The problem starts when the discussion is about something non quantifiable, and people's opinions come from their intuition. We have talked about how engineers are data driven"
+- "Always have an odd number of people in decision-making so you can always have a tiebreaker"
+
+### The importance of allies in Design discussions
+
+- "Do not underestimate the power of allies during the design discussion. The worst outcome in a design discussion is a split group supporting different approaches"
+- "Use Design discussion to utilize as many people's brains as possible"
+- "Make sure all the decisions and the alternatives are documented so everyone can follow them"
+- "Make the design document an evolving document instead of an end-to-end design"
+
+### The power of meeting summary emails
+
+- "Try writing down notes during the meeting and sending them to the invites afterward. Why? This helps you better to understand what was discussed and what decisions were made"
+- "This helps to create a seearchable documentation library. Our brains are not evolved to remember every detail of every decision made"
+- "Get yourself in the habit of taking notes and sharing them with stakeholders after each meeting"
+
+
+### Align, align and align
+
+- "The secret of success at any company is to figure out the long term vision, the short-term direction, and if you are headed in the right way to achieve setting the right direction"
+- "Make sure both you and your team are aligned with the management, division, and company. Align, align and align again as directions will change regularly. This should be a regular exercise for you"
+
+### The power of giving credit
+
+- "Even though this is one of the most important feelings we seek on a regular basis and one of the most satisfying ones, we neither do it enough"
+- "Find something useful and start giving credit to the owner either by directly telling them or spreading the love in the meetings you join. The more credit you give, the better"
+
