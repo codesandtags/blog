@@ -13,7 +13,7 @@
     "gatsby-plugin-google-analytics": "^2.7.0",
     "gatsby-plugin-mailchimp": "^5.2.2",
     "gatsby-plugin-manifest": "^2.8.0",
-    "gatsby-plugin-netlify-cms": "^4.6.0",
+    "gatsby-plugin-netlify-cms": "^7.1.0",
     "gatsby-remark-embed-video": "^3.0.10",
     "gh-pages": "^2.2.0",
     "netlify-cms-app": "^2.14.5",
