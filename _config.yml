@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Codes and Tags
 subtitle: ""
-description: ""
-keywords:
-author: John Doe
+description: "Curiosidad intensa por la programación"
+keywords: software development, software interview, artificial intelligence, machine learning
+author: Edwin Torres
 language: en
 timezone: ""
 
@@ -17,8 +17,8 @@ url: http://codesandtags.io/blog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
-   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
-   trailing_html: true # Set to false to remove trailing '.html' from permalinks
+  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: true # Set to false to remove trailing '.html' from permalinks
 
 # Directory
 source_dir: source
@@ -35,35 +35,35 @@ new_post_name: :title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link:
-   enable: true # Open external links in new tab
-   field: site # Apply to the whole site
-   exclude: ""
+  enable: true # Open external links in new tab
+  field: site # Apply to the whole site
+  exclude: ""
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-   enable: true
-   line_number: true
-   auto_detect: false
-   tab_replace: ""
-   wrap: true
-   hljs: false
+  enable: true
+  line_number: true
+  auto_detect: false
+  tab_replace: ""
+  wrap: true
+  hljs: false
 prismjs:
-   enable: false
-   preprocess: true
-   line_number: true
-   tab_replace: ""
+  enable: false
+  preprocess: true
+  line_number: true
+  tab_replace: ""
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-   path: ""
-   per_page: 10
-   order_by: -date
+  path: ""
+  per_page: 10
+  order_by: -date
 
 # Category & Tag
 default_category: uncategorized
@@ -97,11 +97,11 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: inside
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-   type: git
-   repo: https://github.com/codesandtags/codesandtags.github.io.git
-   branch: main
+  type: git
+  repo: https://github.com/codesandtags/blog.git
+  branch: gh-pages
