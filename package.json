@@ -42,7 +42,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy": "npm run build && gh-pages -d public",
+    "deploy": "npm run clean && npm run build && gh-pages -d public",
     "proxy": "netlify-cms-proxy-server"
   }
 }

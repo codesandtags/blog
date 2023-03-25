@@ -96,4 +96,3 @@ This week I've recieved the book [Engineers Survival Guide](https://www.amazon.c
 
 - "Even though this is one of the most important feelings we seek on a regular basis and one of the most satisfying ones, we neither do it enough"
 - "Find something useful and start giving credit to the owner either by directly telling them or spreading the love in the meetings you join. The more credit you give, the better"
-

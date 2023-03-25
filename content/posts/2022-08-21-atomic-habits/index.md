@@ -29,3 +29,7 @@ If you haven't heard about [Atomic Habits](https://jamesclear.com/atomic-habits)
 - "You do not rise to the level of your goals. You fall to the level of your systems"
 
 ### How your habits shape your identity and vice versa
+
+- "Once your habits are established, they seem to stick around forever - especially the unwanted ones".
+- "Changing our habits is challenging for two reasongs: (1) we try to change the wrong thing and (2) we try to change our habits in the wrong way".
+- "When you have repeated a story to yourself for year, it is easy to slide into these mental grooves and accept them as a fact".
