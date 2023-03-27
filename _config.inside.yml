@@ -16,7 +16,7 @@ appearance:
   # 'url(//www.toptal.com/designers/subtlepatterns/patterns/confectionary.png) #f5f7fa'
 
   # Maximum width of content
-  # content_width: 640
+  content_width: 840
 
   # Fonts
   font:
@@ -51,30 +51,42 @@ appearance:
   # the default theme is a customized Atelier Dune Light theme,
   # please feel free to explore more.
   highlight:
+    # Default Light by Chris Kempson (http://chriskempson.com)
+    # highlight: [
+    #   '#f8f8f8', '#e8e8e8', '#d8d8d8', '#b8b8b8',
+    #   '#585858', '#383838', '#282828', '#181818',
+    #   '#ab4642', '#dc9656', '#f7ca88', '#a1b56c',
+    #   '#86c1b9', '#7cafc2', '#ba8baf', '#a16946'
+    # ]
 
-  # Default Light by Chris Kempson (http://chriskempson.com)
-  # highlight: [
-  #   '#f8f8f8', '#e8e8e8', '#d8d8d8', '#b8b8b8',
-  #   '#585858', '#383838', '#282828', '#181818',
-  #   '#ab4642', '#dc9656', '#f7ca88', '#a1b56c',
-  #   '#86c1b9', '#7cafc2', '#ba8baf', '#a16946'
-  # ]
+    # Harmonic16 Light by Jannik Siebert (https://github.com/janniks)
+    # highlight: [
+    #   '#f7f9fb', '#e5ebf1', '#cbd6e2', '#aabcce',
+    #   '#627e99', '#405c79', '#223b54', '#0b1c2c',
+    #   '#bf8b56', '#bfbf56', '#8bbf56', '#56bf8b',
+    #   '#568bbf', '#8b56bf', '#bf568b', '#bf5656'
+    # ]
 
-  # Harmonic16 Light by Jannik Siebert (https://github.com/janniks)
-  # highlight: [
-  #   '#f7f9fb', '#e5ebf1', '#cbd6e2', '#aabcce',
-  #   '#627e99', '#405c79', '#223b54', '#0b1c2c',
-  #   '#bf8b56', '#bfbf56', '#8bbf56', '#56bf8b',
-  #   '#568bbf', '#8b56bf', '#bf568b', '#bf5656'
-  # ]
-
-  # Tomorrow Night by Chris Kempson (http://chriskempson.com)
-  # highlight: [
-  #   '#1d1f21', '#282a2e', '#373b41', '#969896',
-  #   '#b4b7b4', '#c5c8c6', '#e0e0e0', '#ffffff',
-  #   '#cc6666', '#de935f', '#f0c674', '#b5bd68',
-  #   '#8abeb7', '#81a2be', '#b294bb', '#a3685a'
-  # ]
+    # Tomorrow Night by Chris Kempson (http://chriskempson.com)
+    highlight:
+      [
+        "#1d1f21",
+        "#282a2e",
+        "#373b41",
+        "#969896",
+        "#b4b7b4",
+        "#c5c8c6",
+        "#e0e0e0",
+        "#ffffff",
+        "#cc6666",
+        "#de935f",
+        "#f0c674",
+        "#b5bd68",
+        "#8abeb7",
+        "#81a2be",
+        "#b294bb",
+        "#a3685a",
+      ]
 
   darkmode:
     accent_color: "#2a2b33"
@@ -129,6 +141,15 @@ sns:
   - icon: email
     title: Email
     url: # default to `profile.email`
+  - icon: github
+    title: Github
+    url: https://github.com/codesandtags
+  - icon: youtube
+    title: Youtube
+    url: https://www.youtube.com/@codesandtags
+  - icon: instagram
+    title: Instagram
+    url: https://www.instagram.com/codesandtags/
   - icon: feed
     title: Feed
     url: # default to `hexo.config.feed.path`
@@ -145,7 +166,7 @@ sns:
 # Sidebar footer copyright info
 footer:
   # Set to false to hide.
-  copyright: '&copy; 2023 • <a href="codesandtags.io">Codes and Tags</a>'
+  copyright: '&copy; 2023 • <a href="https://www.codesandtags.io/">Codes and Tags</a>'
 
   # Set to false to hide Hexo link.
   # powered: false
@@ -174,7 +195,7 @@ page:
 
 # Post
 post:
-  # per_page: 10
+  per_page: 10
   # reading_time: false
   # reading_time:
   #   wpm: 150
@@ -200,18 +221,18 @@ category:
 # Search
 search:
   # Display a quick search button in fab
-  # fab: true
+  fab: true
 
   # Render a standalone searh page which can be configured in sidebar menu such as `Search: /search`
-  # page: true
+  page: true
 
   # Local search
-  # adapter:
-  #   range:
-  #     - post
-  #     - page
-  #   per_page: 20
-  #   limit: 10000
+  adapter:
+    range:
+      - post
+      - page
+    per_page: 20
+    limit: 10000
 
   # Custom search
   # adapter:
@@ -266,7 +287,7 @@ toc:
 # Reward
 reward:
   # Text which shows at the top.
-  # text: Buy me a cup of coffee ☕.
+  text: Buy me a cup of coffee ☕.
 
   # Payment Methods
   # qrcode, url and text must be set at least one
@@ -283,7 +304,7 @@ reward:
 # It is possible to use front matter `copyright` to override this setting.
 copyright:
   # Display author, default to `true`
-  # author: true
+  author: true
 
   # Display link, default to `true`
   # link: false
@@ -328,10 +349,10 @@ data_prefix:
 data_dir:
 
 # Favicon, default to `favicon.ico`
-favicon:
+favicon: images/favicon.ico
 
 # Google analytics
-# ga: UA-00000000-0
+ga: G-Y2Y45JXYBM
 
 # SEO
 seo:

@@ -1,14 +1,14 @@
 ---
-title: Working in Google preparation plan
+title: Working at Google - preparation plan (part 1)
 date: 2023-03-25 00:22:35
 tags: [google, software, interview]
 excerpt: Working in Google could be one of the most exciting things in life for Software Engineers, here I have a detailed plan splitted in several articles.
 author: codesandtags
+category: FAANG
+thumbnail: images/faang-google-thumbnail.jpg
 ---
 
-Working in Google could be one of the most exciting things in life for Software Engineers, here I have a detailed plan splitted in several articles.
-
-![space](images/working-in-google-preparation-plan-hero.jpg)
+Working at Google could be one of the most exciting things in life for Software Engineers, here I have a detailed plan splitted in several articles.
 
 ## Understand the interview process:
 
@@ -62,3 +62,5 @@ Keep up with the latest trends in software development, programming languages, a
 The Google interview process can be challenging, and not everyone passes on their first attempt. Learn from your experiences, iterate on your approach, and keep working towards your goal.
 
 By following this strategy, you can improve your chances of passing Google's software interviews and potentially land a position at the company.
+
+![space](images/working-at-google-preparation-plan-hero.jpg)

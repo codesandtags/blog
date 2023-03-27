@@ -13,7 +13,8 @@ timezone: ""
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://codesandtags.io/blog/
+url: http://codesandtags.io/blog
+root: /blog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -94,10 +95,14 @@ include:
 exclude:
 ignore:
 
+# Google Analytics
+ga: G-Y2Y45JXYBM
+
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: inside
+#theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
