@@ -2,7 +2,7 @@
 title: Working at Google - preparation plan (part 1)
 date: 2023-03-25 00:22:35
 tags: [google, software, interview]
-excerpt: Working in Google could be one of the most exciting things in life for Software Engineers, here I have a detailed plan splitted in several articles.
+excerpt: Working at Google could be one of the most exciting things in life for Software Engineers, here I have a detailed plan splitted in several articles.
 author: codesandtags
 category: FAANG
 thumbnail: images/faang-google-thumbnail.jpg

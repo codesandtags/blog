@@ -16,7 +16,7 @@ appearance:
   # 'url(//www.toptal.com/designers/subtlepatterns/patterns/confectionary.png) #f5f7fa'
 
   # Maximum width of content
-  content_width: 840
+  content_width: 780
 
   # Fonts
   font:

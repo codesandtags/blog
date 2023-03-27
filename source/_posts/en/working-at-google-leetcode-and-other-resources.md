@@ -4,6 +4,7 @@ date: 2023-03-25 11:41:14
 tags: [google, software, interview, leetcode]
 excerpt: Practicing coding problems is essential for preparing for technical interviews at companies like Google. LeetCode and other online resources offer a vast collection of coding challenges that help you hone your problem-solving and coding skills.
 author: codesandtags
+category: FAANG
 thumbnail: images/faang-google-thumbnail.jpg
 ---
 

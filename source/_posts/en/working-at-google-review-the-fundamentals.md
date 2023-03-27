@@ -4,6 +4,7 @@ date: 2023-03-25 11:28:14
 tags: [google, software, interview]
 excerpt: Reviewing the fundamentals is crucial for preparing for Google software interviews, as they form the foundation of your problem-solving skills.
 author: codesandtags
+category: FAANG
 thumbnail: images/faang-google-thumbnail.jpg
 ---
 

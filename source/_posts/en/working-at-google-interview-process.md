@@ -4,6 +4,7 @@ date: 2023-03-25 01:48:14
 tags: [google, software, interview]
 excerpt: Here we have a detailed explanation about the interview process at Google. So let's explore every step and how long could it take.
 author: codesandtags
+category: FAANG
 thumbnail: images/faang-google-thumbnail.jpg
 ---
 
