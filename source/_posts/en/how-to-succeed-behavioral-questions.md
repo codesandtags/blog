@@ -1,5 +1,5 @@
 ---
-title: How to succeed behavioral questions
+title: How to succeed behavioral questions?
 date: 2023-03-26 22:53:52
 tags: [interview]
 excerpt: Practicing behavioral questions is essential for interview preparation because they allow the interviewer to assess your interpersonal and problem-solving skills, work ethic, and cultural fit with the company.
