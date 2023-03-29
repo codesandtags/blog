@@ -1,5 +1,5 @@
 ---
-title: How can help you the Mock Interviews?
+title: How can Mock Interviews help you?
 date: 2023-03-28 17:50:23
 tags: [interview]
 excerpt: Mock interviews are practice interviews conducted to help you prepare for the actual job interview. They are an essential part of your interview preparation as they can help you refine your answers, improve your communication skills, and increase your confidence.
