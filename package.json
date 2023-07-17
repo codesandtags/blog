@@ -11,6 +11,20 @@
   "hexo": {
     "version": "6.3.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codesandtags/blog.git"
+  },
+  "keywords": [
+    "codesandtags",
+    "blog"
+  ],
+  "author": "codesandtags <[email](codesandtags@gmail.com)> (codesandtags@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codesandtags/blog/issues"
+  },
+  "homepage": "https://www.codesandtags.io/blog/",
   "dependencies": {
     "hexo": "^6.3.0",
     "hexo-asset-link": "^2.2.1",
