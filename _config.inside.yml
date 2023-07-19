@@ -129,9 +129,9 @@ profile:
 # Sidebar navigation links
 menu:
   Home: /
-  # About: /about
+  About: /about
   # Links: /links
-  # Github: https://github.com/username
+  Github: https://github.com/codesandtags
 
 # Social media URL
 sns:
