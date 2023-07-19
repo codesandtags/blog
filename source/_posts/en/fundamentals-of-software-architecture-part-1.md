@@ -3,6 +3,7 @@ title: Fundamentals of Software Architecture Book Part 1
 date: 2023-07-17 18:50:03
 tags: [software-architecture, books]
 excerpt: Here I have the relevant points to me of the book Fundamentals of Software Architecture by Mark Richards and Neal Ford.
+category: Software Architecture
 thumbnail: images/books/cover-fundamentals-software-architecture.png
 ---
 

@@ -1,17 +1,17 @@
 menu:
-  archives: Archivos
-  categories: Categorias
-  tags: Etiquetas
+  archives: Archives
+  categories: Categories
+  tags: Tags
 
 title:
-  archives: Archivos
-  categories: Categorias
-  tags: Etiquetas
-  search: Búsqueda
+  archives: Archives
+  categories: Categories
+  tags: Tags
+  search: Search
 
 footer:
   powered: Powered by %s
-  theme: Thema
+  theme: テーマ
 
 reward:
   paypal: Paypal
@@ -25,7 +25,7 @@ comments:
 
 post:
   copyright:
-    author: Autor
+    author: 著者
     link: 記事へのリンク
     license: 著作権表示
     published: 出版日
