@@ -2,7 +2,7 @@
 title: {{ title }}
 date: {{ date }}
 author: codesandtags
-category: {{ category }}}
+category: {{ category }}
 thumbnail: images/faang-google-thumbnail.jpg
 tags:
 ---

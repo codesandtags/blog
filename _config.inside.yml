@@ -16,7 +16,7 @@ appearance:
   # 'url(//www.toptal.com/designers/subtlepatterns/patterns/confectionary.png) #f5f7fa'
 
   # Maximum width of content
-  content_width: 780
+  content_width: 800
 
   # Fonts
   font:
@@ -25,7 +25,7 @@ appearance:
     url: //fonts.googleapis.com/css?family=Baloo+Bhaijaan|Inconsolata|Josefin+Sans|Montserrat
 
     # Base font which applied to body
-    base: "'Josefin Sans', 'PingFang SC'"
+    base: "Montserrat, 'PingFang SC'"
     # Sidebar author font, fallback to `base`
     logo:
     # Sidebar menu font, fallback to `base`
