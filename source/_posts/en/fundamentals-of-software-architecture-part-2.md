@@ -18,7 +18,7 @@ excerpt: Here I have the relevant points to me of the book Fundamentals of Softw
 
 ### Summary
 
-This book is a great introduction to software architecture, it covers the basics of software architecture, and it's a great starting point for anyone who wants to learn more about software architecture. Here are some of the topics covered in this book and I want to answer the self-assessment questions for each chapter.
+Here I have the relevant points to me of the book Fundamentals of Software Architecture by Mark Richards and Neal Ford. This part is focused on Architecture characteristics and fitness functions.
 
 ---
 
