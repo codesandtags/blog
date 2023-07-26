@@ -1,7 +1,7 @@
 ---
 title: Fundamentals of Software Architecture Book - Part 3
 author: codesandtags
-date: 2023-07-21 18:43:27
+date: 2023-07-26 18:43:27
 category: Software Architecture
 thumbnail: images/books/cover-fundamentals-software-architecture.png
 tags: [software-architecture, books]
@@ -24,21 +24,34 @@ This book is a great introduction to software architecture, it covers the basics
 
 ## Chapter 9: Architecture Styles
 
-1. List the eight fallacies of distributed computing.
+1. **List the eight fallacies of distributed computing.**
 
-🤓 ...
+- Falacy #1: The network is reliable.
+- Falacy #2: Latency is zero.
+- Falacy #3: Bandwidth is infinite.
+- Falacy #4: The network is secure.
+- Falacy #5: Topology doesn't change.
+- Falacy #6: There is only one administrator.
+- Falacy #7: Transport cost is zero.
+- Falacy #8: The network is homogeneous.
 
-2. Name three challenges that distributed architectures have that monolithic architectures don’t.
+1. **Name three challenges that distributed architectures have that monolithic architectures don’t.**
 
-🤓 ...
+- Distributed logging
+- Distributed transactions
+- Contract maintenance and versioning
 
-3. What is stamp coupling?
+2. **What is stamp coupling?**
 
-🤓 ...
+🤓 Stamp coupling occurs when modules share a composite data structure and use only parts of it, possibly different parts (e.g., passing a whole record to a function that needs only one field of it).
 
-4. What are some ways of addressing stamp coupling?
+3. **What are some ways of addressing stamp coupling?**
 
-🤓 ...
+- Create private RESTful API endpoints
+- Use field selectors in the contract
+- Use GraphQL to decouple contracts
+- Use value-driven contracts with consumer-driven contracts (CDCs)
+- Use internal messaging endpoints
 
 ---
 
