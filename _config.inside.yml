@@ -128,7 +128,8 @@ profile:
 
 # Sidebar navigation links
 menu:
-  Home: /
+  Home: https://www.codesandtags.io/
+  Blog: /
   About: /about
   # Links: /links
   Github: https://github.com/codesandtags
