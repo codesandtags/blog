@@ -22,6 +22,186 @@ This book is a great introduction to software architecture, it covers the basics
 
 ---
 
+## Chapter 13: Service-Based Architecture
+
+How many services are there in a typical service-based architecture?
+
+🤓 ...
+
+Do you have to break apart a database in service-based architecture?
+
+🤓 ...
+
+Under what circumstances might you want to break apart a database?
+
+🤓 ...
+
+What technique can you use to manage database changes within a service-based architecture?
+
+🤓 ...
+
+Do domain services require a container (such as Docker) to run?
+
+🤓 ...
+
+Which architecture characteristics are well supported by the service-based architecture style?
+
+🤓 ...
+
+Why isn’t elasticity well supported in a service-based architecture?
+
+🤓 ...
+
+How can you increase the number of architecture quanta in a service-based architecture?
+
+🤓 ...
+
+---
+
+## Chapter 14: Event-Driven Architecture Style
+
+What are the primary differences between the broker and mediator topologies?
+
+🤓 ...
+
+For better workflow control, would you use the mediator or broker topology?
+
+🤓 ...
+
+Does the broker topology usually leverage a publish-and-subscribe model with topics or a point-to-point model with queues?
+
+🤓 ...
+
+Name two primary advantage of asynchronous communications.
+
+🤓 ...
+
+Give an example of a typical request within the request-based model.
+
+🤓 ...
+
+Give an example of a typical request in an event-based model.
+
+🤓 ...
+
+What is the difference between an initiating event and a processing event in event-driven architecture?
+
+🤓 ...
+
+What are some of the techniques for preventing data loss when sending and receiving messages from a queue?
+
+🤓 ...
+
+What are three main driving architecture characteristics for using event-driven architecture?
+
+🤓 ...
+
+What are some of the architecture characteristics that are not well supported in event-driven architecture?
+
+🤓 ...
+
+---
+
+## Chapter 15: Space-Based Architecture
+
+Where does space-based architecture get its name from?
+
+What is a primary aspect of space-based architecture that differentiates it from other architecture styles?
+
+Name the four components that make up the virtualized middleware within a space-based architecture.
+
+What is the role of the messaging grid?
+
+What is the role of a data writer in space-based architecture?
+
+Under what conditions would a service need to access data through the data reader?
+
+Does a small cache size increase or decrease the chances for a data collision?
+
+What is the difference between a replicated cache and a distributed cache? Which one is typically used in space-based architecture?
+
+List three of the most strongly supported architecture characteristics in space-based architecture.
+
+Why does testability rate so low for space-based architecture?
+
+---
+
+## Chapter 16: Orchestration-Driven Service-Oriented Architecture
+
+What was the main driving force behind service-oriented architecture?
+
+What are the four primary service types within a service-oriented architecture?
+
+List some of the factors that led to the downfall of service-oriented architecture.
+
+Is service-oriented architecture technically partitioned or domain partitioned?
+
+How is domain reuse addressed in SOA? How is operational reuse addressed?
+
+---
+
+## Chapter 17: Microservices Architecture
+
+Why is the bounded context concept so critical for microservices architecture?
+
+🤓 ...
+
+What are three ways of determining if you have the right level of granularity in a microservice?
+
+🤓 ...
+
+What functionality might be contained within a sidecar?
+
+🤓 ...
+
+What is the difference between orchestration and choreography? Which does microservices support? Is one communication style easier in microservices?
+
+🤓 ...
+
+What is a saga in microservices?
+
+🤓 ...
+
+Why are agility, testability, and deployability so well supported in microservices?
+
+🤓 ...
+
+What are two reasons performance is usually an issue in microservices?
+
+🤓 ...
+
+Is microservices a domain-partitioned architecture or a technically partitioned one?
+
+🤓 ...
+
+Describe a topology where a microservices ecosystem might be only a single quantum.
+
+🤓 ...
+
+How was domain reuse addressed in microservices? How was operational reuse addressed?
+
+🤓 ...
+
+---
+
+## Chapter 18: Choosing the Appropriate Architecture Style
+
+In what way does the data architecture (structure of the logical and physical data models) influence the choice of architecture style?
+
+🤓 ...
+
+How does it influence your choice of architecture style to use?
+
+🤓 ...
+
+Delineate the steps an architect uses to determine style of architecture, data partitioning, and communication styles.
+
+🤓 ...
+
+What factor leads an architect toward a distributed architecture?
+
+🤓 ...
+
 ## Chapter 19: Architecture Decisions
 
 What is the covering your assets anti-pattern?

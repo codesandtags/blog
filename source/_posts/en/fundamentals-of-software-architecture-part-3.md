@@ -1,7 +1,7 @@
 ---
 title: Fundamentals of Software Architecture Book - Part 3
 author: codesandtags
-date: 2023-07-26 18:43:27
+date: 2023-08-02 18:43:27
 category: Software Architecture
 thumbnail: images/books/cover-fundamentals-software-architecture.png
 tags: [software-architecture, books]
@@ -24,6 +24,8 @@ This book is a great introduction to software architecture, it covers the basics
 
 ## Chapter 9: Architecture Styles
 
+<img src="images/books/software-architecture-styles.png" alt="Layered Styles" width="100%"/>
+
 1. **List the eight fallacies of distributed computing.**
 
 - Falacy #1: The network is reliable.
@@ -35,17 +37,17 @@ This book is a great introduction to software architecture, it covers the basics
 - Falacy #7: Transport cost is zero.
 - Falacy #8: The network is homogeneous.
 
-1. **Name three challenges that distributed architectures have that monolithic architectures don’t.**
+2. **Name three challenges that distributed architectures have that monolithic architectures don’t.**
 
 - Distributed logging
 - Distributed transactions
 - Contract maintenance and versioning
 
-2. **What is stamp coupling?**
+3. **What is stamp coupling?**
 
 🤓 Stamp coupling occurs when modules share a composite data structure and use only parts of it, possibly different parts (e.g., passing a whole record to a function that needs only one field of it).
 
-3. **What are some ways of addressing stamp coupling?**
+4. **What are some ways of addressing stamp coupling?**
 
 - Create private RESTful API endpoints
 - Use field selectors in the contract
@@ -57,274 +59,112 @@ This book is a great introduction to software architecture, it covers the basics
 
 ## Chapter 10: Layered Architecture Style
 
-What is the difference between an open layer and a closed layer?
+### Layered Architecture Rating
 
-🤓 ...
+<img src="images/books/software-layered-architecture-rating.png" alt="Layered Architecture Rating" width="60%"/>
 
-Describe the layers of isolation concept and what the benefits are of this concept.
+1. **What is the difference between an open layer and a closed layer?**
 
-🤓 ...
+🤓 A closed layer means that as a request moves top-down through the layers, it can only move to the next layer down. An open layer means that as a request moves top-down through the layers, it can move to any layer below it.
 
-What is the architecture sinkhole anti-pattern?
+2. **Describe the layers of isolation concept and what the benefits are of this concept.**
 
-🤓 ...
+🤓 The layers of isolation concept means that changes made in one layer of the architecture generally don't impact or affect components in other layers. This concept is important because it allows for the architecture to be more flexible and agile. The benefit is that any layer in the architecture can be changed without impacting other layers.
 
-What are some of the main architecture characteristics that would drive you to use a layered architecture?
+3. **What is the architecture sinkhole anti-pattern?**
 
-🤓 ...
+🤓 This anti-pattern occurs when requests move from layer to layer as a simple pass-through. This is a problem because it means that the architecture is not providing any value.
 
-Why isn’t testability well supported in the layered architecture style?
+4. **What are some of the main architecture characteristics that would drive you to use a layered architecture?**
 
-🤓 ...
+🤓 Simplicity, Overall Cost, and Reliability are some of the main architecture characteristics that would drive you to use a layered architecture. It's also a good architecture style to use when you have a small team of developers or very tight budget.
 
-Why isn’t agility well supported in the layered architecture style?
+5. **Why isn’t testability well supported in the layered architecture style?**
 
-🤓 ...
+🤓 Most developers are not going to spend hours executing the entire regression test suite every time they make a change to a single layer, particularly along with dozens of other changes being made to the monolithic applicationi at the same time.
+
+6. **Why isn’t agility well supported in the layered architecture style?**
+
+🤓 Given the monolitic approach of the layered architecture style, it's not easy to make changes to the architecture quickly.
 
 ---
 
 ## Chapter 11: Pipeline Architecture
 
-Can pipes be bidirectional in a pipeline architecture?
+### Pipeline Architecture Rating
 
-🤓 ...
+<img src="images/books/software-pipeline-architecture-rating.png" alt="Layered Architecture Rating" width="60%"/>
 
-Name the four types of filters and their purpose.
+1. **Can pipes be bidirectional in a pipeline architecture?**
 
-🤓 ...
+🤓 No, pipes are unidirectional.
 
-Can a filter send data out through multiple pipes?
+2. **Name the four types of filters and their purpose.**
 
-🤓 ...
+- **Producer**: The starting point of a process, outbound only, sometimes called the source.
 
-Is the pipeline architecture style technically partitioned or domain partitioned?
+**Transformer**: Accepts input, optionally performs a transformation on some or all of the data, then forwards it to the outbound pipe. Functional advocates will recognize this feature as map.
 
-🤓 ...
+- **Tester**: Accepts input, tests one or more criteria, then optionally produces output, based on the test. Functional programmers will recognize this as similar to reduce.
 
-In what way does the pipeline architecture support modularity?
+- **Consumer**: The termination point for the pipeline flow. Consumers sometimes persist the final result of the pipeline process to a database, or they may display the final results on a user interface screen.
 
-🤓 ...
+3. **Can a filter send data out through multiple pipes?**
 
-Provide two examples of the pipeline architecture style.
+🤓 Filters are self-contained, independent from other filters. Filters should perform one task only. Composite tasks should be handled by a sequence of filters rather than a single one.
 
-🤓 ...
+4. **Is the pipeline architecture style technically partitioned or domain partitioned?**
+
+🤓 Pipeline architecture is technically partitioned.
+
+5. **In what way does the pipeline architecture support modularity?**
+
+🤓 Pipeline Architecture supports modularity by allowing you to add or remove filters without impacting the rest of the pipeline.
+
+6. **Provide two examples of the pipeline architecture style.**
+
+- Unix pipes and the Java 8 Streams API.
+- Apache Kafka Streams
+- ETL (Extract, Transform, Load) processes
 
 ---
 
 ## Chapter 12: Microkernel Architecture
 
-What is another name for the microkernel architecture style?
+### Microkernel Architecture Rating
+
+<img src="images/books/software-microkernel-architecture-rating.png" alt="Layered Architecture Rating" width="60%"/>
+
+1. **What is another name for the microkernel architecture style?**
 
 🤓 ...
 
-Under what situations is it OK for plug-in components to be dependent on other plug-in components?
+2. **Under what situations is it OK for plug-in components to be dependent on other plug-in components?**
 
 🤓 ...
 
-What are some of the tools and frameworks that can be used to manage plug-ins?
+3. **What are some of the tools and frameworks that can be used to manage plug-ins?**
 
 🤓 ...
 
-What would you do if you had a third-party plug-in that didn’t conform to the standard plug-in contract in the core system?
+4. **What would you do if you had a third-party plug-in that didn’t conform to the standard plug-in contract in the core system?**
 
 🤓 ...
 
-Provide two examples of the microkernel architecture style.
+5. **Provide two examples of the microkernel architecture style.**
 
 🤓 ...
 
-Is the microkernel architecture style technically partitioned or domain partitioned?
+6. **Is the microkernel architecture style technically partitioned or domain partitioned?**
 
 🤓 ...
 
-🤓 ...
-
-Why is the microkernel architecture always a single architecture quantum?
+7. **Why is the microkernel architecture always a single architecture quantum?**
 
 🤓 ...
 
-What is domain/architecture isomorphism?
-
-🤓 ...
-
----
-
-## Chapter 13: Service-Based Architecture
-
-How many services are there in a typical service-based architecture?
-
-🤓 ...
-
-Do you have to break apart a database in service-based architecture?
-
-🤓 ...
-
-Under what circumstances might you want to break apart a database?
-
-🤓 ...
-
-What technique can you use to manage database changes within a service-based architecture?
-
-🤓 ...
-
-Do domain services require a container (such as Docker) to run?
-
-🤓 ...
-
-Which architecture characteristics are well supported by the service-based architecture style?
-
-🤓 ...
-
-Why isn’t elasticity well supported in a service-based architecture?
-
-🤓 ...
-
-How can you increase the number of architecture quanta in a service-based architecture?
+8. **What is domain/architecture isomorphism?**
 
 🤓 ...
 
 ---
-
-## Chapter 14: Event-Driven Architecture Style
-
-What are the primary differences between the broker and mediator topologies?
-
-🤓 ...
-
-For better workflow control, would you use the mediator or broker topology?
-
-🤓 ...
-
-Does the broker topology usually leverage a publish-and-subscribe model with topics or a point-to-point model with queues?
-
-🤓 ...
-
-Name two primary advantage of asynchronous communications.
-
-🤓 ...
-
-Give an example of a typical request within the request-based model.
-
-🤓 ...
-
-Give an example of a typical request in an event-based model.
-
-🤓 ...
-
-What is the difference between an initiating event and a processing event in event-driven architecture?
-
-🤓 ...
-
-What are some of the techniques for preventing data loss when sending and receiving messages from a queue?
-
-🤓 ...
-
-What are three main driving architecture characteristics for using event-driven architecture?
-
-🤓 ...
-
-What are some of the architecture characteristics that are not well supported in event-driven architecture?
-
-🤓 ...
-
----
-
-## Chapter 15: Space-Based Architecture
-
-Where does space-based architecture get its name from?
-
-What is a primary aspect of space-based architecture that differentiates it from other architecture styles?
-
-Name the four components that make up the virtualized middleware within a space-based architecture.
-
-What is the role of the messaging grid?
-
-What is the role of a data writer in space-based architecture?
-
-Under what conditions would a service need to access data through the data reader?
-
-Does a small cache size increase or decrease the chances for a data collision?
-
-What is the difference between a replicated cache and a distributed cache? Which one is typically used in space-based architecture?
-
-List three of the most strongly supported architecture characteristics in space-based architecture.
-
-Why does testability rate so low for space-based architecture?
-
----
-
-## Chapter 16: Orchestration-Driven Service-Oriented Architecture
-
-What was the main driving force behind service-oriented architecture?
-
-What are the four primary service types within a service-oriented architecture?
-
-List some of the factors that led to the downfall of service-oriented architecture.
-
-Is service-oriented architecture technically partitioned or domain partitioned?
-
-How is domain reuse addressed in SOA? How is operational reuse addressed?
-
----
-
-## Chapter 17: Microservices Architecture
-
-Why is the bounded context concept so critical for microservices architecture?
-
-🤓 ...
-
-What are three ways of determining if you have the right level of granularity in a microservice?
-
-🤓 ...
-
-What functionality might be contained within a sidecar?
-
-🤓 ...
-
-What is the difference between orchestration and choreography? Which does microservices support? Is one communication style easier in microservices?
-
-🤓 ...
-
-What is a saga in microservices?
-
-🤓 ...
-
-Why are agility, testability, and deployability so well supported in microservices?
-
-🤓 ...
-
-What are two reasons performance is usually an issue in microservices?
-
-🤓 ...
-
-Is microservices a domain-partitioned architecture or a technically partitioned one?
-
-🤓 ...
-
-Describe a topology where a microservices ecosystem might be only a single quantum.
-
-🤓 ...
-
-How was domain reuse addressed in microservices? How was operational reuse addressed?
-
-🤓 ...
-
----
-
-## Chapter 18: Choosing the Appropriate Architecture Style
-
-In what way does the data architecture (structure of the logical and physical data models) influence the choice of architecture style?
-
-🤓 ...
-
-How does it influence your choice of architecture style to use?
-
-🤓 ...
-
-Delineate the steps an architect uses to determine style of architecture, data partitioning, and communication styles.
-
-🤓 ...
-
-What factor leads an architect toward a distributed architecture?
-
-🤓 ...
