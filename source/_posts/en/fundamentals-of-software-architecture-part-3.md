@@ -5,7 +5,7 @@ date: 2023-08-02 18:43:27
 category: Software Architecture
 thumbnail: images/books/cover-fundamentals-software-architecture.png
 tags: [software-architecture, books]
-excerpt: Here I have the relevant points to me of the book Fundamentals of Software Architecture by Mark Richards and Neal Ford. This part is focused on Architecture styles.
+excerpt: Here I have the relevant points to me of the book Fundamentals of Software Architecture by Mark Richards and Neal Ford. This part is focused on Architecture styles, starting with the Monolithic Architecture.
 ---
 
 ## Fundamentals of Software Architecture
@@ -137,34 +137,37 @@ This book is a great introduction to software architecture, it covers the basics
 
 1. **What is another name for the microkernel architecture style?**
 
-🤓 ...
+🤓 The microkernel architecture style is also known as the plug-in architecture style.
 
-2. **Under what situations is it OK for plug-in components to be dependent on other plug-in components?**
+1. **Under what situations is it OK for plug-in components to be dependent on other plug-in components?**
 
-🤓 ...
+🤓 It's OK for plug-in components to be dependent on other plug-in components when the plug-in components are part of the same architecture quantum.
 
-3. **What are some of the tools and frameworks that can be used to manage plug-ins?**
+2. **What are some of the tools and frameworks that can be used to manage plug-ins?**
 
-🤓 ...
+🤓 Open Service Gateway Initiative (OSGi) for Java, Penrose (Java), Jigsaw (Java), or Prism (.NET).
 
-4. **What would you do if you had a third-party plug-in that didn’t conform to the standard plug-in contract in the core system?**
+3. **What would you do if you had a third-party plug-in that didn’t conform to the standard plug-in contract in the core system?**
 
-🤓 ...
+🤓 You would create an adapter to convert the third-party plug-in to conform to the standard plug-in contract in the core system.
 
-5. **Provide two examples of the microkernel architecture style.**
+4. **Provide two examples of the microkernel architecture style.**
 
-🤓 ...
+- Eclipse IDE
+- Jira
+- Jenkins
+- Backstage (Spotify)
 
-6. **Is the microkernel architecture style technically partitioned or domain partitioned?**
+5. **Is the microkernel architecture style technically partitioned or domain partitioned?**
 
-🤓 ...
+🤓 Microkernel architecture can be either technically partitioned or domain partitioned.
 
-7. **Why is the microkernel architecture always a single architecture quantum?**
+1. **Why is the microkernel architecture always a single architecture quantum?**
 
-🤓 ...
+🤓 The microkernel architecture is always a single architecture quantum because the core system is the only component that is not a plug-in.
 
-8. **What is domain/architecture isomorphism?**
+7. **What is domain/architecture isomorphism?**
 
-🤓 ...
+Domain/architecture isomorphism is a concept that compares the shape of a problem domain with the shape of an architecture style, and determines how well they match. It is based on the mathematical term isomorphism, which means equal in form or shape. The idea is that different problems have different shapes, and different architectures have different shapes, and some shapes fit better than others
 
 ---
