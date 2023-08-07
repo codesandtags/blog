@@ -1,7 +1,7 @@
 ---
-title: Fundamentals of Software Architecture Book - Part 4
+title: Fundamentals of Software Architecture Book - Part 5
 author: codesandtags
-date: 2023-07-24 18:43:27
+date: 2023-08-12 18:43:27
 category: Software Architecture
 thumbnail: images/books/cover-fundamentals-software-architecture.png
 tags: [software-architecture, books]
