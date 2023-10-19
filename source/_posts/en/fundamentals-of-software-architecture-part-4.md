@@ -176,15 +176,31 @@ Why does testability rate so low for space-based architecture?
 
 <img src="images/books/software-orchestration-driven-service-oriented-architecture-rating.png" alt="Layered Architecture Rating" width="60%"/>
 
-What was the main driving force behind service-oriented architecture?
+**What was the main driving force behind service-oriented architecture?**
 
-What are the four primary service types within a service-oriented architecture?
+- The main driving force behind service-oriented architecture was the need to integrate disparate systems and applications and reuse existing functionality, given the costs and complexities of building and maintaining monolithic applications.
 
-List some of the factors that led to the downfall of service-oriented architecture.
+**What are the four primary service types within a service-oriented architecture?**
 
-Is service-oriented architecture technically partitioned or domain partitioned?
+- **Business Services**: It provides the entry point into the service-oriented architecture and is responsible for exposing the business functionality to the outside world.
+- **Entprise Services**: It provides the core business functionality and is responsible for implementing the business logic.
+- **Application Services**: It provides the application-specific functionality and is responsible for implementing the application logic.
+- **Infrastructure Services**: It provides the infrastructure-specific functionality and is responsible for implementing the infrastructure logic, monitoring, logging or authentication.
 
-How is domain reuse addressed in SOA? How is operational reuse addressed?
+**List some of the factors that led to the downfall of service-oriented architecture.**
+
+- **Complexity**: Service-oriented architecture is inherently complex, which makes it difficult to design, develop, and maintain.
+- **Performance**: Service-oriented architecture is inherently slow, which makes it difficult to achieve high performance.
+- **Scalability**: Service-oriented architecture is inherently inefficient, which makes it difficult to scale.
+- **Coupling**: Service-oriented architecture is inherently tightly coupled, which makes it difficult to achieve loose coupling.
+
+**Is service-oriented architecture technically partitioned or domain partitioned?**
+
+- Service-oriented architecture is technically partitioned because it is based on the technical capabilities of the underlying infrastructure, such as messaging, transactions, or security.
+
+**How is domain reuse addressed in SOA? How is operational reuse addressed?**
+
+- Domain reuse is addressed in SOA by implementing the business logic as enterprise services that can be reused across multiple applications.
 
 ---
 
