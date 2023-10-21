@@ -150,25 +150,56 @@ Other characteristics to consider are:
 
 <img src="images/books/software-space-based-architecture-rating.png" alt="Layered Architecture Rating" width="60%"/>
 
-Where does space-based architecture get its name from?
+**1. Where does space-based architecture get its name from?**
 
-What is a primary aspect of space-based architecture that differentiates it from other architecture styles?
+🤓 Space-based architecture gets its name from the concept of a virtual shared memory space that is distributed across multiple nodes in a cluster. The virtual shared memory space is used to store and process data in memory, which is shared across multiple services or components.
 
-Name the four components that make up the virtualized middleware within a space-based architecture.
+**2. What is a primary aspect of space-based architecture that differentiates it from other architecture styles?**
 
-What is the role of the messaging grid?
+🤓 A primary aspect of space-based architecture that differentiates it from other architecture styles is the use of a virtual shared memory space that is distributed across multiple nodes in a cluster. The virtual shared memory space is used to store and process data in memory, which is shared across multiple services or components.
 
-What is the role of a data writer in space-based architecture?
+**3. Name the four components that make up the virtualized middleware within a space-based architecture.**
 
-Under what conditions would a service need to access data through the data reader?
+🤓 The four components that make up the virtualized middleware within a space-based architecture are:
 
-Does a small cache size increase or decrease the chances for a data collision?
+- **Data grid**: It provides the virtual shared memory space that is distributed across multiple nodes in a cluster. The virtual shared memory space is used to store and process data in memory, which is shared across multiple services or components.
+- **Messaging grid**: It provides the virtual shared event space that is distributed across multiple nodes in a cluster. The virtual shared event space is used to publish and subscribe to events in memory, which are shared across multiple services or components.
+- **Processing grid**: It provides the virtual shared processing space that is distributed across multiple nodes in a cluster. The virtual shared processing space is used to execute business logic in memory, which is shared across multiple services or components.
+- **Management grid**: It provides the virtual shared management space that is distributed across multiple nodes in a cluster. The virtual shared management space is used to monitor and manage the data, messaging, and processing grids.
 
-What is the difference between a replicated cache and a distributed cache? Which one is typically used in space-based architecture?
+**4. What is the role of the messaging grid?**
 
-List three of the most strongly supported architecture characteristics in space-based architecture.
+🤓 The messaging grid provides the virtual shared event space that is distributed across multiple nodes in a cluster. The virtual shared event space is used to publish and subscribe to events in memory, which are shared across multiple services or components.
 
-Why does testability rate so low for space-based architecture?
+**5.What is the role of a data writer in space-based architecture?**
+
+🤓 The data writer is responsible for writing data to the data grid. It can be a service or component that writes data to the data grid, or it can be a data grid that writes data to itself.
+
+**6. Under what conditions would a service need to access data through the data reader?**
+
+🤓 A service would need to access data through the data reader when it needs to read data from the data grid. For example, a service might need to read data from the data grid to process a request or respond to a query.
+
+**7. Does a small cache size increase or decrease the chances for a data collision?**
+
+🤓 A small cache size increases the chances for a data collision because it increases the likelihood that two services or components will try to write data to the same cache entry.
+
+**8. What is the difference between a replicated cache and a distributed cache? Which one is typically used in space-based architecture?**
+
+🤓 A **replicated cache** is a cache that is replicated across multiple nodes in a cluster. A replicated cache is typically used in space-based architecture because it provides high availability and low latency.
+
+A **distributed cache** is a cache that is partitioned across multiple nodes in a cluster. A distributed cache is typically used in space-based architecture because it provides high scalability and high performance.
+
+**9. List three of the most strongly supported architecture characteristics in space-based architecture.**
+
+🤓 Three of the most strongly supported architecture characteristics in space-based architecture are:
+
+- **Scalability**: Space-based architecture supports scalability by distributing the data, messaging, and processing grids across multiple nodes in a cluster.
+- **Performance**: Space-based architecture supports performance by storing and processing data in memory, which is shared across multiple services or components.
+- **Fault tolerance**: Space-based architecture supports fault tolerance by replicating the data, messaging, and processing grids across multiple nodes in a cluster.
+
+**10. Why does testability rate so low for space-based architecture?**
+
+🤓 Testability rates so low for space-based architecture because it is difficult to test the data, messaging, and processing grids in isolation. It is also difficult to test the data, messaging, and processing grids in combination.
 
 ---
 
@@ -210,40 +241,51 @@ Why does testability rate so low for space-based architecture?
 
 **1. Why is the bounded context concept so critical for microservices architecture?**
 
-🤓 ...
+🤓 The bounded context concept is so critical for microservices architecture because it allows you to decompose a large, complex domain into smaller, more manageable domains, which can be implemented as microservices.
 
 **2. What are three ways of determining if you have the right level of granularity in a microservice?**
 
-🤓 ...
+🤓 Three ways of determining if you have the right level of granularity in a microservice are:
+
+- **Purpose**: A microservice should encapsulate a specific piece of functionality or domain.
+- **Transactions**: Bounded contexts are business workflows, and often the entities that need to coooperate in a transaction show architects a good service boundary.
+- **Choreography**: If an architect builds a set of services that offer excelente domain location yet require extensive communication to function, the architect may consider bundling these services back into a larger service to avoid the communication overhead.
 
 **3. What functionality might be contained within a sidecar?**
 
-🤓 ...
+🤓 A sidecar is a container that runs alongside a microservice and provides additional functionality, such as logging, monitoring, or security.
 
 **4. What is the difference between orchestration and choreography? Which does microservices support? Is one communication style easier in microservices?**
 
-🤓 ...
+**Orchestration** is a centralized approach to communication, where a central component (such as an orchestrator or a mediator) is responsible for coordinating and sequencing the interactions between the microservices. The microservices are loosely coupled and unaware of each other.
+
+**Choreography** is a decentralized approach to communication, where each microservice is responsible for handling its own interactions with other microservices. The microservices are loosely coupled and aware of each other.
+
+Microservices architecture supports both orchestration and choreography. However, choreography is more commonly used because it is simpler and more flexible.
 
 **5. What is a saga in microservices?**
 
-🤓 ...
+🤓 A saga is a sequence of local transactions that updates each service and publishes a message or event to trigger the next transaction step. If a transaction fails, the saga executes a series of compensating transactions that undo the changes from the previous steps.
 
 **6. Why are agility, testability, and deployability so well supported in microservices?**
 
-🤓 ...
+🤓 Agility, testability, and deployability are so well supported in microservices because microservices are loosely coupled and independently deployable, which makes them easier to develop, test, and deploy.
 
 **7. What are two reasons performance is usually an issue in microservices?**
 
-🤓 ...
+🤓 Two reasons performance is usually an issue in microservices are:
+
+- **Network latency**: Microservices rely on network communication, which introduces latency and affects performance.
+- **Data consistency**: Microservices rely on distributed data, which requires additional processing and affects performance.
 
 **8. Is microservices a domain-partitioned architecture or a technically partitioned one?**
 
-🤓 ...
+🤓 Microservices is a domain-partitioned architecture because it is based on the business domain and the business capabilities of the underlying domain.
 
 **9. Describe a topology where a microservices ecosystem might be only a single quantum.**
 
-🤓 ...
+🤓 A topology where a microservices ecosystem might be only a single quantum is when the microservices are deployed as a single unit, such as a single container or a single virtual machine.
 
-**10. How was domain reuse addressed in microservices? How was operational reuse addressed?**
+**10. How was domain reuse addressed in microservices?**
 
-🤓 ...
+🤓 Domain reuse is addressed in microservices by implementing the business logic as microservices that can be reused across multiple applications.
