@@ -72,18 +72,33 @@ The three basic criteria in which you would mark the status of an ADD proposed a
 
 The two dimensions of the risk assessment matrix are:
 
-- **Probability**: The probability of the risk occurring.
-- **Impact**: The impact of the risk occurring.
+- **Likelihood of risk occurring**: The probability of the risk occurring.
+- **Overall impact of risk**: The impact of the risk occurring.
 
-**2. What are some ways to show direction of particular risk within a risk assessment? Can you think of other ways to indicate wheter risk is getting better or worse?**
+**2. What are some ways to show direction of a particular risk within a risk assessment? Can you think of other ways to indicate wheter risk is getting better or worse?**
+
+Some ways to show direction of a particular risk within a risk assessment are:
+
+- **Color**: Using color to indicate whether risk is getting better or worse.
+- **Arrows**: Using arrows to indicate whether risk is getting better or worse.
+- **Signs plus or minus**: Using signs plus or minus to indicate whether risk is getting better or worse.
+- **A combination of both**: Using a combination of both to indicate whether risk is getting better or worse, to make it simpler to understand.
 
 **3. Why is it necessary for risk storming to be a collaborative exercise?**
 
+Because all architects have a differente knowledge of the architecture, and points of view about the risk for each area to be analyzed.
+
 **4. Why is it necessary for the identification activity whithin risk storming to be an individual activity and not a collaborative one?**
+
+Because it is important to get the individual perspective of each participant, and not the group perspective. It's also important to restrict risk storming efforts to a single dimension.
 
 **5. What would you do if three participants identified risk as high (6) for a particular area of the architecture, but another participant identified it as only medium (3)?**
 
+When this situation happens, it's important to discuss the risk with the participants, and try to reach a consensus. At the end the idea is to have an agreement on the risk level for each area of the architecture.
+
 **6. What risk rating (1-9) would you assign to unproven or unkown technologies?**
+
+For unproven or unkonwn technologies, I would assign a risk rating of 9, since the matrix cannot be used for this dimension.
 
 ---
 
