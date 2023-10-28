@@ -106,41 +106,63 @@ For unproven or unkonwn technologies, I would assign a risk rating of 9, since t
 
 **1. What is irrational artifact attachment, and why is it significant with respect to documenting and diagramming architecture?**
 
-...
+The irrational artifact attachment is when you are attached to a particular diagram or artifact, and you are not willing to change it. This is significant with respect to documenting and diagramming architecture because it can lead to poor decisions.
 
 **2. What do the 4 C’s refer to in the C4 modeling technique?**
 
-...
+The 4 C’s refer to the C4 modeling technique are:
+
+- **Context**: It represents the scope of the system.
+- **Containers**: It represents the high-level technology choices.
+- **Components**: It represents the low-level technology choices.
+- **Classes**: It represents the implementation details.
 
 **3. When diagramming architecture, what do dotted lines between components mean?**
 
-...
+Dotted lines between components mean there is a asynchronous communication between them.
 
 **4. What is the bullet-riddled corpse anti-pattern? How can you avoid this anti-pattern when creating presentations?**
 
-...
+The bullet-riddled corpse anti-pattern is when you create a presentation with a lot of bullet points. You can avoid this anti-pattern when creating presentations by using a lot of images and diagrams, and not a lot of text.
 
 **5. What are the two primary information channels a presenter has when giving a presentation?**
 
-...
+The two primary information channels a presenter has when giving a presentation are:
+
+- **Visual**: It represents the images and diagrams.
+- **Auditory**: It represents the voice of the presenter.
 
 ## Chapter 22: Making Teams Effective
 
 **1. What are three types of architecture personalities? What type of boundary does each personality create?**
 
-...
+The three types of architecture personalities are:
+
+- **The control freak**: This personality creates a boundary of control and tries to control everything, it creates a toxic environment for the team.
+- **The Armchair Architect**: This personality creates a boundary of isolation and doesn't interact with the team, at the end the team endup doing the work of the architect.
+- **The effective Architecte**: This personality creates a boundary of collaboration and works with the team to achieve the goals.
 
 **2. What are the five factors that go into determining the level of control you should exhibit on the team?**
 
-...
+The five factors that go into determining the level of control you should exhibit on the team are:
+
+- **Team familiarity**: How ell do the team members know each other?
+- **Team size**: How big the team is?
+- **Overal experience**: How many members of the team are senior and junior?
+- **Project complexity**: Is the project highly complex or just a simple project?
+- **Project duration**: Is the project short (2 months) or long (2 years)?
 
 **3. What are three warning signs you can look at to determine if your team is getting too big?**
 
-...
+- **Process loss**: When the team is too big, the process loss increases.
+- **Pluralistic ignorance**: When the team is too big, and everyone agress but privately rejects a norm or decision.
+- **Difussion of responsibility**: When the team is too big, the diffusion of responsibility increases.
 
 **4. List three basic checklists that would be good for a development team:**
 
-...
+- Developer code completition checklist
+- Unit and functional testing checklist
+- Software release checklist
 
 ## Chapter 23: Negotiation and Leadership Skills
 
