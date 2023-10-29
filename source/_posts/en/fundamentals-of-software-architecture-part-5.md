@@ -168,44 +168,57 @@ The five factors that go into determining the level of control you should exhibi
 
 **1. Why is negotiation so important as an architect?**
 
-...
+Negotiation is so important as an architect because you need to negotiate with business stakeholders, developers, and other architects.
 
 **2. Name some negotiation techniques when a business stakeholder insists on five nines of availability, but only three nines are really needed:**
 
-...
+- Leverage the use of grammar and buzzwords to better understand the business stakeholder, and situation.
+- Gather as much information as possible before entering into a negotiation.
+- When all else fails, state things in terms of cost and time.
+- Leverage the "divide and conquer" rule to qualify demands or requirements.
 
 **3. What can you derive from a business stakeholder telling you “I needed it yesterday”?**
 
-...
+When a business stakeholder tells you "I needed it yesterday", you can derive that the business stakeholder is under a lot of pressure, and he/she needs the solution as soon as possible, so "time to market" is very important.
 
 **4. Why is it important to save a discussion about time and cost for last in a “negotiation?**
 
-...
+Because the other justifications and rationalizations should matter more first.
 
 **5. What is the divide-and-conquer rule? How can it be applied when negotiating architecture characteristics with a business stakeholder? Provide an example.**
 
-...
+The divide-and-conquer rule is when you divide a big problem into smaller problems, and then you solve each smaller problem. It can be applied when negotiating architecture characteristics with a business stakeholder by dividing the problem into smaller problems, and then you solve each smaller problem, so for the example of the nines problem, you can divide the problem into smaller problems and identify which part of the system is most important in terms of cost and time.
 
 **6. List the 4 C’s of architecture:**
 
-...
+- **Communication**
+- **Collaboration**
+- **Clarity**
+- **Conciseness**
 
 **7.Explain why it is important for an architect to be both pragmatic and visionary:**
 
+There should be a balance between these two characteristics, because if you are too pragmatic you will not be able to see the big picture, and if you are too visionary you will not be able to see the details.
+
 **8. What are some techniques for managing and reducing the number of meetings you are invited to?**
 
-...
+- **Ask for an agenda**: Ask for an agenda before the meeting, and if there is no agenda, don't attend the meeting.
 
 ## Chapter 24: Developing a career Path
 
 **1. What is the 20-minute rule, and when is it best to apply it?**
 
-...
+The 20-minute rule is when you spend 20 minutes a day learning something new. It's best to apply it when you want to learn something new, and you don't have a lot of time, and in general it should be done as the fist time of the day.
 
 **2. What are the four rings in the ThoughtWorks technology radar, and what do they mean? How can they be applied to your radar?**
 
-...
+The four rings in the ThoughtWorks technology radar are:
+
+- **Adopt**: It means that you should adopt this technology.
+- **Trial**: It means that you should try this technology.
+- **Assess**: It means that you should assess this technology.
+- **Hold**: It means that you should hold this technology.
 
 **3. Describe the difference between depth and breadth of knowledge as it applies to software architects. Which should architects aspire to maximize:**
 
-...
+The difference between depth and breadth of knowledge as it applies to software architects is that depth is the knowledge of a particular technology, and breadth is the knowledge of a lot of technologies. Architects should aspire to maximize the breadth of knowledge, because usually depth knowledge is changing very fast according to the technology and trendings in the world.
