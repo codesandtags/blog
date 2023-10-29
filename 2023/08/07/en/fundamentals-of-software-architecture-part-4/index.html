@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head><!-- hexo injector head_begin start -->
+<script src="/blog/config.91e99fe6d457647e9dda.js"></script>
+<!-- hexo injector head_begin end -->
+<meta charset="utf-8">
+<title>Fundamentals of Software Architecture Book - Part 4 - Codes and Tags</title>
+<base href="/blog/">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<link rel="canonical" href="http://codesandtags.io/blog/2023/08/07/en/fundamentals-of-software-architecture-part-4/">
+<link rel="icon" type="image/x-icon" href="/blog/images/favicon.ico">
+
+<meta name="description" content="Here I have the relevant points to me of the book Fundamentals of Software Architecture by Mark Richards and Neal Ford. This part is focused on distributed architecture styles.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Fundamentals of Software Architecture Book - Part 4">
+<meta property="og:url" content="http://codesandtags.io/blog/2023/08/07/en/fundamentals-of-software-architecture-part-4/index.html">
+<meta property="og:site_name" content="Codes and Tags">
+<meta property="og:description" content="Here I have the relevant points to me of the book Fundamentals of Software Architecture by Mark Richards and Neal Ford. This part is focused on distributed architecture styles.">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://codesandtags.io/blog/2023/08/07/en/fundamentals-of-software-architecture-part-4/images/books/cover-fundamentals-software-architecture.png">
+<meta property="article:published_time" content="2023-08-07T22:43:27.000Z">
+<meta property="article:modified_time" content="2023-10-27T19:33:22.016Z">
+<meta property="article:author" content="Edwin Torres">
+<meta property="article:tag" content="software-architecture">
+<meta property="article:tag" content="books">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://codesandtags.io/blog/2023/08/07/en/fundamentals-of-software-architecture-part-4/images/books/cover-fundamentals-software-architecture.png">
+<script type="application/ld+json">[{"@context":"http://schema.org","@type":"WebSite","publisher":{"@type":"Person","name":"Edwin Torres","description":"Curiosidad intensa por la programación.","image":"https://www.gravatar.com/avatar/4b35c29bf902f972125b7db7f1bfc8cc?s=160"},"url":"http://codesandtags.io/blog","image":"https://www.gravatar.com/avatar/4b35c29bf902f972125b7db7f1bfc8cc?s=160","description":"Blog about software development, software interview, artificial intelligence, machine learning","author":{"@type":"Person","name":"Edwin Torres","description":"Curiosidad intensa por la programación.","image":"https://www.gravatar.com/avatar/4b35c29bf902f972125b7db7f1bfc8cc?s=160"},"inLanguage":{"@type":"Language","alternateName":"en"}},{"@context":"http://schema.org","@type":"Article","articleSection":"Software Architecture","url":"http://codesandtags.io/blog/2023/08/07/en/fundamentals-of-software-architecture-part-4/","headline":"Fundamentals of Software Architecture Book - Part 4","image":"images/books/cover-fundamentals-software-architecture.png","datePublished":"2023-08-07T22:43:27.000Z","dateModified":"2023-10-27T19:33:22.016Z","keywords":"software-architecture,books","description":"Here I have the relevant points to me of the book Fundamentals of Software Architecture by Mark Richards and Neal Ford. This part is focused on distributed architecture styles.","publisher":{"@type":"Organization","name":"Codes and Tags","logo":{"@type":"ImageObject","url":"https://www.gravatar.com/avatar/4b35c29bf902f972125b7db7f1bfc8cc?s=160"}},"author":{"@type":"Person","name":"Edwin Torres","description":"Curiosidad intensa por la programación.","image":"https://www.gravatar.com/avatar/4b35c29bf902f972125b7db7f1bfc8cc?s=160"},"inLanguage":{"@type":"Language","alternateName":"en"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://codesandtags.io/blog/2023/08/07/en/fundamentals-of-software-architecture-part-4/"},"thumbnailUrl":"images/books/cover-fundamentals-software-architecture.png"}]</script>
+<script async src="//www.googletagmanager.com/gtag/js?id=G-Y2Y45JXYBM"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)};gtag('js',new Date());gtag('config','G-Y2Y45JXYBM');</script>
+<!-- hexo injector head_end start --><style is="theme">html{--inside-accent-color:#539bf5;--inside-foreground-color:#adbac7;--inside-border-color:#373e47;--inside-background:#22272e;--inside-sidebar-background:#22272e;--inside-card-background:#2d333b;--inside-font-base:Montserrat,'PingFang SC';--inside-font-logo:-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;--inside-font-menu:Baloo Bhaijaan,Montserrat,'PingFang SC';--inside-font-heading:-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;--inside-font-label:Montserrat,'PingFang SC';--inside-font-code:Inconsolata,monospace;--inside-font-print:-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;--inside-content-width:800px;--inside-highlight-00:#ffffff;--inside-highlight-01:#e0e0e0;--inside-highlight-02:#f3f6f7;--inside-highlight-03:#95a5b3;--inside-highlight-04:#363636;--inside-highlight-05:#262b2f;--inside-highlight-06:#000000;--inside-highlight-07:#000000;--inside-highlight-08:#5d6c7b;--inside-highlight-09:#40464a;--inside-highlight-0a:#2980b9;--inside-highlight-0b:#be516e;--inside-highlight-0c:#237dac;--inside-highlight-0d:#944770;--inside-highlight-0e:#239371;--inside-highlight-0f:#edf0f3;--inside-card-color:#2d333b;--inside-accent-color-005:rgba(83,155,245,.05);--inside-accent-color-01:rgba(83,155,245,.1);--inside-accent-color-02:rgba(83,155,245,.2);--inside-accent-color-04:rgba(83,155,245,.4);--inside-accent-color-08:rgba(83,155,245,.8)}</style><script src="/blog/theme.9ecc9ab1.js"></script><link href="//fonts.googleapis.com/css?family=Baloo+Bhaijaan|Inconsolata|Josefin+Sans|Montserrat" rel="stylesheet"></link><link href="/blog/styles.91e7dfca63c7c151daa6.css" rel="stylesheet"><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head>
+<body lang="en"><!-- hexo injector body_begin start --><is-a></is-a><!-- hexo injector body_begin end --><!-- hexo injector body_end start --><script src="/blog/runtime.1ed960b0635ea0669f87.js"></script><script src="/blog/polyfills.b7bf56fc45f931a8b83e.js"></script><script src="/blog/main.543c891b4aad158701f3.js"></script><!-- hexo injector body_end end --></body>
+</html>
