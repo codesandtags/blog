@@ -126,7 +126,7 @@ ADRs are used to document and communicate the rationale behind significant decis
 ## References
 
 - [ADR Github](https://adr.github.io/)
-- [📖 Book: Fundamentals of Sofware Architecture](https://www.amazon.com/Fundamentals-Software-Architecture-Comprehensive-Characteristics/dp/1492043451/ref=sr_1_1?crid=3QMOVXSNR36EN&keywords=fundamentals+of+software+architecture&qid=1705979639&s=books&sprefix=fundamentals+of+software+architecture%252Cstripbooks-intl-ship%252C91&sr=1-1&_encoding=UTF8&tag=codesandtags-20&linkCode=ur2&linkId=39aaed451024322ddeb4a6b531f7cb26&camp=1789&creative=9325)
-- [📖 Book: Software Architecture: The Hard Parts](https://www.amazon.com/Software-Architecture-Trade-Off-Distributed-Architectures/dp/1492086894/ref=sr_1_1?crid=3BHOD62396TY9&keywords=software+architecture+hard+parts&qid=1705979856&s=books&sprefix=software+architecture+hard+part%252Cstripbooks-intl-ship%252C125&sr=1-1&_encoding=UTF8&tag=codesandtags-20&linkCode=ur2&linkId=5621f84961f2184235d915c7208525b2&camp=1789&creative=9325)
+- [📖 Book: Fundamentals of Sofware Architecture](https://www.amazon.com/s?k=Fundamentals+of+Software+Architecture+An+Engineering+Approach&i=stripbooks&camp=1789&creative=9325&linkCode=ur2&linkId=1c4ba5203ec7818be31a01416e890409&tag=codesandtags-20)
+- [📖 Book: Software Architecture: The Hard Parts](https://www.amazon.com/s?k=Fundamentals+of+Software+Architecture+An+Engineering+Approach&i=stripbooks&camp=1789&creative=9325&linkCode=ur2&linkId=1c4ba5203ec7818be31a01416e890409&tag=codesandtags-20)
 - [Architecture Decision Records Tech Radar](https://www.thoughtworks.com/radar/techniques/architecture-decision-records)
 - [Has your architecture decision records lost its purpose?](https://www.infoq.com/articles/architectural-decision-record-purpose/#:~:text=Recording%20non%2Darchitectural%20product%20decisions.&text=Misusing%20the%20ADRs%20in%20this,Record%22%20has%20lost%20its%20purpose.)
