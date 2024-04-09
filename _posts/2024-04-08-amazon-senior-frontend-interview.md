@@ -13,7 +13,7 @@ Here I describe the stages I had as part of the process for a Senior Front End A
 
 ## Application
 
-Everything started with a notification on `Linkedin` (link to linkedin) (those daily/weekly notifications you received when they are new offers posted by companies. After that, I went to the official `Amazon Jobs` (link to amazon jobs) website where I signed up for a new account, uploaded the resume and applied formally for the job.
+Everything started with a notification on [`Linkedin`](https://www.linkedin.com/jobs/search/?currentJobId=3877289354&keywords=Senior%20Frontend%20Engineer%20amazon&origin=SWITCH_SEARCH_VERTICAL) (those daily/weekly notifications you received when they are new offers posted by companies. After that, I went to the official `Amazon Jobs` website where I signed up for a new account, uploaded the resume and applied formally for the job.
 
 ![Application Amazon Jobs](/assets/img/posts/amazon-senior-frontend-interview-01.png)
 
