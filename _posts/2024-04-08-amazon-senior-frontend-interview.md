@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Amazon Senior Frontend Interview
+title: Amazon Senior Frontend Engineer Interview
 date: 2024-04-08 18:55 -0400
 author: codesandtags
 categories: [Interviews]
 tags: [interviews, amazon, frontend]
 ---
 
-## My experience in a Senior Front End Amazon Interview
+## My experience in a Senior FrontEnd Engineer Amazon Interview
 
 Here I describe the stages I had as part of the process for a Senior Front End Amazon Interview. I will not provide the details for each question / challenge asked, however, I will provide some hints and topics you may face in an Interview.
 
