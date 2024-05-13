@@ -3,8 +3,8 @@ layout: post
 title: Lessons learned with Building Large Scale Web Apps Book - Part 1
 date: 2024-05-12 00:22 -0400
 author: codesandtags
-categories: [Frontend]
-tags: [books, frontend, architecture]
+categories: [frontend]
+tags: [books, architecture]
 ---
 
 ![Cover Large Web Apps](/assets/img/posts/large-web-apps.jpg)
@@ -298,57 +298,6 @@ State management is a key aspect of web development, as it enables web applicati
 ### Using Context API
 
 The Context API is a feature of React that allows developers to share state across different components without having to pass props down the component tree. By using the Context API, developers can create a global state that can be accessed by any component in the application. The Context API consists of two main components: the `Provider` and the `Consumer`.
-
-**Example using Context API**
-
-This example shows how to use the Context API to share state across different components in a React application.
-
-```jsx
-// AppContext.js
-import React, { createContext, useState } from "react";
-
-export const AppContext = createContext();
-
-export const AppProvider = ({ children }) => {
-  const [count, setCount] = useState(0);
-
-  return (
-    <AppContext.Provider value={{ count, setCount }}>
-      {children}
-    </AppContext.Provider>
-  );
-};
-
-// Counter.js
-import { useContext } from "react";
-import { AppContext } from "./AppContext";
-
-const Counter = () => {
-  const { count, setCount } = useContext(AppContext);
-
-  return (
-    <div>
-      <h1>Count: {count}</h1>
-      <button onClick={() => setCount((prevCount) => prevCount + 1)}>
-        Increment
-      </button>
-    </div>
-  );
-};
-
-// App.js
-import { AppProvider } from "./AppContext";
-
-function App() {
-  return (
-    <AppProvider>
-      <Counter />
-    </AppProvider>
-  );
-}
-
-export default App;
-```
 
 ### Using useReducer hook
 
