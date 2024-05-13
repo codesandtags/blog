@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Lessons learned with Building Large Scale Web Apps Book - Part 2
-date: 2024-05-12 11:22 -0400
+date: 2024-05-13 11:22 -0400
 author: codesandtags
 categories: [Frontend]
 tags: [books, frontend, architecture]
@@ -423,4 +423,63 @@ Snapshot Testing is a testing technique that captures the output of a component 
 
 ## Tooling
 
-Tooling enables developers to automate repetitive tasks, improve the quality of the codebase, and increase the productivity of the team. By optimizing the tooling process, developers can reduce the time spent on manual tasks, improve the consistency of the codebase, and increase the scalability of the application. There are many tools available for web development, such as linters, formatters, and bundlers.
+Tooling enables developers to automate repetitive tasks, improve the quality of the codebase, and increase the productivity of the team. There are many tools available for web applications that help on every stage of the development process, such as:
+
+- **Git**: A distributed version control system that allows developers to collaborate on the codebase. There are several strategies but the most popular are [Git Flow](https://nvie.com/posts/a-successful-git-branching-model/) and [Trunk Based Development](https://trunkbaseddevelopment.com/).
+- **Static Code Analysis**: A process that helps developers identify and fix problems in the codebase. The most popular tools are:
+  - [SonarQube](https://www.sonarqube.org/)
+  - [Code Climate](https://codeclimate.com/)
+  - [Codacy](https://www.codacy.com/)
+  - [Codecov](https://about.codecov.io/)
+- **Linters**: Linters help to enforce coding standards and identify potential issues in the codebase. The most popular linters are:
+  - [ESLint](https://eslint.org/): A linter for JavaScript that helps developers identify and fix problems in the codebase.
+  - [Stylelint](https://stylelint.io/): A linter for CSS that helps developers identify and fix problems in the codebase.
+  - [Husky](https://typicode.github.io/husky/): A tool that helps developers run linters and tests before committing the code.
+- **Code Formatters**: A tool that helps developers format the codebase according to a specific style guide. The most popular code formatters are:
+  - [Prettier](https://prettier.io/): A code formatter that helps developers format the codebase according to a specific style guide.
+  - [ESLint](https://eslint.org/): A linter that can also format the codebase according to a specific style guide.
+- **Test Runners**: A tool that helps developers run tests and generate reports. The most popular test runners are:
+  - [Jest](https://jestjs.io/)
+  - [Cypress](https://www.cypress.io/)
+- **Accessibility Testing**: A process that helps developers identify and fix accessibility issues in the codebase. The most popular tools are:
+  - [axe](https://www.deque.com/axe/)
+  - [Pa11y](https://pa11y.org/)
+  - [Lighthouse](https://developers.google.com/web/tools/lighthouse)
+- **Bundlers**: A tool that helps developers bundle the codebase into a single file. Also bundlers help to optimize image sizes, apply techniques like lazy loading, code splitting and tree shaking.The most popular bundlers are:
+  - [Vite](https://vitejs.dev/)
+  - [Webpack](https://webpack.js.org/)
+  - [Rollup](https://rollupjs.org/)
+  - [Parcel](https://parceljs.org/)
+  - [Turbopack](https://turbo.build/pack)
+- **CI/CD pipelines**: Continuous Integration (CI) and Continuous Deployment (CD) pipelines that help developers automate the build, test, and deployment process. The most popular tools are:
+  - [GitHub Actions](https://github.com/features/actions)
+  - [GitLab CI/CD](https://docs.gitlab.com/ee/ci/)
+  - [Travis CI](https://www.travis-ci.com/)
+  - [CircleCI](https://circleci.com/)
+  - [Jenkins](https://www.jenkins.io/)
+- **Logging and performance monitoring**: A process that helps developers monitor the performance of the web application and identify bottlenecks. The most popular tools are:
+  - [Sentry](https://sentry.io/)
+  - [Datadog](https://www.datadoghq.com/)
+  - [ELK Stack](https://www.elastic.co/elastic-stack/)
+
+## Technical Migrations
+
+Technical migrations may involve changes and upgrades to the codebase, infrastructure, or tools used in the web application. By optimizing the technical migration process, developers can improve the performance, reliability, and security of the web application. There are many factors that can affect the technical migration process, such as the complexity of the migration, the impact on the codebase, and the resources required to complete the migration.
+
+A migration strategy should consider the following aspects:
+
+- Understand the scope of the migration
+- Developing a migration plan
+- Implementing incremental migrations
+- Monitor and optimizing performance
+- Testing thoroughly
+- Communicating with stakeholders
+- Write CodeMod (Code Modifications) scripts to automate the migration process
+
+### Migration strategies
+
+- **Good migration**: A good migration involves planning, testing, and monitoring the migration process to ensure that the web application behaves as expected.
+- **Fast migration**: A fast migration involves dividing the application into smaller parts and migrating each part incrementally.
+- **Strangler Application**: A Strangler Application is a migration strategy that involves gradually replacing parts of the application with new components until the entire application is migrated.
+- **Hybrid approach**: A hybrid approach involves combining different migration strategies to achieve the best results.
+- **Use of Generative AI**: Generative AI can help developers automate the migration process by generating code based on examples or patterns, code completion, code refactoring, code translation, or code documentation.
