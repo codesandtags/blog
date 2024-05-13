@@ -3,8 +3,8 @@ layout: post
 title: Lessons learned with Building Large Scale Web Apps Book - Part 2
 date: 2024-05-13 10:35 -0400
 author: codesandtags
-categories: [Frontend]
-tags: [books, frontend, architecture]
+categories: [frontend]
+tags: [books, architecture]
 ---
 
 ![Cover Large Web Apps](/assets/img/posts/large-web-apps.jpg)
