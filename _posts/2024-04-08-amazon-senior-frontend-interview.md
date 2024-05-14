@@ -25,7 +25,7 @@ After that email, I received another email from a recruiter telling me the good 
 
 ## Amazon Levels
 
-At this point I had to understand this position was for a Senior Position, which in Amazon this is considered a `Level 6` or `L6` . If you are coming from a Tech Industry or Big company, it’s usual to see how seniority levels are grouped or categorized. For instance, according to [Levels.fyi](http://Levels.fyi) (link [https://www.levels.fyi/?compare=Amazon,Google,Microsoft&track=Software Engineer](https://www.levels.fyi/?compare=Amazon,Google,Microsoft&track=Software%20Engineer)) these are the different roles at Amazon, Google and Microsoft.
+At this point I had to understand this position was for a Senior Position, which in Amazon this is considered a `Level 6` or `L6` . If you are coming from a Tech Industry or Big company, it’s usual to see how seniority levels are grouped or categorized. For instance, according to [Levels.fyi](https://Levels.fyi) (link [https://www.levels.fyi/?compare=Amazon,Google,Microsoft&track=Software Engineer](https://www.levels.fyi/?compare=Amazon,Google,Microsoft&track=Software%20Engineer)) these are the different roles at Amazon, Google and Microsoft.
 
 ![Amazon Levels Seniority](/assets/img/posts/amazon-senior-frontend-interview-03.png)
 
