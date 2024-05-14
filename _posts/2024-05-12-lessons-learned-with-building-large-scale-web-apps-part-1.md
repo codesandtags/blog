@@ -179,7 +179,7 @@ Design systems are a collection of reusable components, patterns, and guidelines
   - [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
   - [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
   - [CSS Guidelines](https://cssguidelin.es/)
-  - [BEM (Block Element Modifier)](http://getbem.com/)
+  - [BEM (Block Element Modifier)](https://getbem.com/)
   - Alternatives of existing well know CSS Frameworks as [Tailwind CSS](https://tailwindcss.com/).
 - **Leverage on Design Tokens**: [Design tokens](https://spectrum.adobe.com/page/design-tokens/) are design decisions, translated into data. They act as a “source of truth” to help ensure that product experiences feel unified and cohesive. Design Tokens can be defined in JSON, YAML, SASS variables, CSS custom properties, or other formats, and can be used to generate code snippets for different platforms. Also you can leverage on some tools to generate tokens, such as:
   - [Theo - Salesforce](https://github.com/salesforce-ux/theo)
