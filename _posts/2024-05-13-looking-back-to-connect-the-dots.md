@@ -70,18 +70,20 @@ Right now I'm learning about how to become a `Staff Software Engineer`, and I'm 
 
 ### My regrets
 
-- I wish I had started to `write code` earlier.
-- I wish I had finished many of my `side projects` in my Github account.
-- I wish I had learned `Data Structures` and `Algorithms` earlier.
-- I wish I had learned about `Design Patterns` earlier.
-- I wish I had kept writing articles and sharing my knowledge with the world.
-- I wish I had started to learn `English` earlier.
-- I wish I had started to learn about `Docker` and `Kubernetes` earlier.
-- I wish I had learned how to `manage my time` and speak in `public` earlier.
-- I wish I had learned how to `negotiate` and `lead` earlier.
-- I wish I had learned about `Cloud Computing` earlier.
-- I wish I had mentored more people and learned from them.
-- I wish I had given more `talks` and `workshops` in `conferences`.
-- I wish I had documented more about my `career path` and `lessons learned`.
+I wish I had ...
+
+- ... started to `write code` earlier.
+- ... finished many of my `side projects` in my Github account.
+- ... learned `Data Structures` and `Algorithms` earlier.
+- ... learned about `Design Patterns` earlier.
+- ... kept writing articles and sharing my knowledge with the world.
+- ... started to learn `English` earlier.
+- ... started to learn about `Docker` and `Kubernetes` earlier.
+- ... learned how to `manage my time` and speak in `public` earlier.
+- ... learned how to `negotiate` and `lead` earlier.
+- ... learned about `Cloud Computing` earlier.
+- ... mentored more people and learned from them.
+- ... given more `talks` and `workshops` in `conferences`.
+- ... documented more about my `career path` and `lessons learned`.
 
 I know that I cannot change the past, because that past made me who I am today, however, after connecting the dots I can influence the `future` and `change` the `present`, so I will keep learning, growing, sharing, and connecting the dots to become a better person, a better professional, and a better leader.
