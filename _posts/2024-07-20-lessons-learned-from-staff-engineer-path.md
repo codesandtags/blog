@@ -1,11 +1,13 @@
 ---
 layout: post
 title: Lessons learned from Staff Engineer path
-date: 2024-07-10 10:35 -0400
+date: 2024-07-20 10:35 -0400
 author: codesandtags
 categories: [Career]
 tags: [books]
 ---
+
+![Cover Large Web Apps](/assets/img/posts/staff-software-cover.jpg)
 
 ## Introduction
 
@@ -44,9 +46,7 @@ The book is divided in **3 sections (pillars)** and **9 chapters**, so I'll try 
   - Has a deeply technical knowledge/experience, autonomy (and with a great power comes great responsibility), an ability to communicate often and well, and sets the technical direction of the company.
   - A Staff Engineer is a leadership role, not a management role. They are responsible for the technical direction of the company, and they are expected to be able to make decisions that impact the company in a positive way.
   - Usually Staff Engineers don't have direct reports, however they influence technically in those managers who do.
-- **Do you approach things depth-first or breadth-first?**
 - **What is the scope?**
-
   - It is important to identify the right scope for the Staff Engineer according to the context.
   - **A scope too broad will generate**: Lack of impact, becoming a bottleneck, decision fatigue, missing relationships, and lack of focus and burnout.
   - **A scope too narrow will generate**: Lack of impact, opportunity cost, overshadowing other engineers, overengineering.
@@ -69,3 +69,7 @@ The book is divided in **3 sections (pillars)** and **9 chapters**, so I'll try 
 “So you know you’re supposed to be working on things that are impactful and valuable. But where do you find this magic backlog of high-impact work that you should be doing?” Her answer: “You create it!” - Sabrina Leandro
 
 "To get better answers you need to ask better questions, and to get better solutions you need to ask more about the problem/context."
+
+"If anything can be your problem, then it’s easy for everything to become your problem."
+
+"If you always have time to answer all of the questions and take on all of the tricky problems, nobody else gets experience in doing that."
