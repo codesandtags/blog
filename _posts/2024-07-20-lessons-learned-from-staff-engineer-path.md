@@ -60,6 +60,20 @@ The book is divided in **3 sections (pillars)** and **9 chapters**, so I'll try 
 
 ### Three Maps
 
+The best way to move into an organization and the staff engineer role is to understand the context and the impact of your work. The author suggests three maps to help you with this:
+
+#### The Locator Map: Getting Perspective
+
+The Locator Map represents where you are in the organization and what you need to do to move forward. It helps you understand the context of your work and the impact it has on the organization.
+
+#### The Topographical Map: Navigating the Terrain
+
+The Topographical Map represents the terrain of the organization and the challenges you will face as you move forward. It helps you understand the obstacles you will encounter and how to overcome them.
+
+#### The Treasure Map: Remind me where we are going?
+
+The Treasure Map represents the goals of the organization and the direction you need to move in to achieve them. It helps you understand the vision of the organization and how your work fits into it.
+
 ## Execution: Tactical View
 
 ## Leveling up: Leadership and Influence
@@ -73,3 +87,5 @@ The book is divided in **3 sections (pillars)** and **9 chapters**, so I'll try 
 "If anything can be your problem, then it’s easy for everything to become your problem."
 
 "If you always have time to answer all of the questions and take on all of the tricky problems, nobody else gets experience in doing that."
+
+"As you grow in seniority, making a real impact will mean being able to put your work in a bigger context, and recognizing that your point of view is heavily influenced by where you’re standing"
