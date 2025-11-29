@@ -4,6 +4,8 @@ import Sidebar from '@/components/Sidebar.astro';
 import { getCollection } from 'astro:content';
 import { SITE } from '@/consts';
 
+const baseUrl = import.meta.env.BASE_URL;
+
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
   const categoriesSet = new Set<string>();
@@ -76,12 +78,12 @@ const { categoryName, posts } = Astro.props;
               }).format(post.data.date)}
             </time>
             <h2 class="post-card-title">
-              <a href={`/posts/${post.slug}/`}>{post.data.title}</a>
+              <a href={`${baseUrl}posts/${post.slug}/`}>{post.data.title}</a>
             </h2>
             {post.data.tags.length > 0 && (
               <div class="post-card-tags">
                 {post.data.tags.map((tag) => (
-                  <a href={`/tags/${tag.toLowerCase().replace(/\s+/g, '-')}/`} class="tag-badge">
+                  <a href={`${baseUrl}tags/${tag.toLowerCase().replace(/\s+/g, '-')}/`} class="tag-badge">
                     #{tag}
                   </a>
                 ))}

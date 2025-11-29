@@ -4,6 +4,8 @@ import Sidebar from '@/components/Sidebar.astro';
 import { getCollection } from 'astro:content';
 import { SITE } from '@/consts';
 
+const baseUrl = import.meta.env.BASE_URL;
+
 // Get all posts and group by category
 const allPosts = (await getCollection('blog'))
   .filter((post) => !post.data.draft);
@@ -43,7 +45,7 @@ const categories = Array.from(categoriesMap.entries())
         {categories.map((category) => (
           <section class="category-section">
             <h2 class="category-name">
-              <a href={`/categories/${category.name.toLowerCase().replace(/\s+/g, '-')}/`}>
+              <a href={`${baseUrl}categories/${category.name.toLowerCase().replace(/\s+/g, '-')}/`}>
                 {category.name}
               </a>
               <span class="category-count">({category.count})</span>
@@ -59,7 +61,7 @@ const categories = Array.from(categoriesMap.entries())
                       day: 'numeric',
                     }).format(post.data.date)}
                   </time>
-                  <a href={`/posts/${post.slug}/`} class="post-link">
+                  <a href={`${baseUrl}posts/${post.slug}/`} class="post-link">
                     {post.data.title}
                   </a>
                 </li>

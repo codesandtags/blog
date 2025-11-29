@@ -4,6 +4,8 @@ import Sidebar from '@/components/Sidebar.astro';
 import { getCollection } from 'astro:content';
 import { SITE } from '@/consts';
 
+const baseUrl = import.meta.env.BASE_URL;
+
 // Get all posts and group by tag
 const allPosts = (await getCollection('blog'))
   .filter((post) => !post.data.draft);
@@ -49,7 +51,7 @@ const tags = Array.from(tagsMap.entries())
         {tags.map((tag) => (
           <section class="tag-section">
             <h2 class="tag-name">
-              <a href={`/tags/${tag.name.toLowerCase().replace(/\s+/g, '-')}/`}>
+              <a href={`${baseUrl}tags/${tag.name.toLowerCase().replace(/\s+/g, '-')}/`}>
                 #{tag.name}
               </a>
               <span class="tag-count">({tag.count})</span>
@@ -65,7 +67,7 @@ const tags = Array.from(tagsMap.entries())
                       day: 'numeric',
                     }).format(post.data.date)}
                   </time>
-                  <a href={`/posts/${post.slug}/`} class="post-link">
+                  <a href={`${baseUrl}posts/${post.slug}/`} class="post-link">
                     {post.data.title}
                   </a>
                 </li>
