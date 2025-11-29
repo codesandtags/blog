@@ -1,0 +1,261 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Sidebar from '@/components/Sidebar.astro';
+import { getCollection } from 'astro:content';
+import { SITE } from '@/consts';
+
+// Get all posts, sorted by date (newest first), excluding drafts
+const allPosts = (await getCollection('blog'))
+  .filter((post) => !post.data.draft)
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+
+// Group posts by year and month
+const postsByYear = new Map<number, Map<number, typeof allPosts>>();
+
+allPosts.forEach((post) => {
+  const year = post.data.date.getFullYear();
+  const month = post.data.date.getMonth() + 1; // 1-12
+
+  if (!postsByYear.has(year)) {
+    postsByYear.set(year, new Map());
+  }
+  const yearMap = postsByYear.get(year)!;
+
+  if (!yearMap.has(month)) {
+    yearMap.set(month, []);
+  }
+  yearMap.get(month)!.push(post);
+});
+
+// Convert to array format
+const archives = Array.from(postsByYear.entries())
+  .sort((a, b) => b[0] - a[0]) // Sort years descending
+  .map(([year, monthsMap]) => ({
+    year,
+    months: Array.from(monthsMap.entries())
+      .sort((a, b) => b[0] - a[0]) // Sort months descending
+      .map(([month, posts]) => ({
+        month,
+        monthName: new Date(year, month - 1).toLocaleString('en-US', { month: 'long' }),
+        posts,
+      })),
+  }));
+
+const totalPosts = allPosts.length;
+---
+
+<BaseLayout title="Archives" description={`Browse all posts by date on ${SITE.title}`}>
+  <div class="layout-container">
+    <Sidebar />
+
+    <main class="main-content">
+      <header class="page-header">
+        <h1 class="page-title">Archives</h1>
+        <p class="page-description">
+          {totalPosts} {totalPosts === 1 ? 'post' : 'posts'} in total
+        </p>
+      </header>
+
+      <div class="archives-list">
+        {archives.map((yearData) => (
+          <section class="year-section">
+            <h2 class="year-title">{yearData.year}</h2>
+
+            {yearData.months.map((monthData) => (
+              <div class="month-section">
+                <h3 class="month-title">
+                  {monthData.monthName} {yearData.year}
+                  <span class="month-count">({monthData.posts.length})</span>
+                </h3>
+
+                <ul class="month-posts">
+                  {monthData.posts.map((post) => (
+                    <li class="month-post-item">
+                      <time class="post-date" datetime={post.data.date.toISOString()}>
+                        {new Intl.DateTimeFormat('en-US', {
+                          day: 'numeric',
+                        }).format(post.data.date)}
+                      </time>
+                      <a href={`/posts/${post.slug}/`} class="post-link">
+                        {post.data.title}
+                      </a>
+                      {post.data.categories.length > 0 && (
+                        <span class="post-category">
+                          {post.data.categories[0]}
+                        </span>
+                      )}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </section>
+        ))}
+      </div>
+    </main>
+  </div>
+</BaseLayout>
+
+<style>
+  .layout-container {
+    display: flex;
+    min-height: 100vh;
+  }
+
+  .main-content {
+    flex: 1;
+    max-width: var(--content-max-width);
+    width: 100%;
+    padding: 3rem 2rem;
+    margin-left: var(--sidebar-width);
+    margin-right: auto;
+  }
+
+  .page-header {
+    margin-bottom: 3rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid var(--color-border);
+  }
+
+  .page-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--color-text);
+    margin-bottom: 0.5rem;
+  }
+
+  .page-description {
+    color: var(--color-text-muted);
+    font-size: 1.1rem;
+  }
+
+  .archives-list {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .year-section {
+    padding: 2rem;
+    background-color: var(--color-bg-alt);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+  }
+
+  .year-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: var(--color-text);
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--color-border);
+  }
+
+  .month-section {
+    margin-bottom: 2rem;
+  }
+
+  .month-section:last-child {
+    margin-bottom: 0;
+  }
+
+  .month-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--color-text);
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+  }
+
+  .month-count {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--color-text-muted);
+  }
+
+  .month-posts {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .month-post-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.75rem;
+    border-radius: 4px;
+    transition: background-color 0.15s;
+  }
+
+  .month-post-item:hover {
+    background-color: var(--color-bg);
+  }
+
+  .post-date {
+    flex-shrink: 0;
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    min-width: 40px;
+    text-align: right;
+    font-weight: 500;
+  }
+
+  .post-link {
+    flex: 1;
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: 1rem;
+  }
+
+  .post-link:hover {
+    color: var(--color-link);
+    text-decoration: underline;
+  }
+
+  .post-category {
+    flex-shrink: 0;
+    padding: 0.25rem 0.5rem;
+    background-color: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+  }
+
+  @media (max-width: 1024px) {
+    .layout-container {
+      flex-direction: column;
+    }
+
+    .main-content {
+      margin-left: 0;
+      padding: 2rem 1rem;
+      width: 100%;
+      max-width: 100%;
+    }
+
+    .page-title {
+      font-size: 2rem;
+    }
+
+    .year-section {
+      padding: 1.5rem;
+    }
+
+    .month-post-item {
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .post-date {
+      min-width: auto;
+    }
+  }
+</style>
+

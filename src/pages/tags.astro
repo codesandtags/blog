@@ -1,0 +1,222 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Sidebar from '@/components/Sidebar.astro';
+import { getCollection } from 'astro:content';
+import { SITE } from '@/consts';
+
+// Get all posts and group by tag
+const allPosts = (await getCollection('blog'))
+  .filter((post) => !post.data.draft);
+
+// Group posts by tag
+const tagsMap = new Map<string, typeof allPosts>();
+allPosts.forEach((post) => {
+  post.data.tags.forEach((tag) => {
+    if (!tagsMap.has(tag)) {
+      tagsMap.set(tag, []);
+    }
+    tagsMap.get(tag)!.push(post);
+  });
+});
+
+// Sort tags by count (descending) then by name, and posts by date
+const tags = Array.from(tagsMap.entries())
+  .map(([name, posts]) => ({
+    name,
+    count: posts.length,
+    posts: posts.sort((a, b) => b.data.date.getTime() - a.data.date.getTime()),
+  }))
+  .sort((a, b) => {
+    // Sort by count first, then by name
+    if (b.count !== a.count) {
+      return b.count - a.count;
+    }
+    return a.name.localeCompare(b.name);
+  });
+---
+
+<BaseLayout title="Tags" description={`Browse posts by tag on ${SITE.title}`}>
+  <div class="layout-container">
+    <Sidebar />
+
+    <main class="main-content">
+      <header class="page-header">
+        <h1 class="page-title">Tags</h1>
+        <p class="page-description">Browse posts organized by tags</p>
+      </header>
+
+      <div class="tags-list">
+        {tags.map((tag) => (
+          <section class="tag-section">
+            <h2 class="tag-name">
+              <a href={`/tags/${tag.name.toLowerCase().replace(/\s+/g, '-')}/`}>
+                #{tag.name}
+              </a>
+              <span class="tag-count">({tag.count})</span>
+            </h2>
+
+            <ul class="tag-posts">
+              {tag.posts.map((post) => (
+                <li class="tag-post-item">
+                  <time class="post-date" datetime={post.data.date.toISOString()}>
+                    {new Intl.DateTimeFormat('en-US', {
+                      year: 'numeric',
+                      month: 'short',
+                      day: 'numeric',
+                    }).format(post.data.date)}
+                  </time>
+                  <a href={`/posts/${post.slug}/`} class="post-link">
+                    {post.data.title}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </section>
+        ))}
+      </div>
+    </main>
+  </div>
+</BaseLayout>
+
+<style>
+  .layout-container {
+    display: flex;
+    min-height: 100vh;
+  }
+
+  .main-content {
+    flex: 1;
+    max-width: var(--content-max-width);
+    width: 100%;
+    padding: 3rem 2rem;
+    margin-left: var(--sidebar-width);
+    margin-right: auto;
+  }
+
+  .page-header {
+    margin-bottom: 3rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid var(--color-border);
+  }
+
+  .page-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--color-text);
+    margin-bottom: 0.5rem;
+  }
+
+  .page-description {
+    color: var(--color-text-muted);
+    font-size: 1.1rem;
+  }
+
+  .tags-list {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .tag-section {
+    padding: 2rem;
+    background-color: var(--color-bg-alt);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+  }
+
+  .tag-name {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+  }
+
+  .tag-name a {
+    color: var(--color-link);
+    text-decoration: none;
+  }
+
+  .tag-name a:hover {
+    text-decoration: underline;
+  }
+
+  .tag-count {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--color-text-muted);
+  }
+
+  .tag-posts {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .tag-post-item {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    padding: 0.75rem;
+    border-radius: 4px;
+    transition: background-color 0.15s;
+  }
+
+  .tag-post-item:hover {
+    background-color: var(--color-bg);
+  }
+
+  .post-date {
+    flex-shrink: 0;
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    min-width: 100px;
+  }
+
+  .post-link {
+    flex: 1;
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: 1rem;
+  }
+
+  .post-link:hover {
+    color: var(--color-link);
+    text-decoration: underline;
+  }
+
+  @media (max-width: 1024px) {
+    .layout-container {
+      flex-direction: column;
+    }
+
+    .main-content {
+      margin-left: 0;
+      padding: 2rem 1rem;
+      width: 100%;
+      max-width: 100%;
+    }
+
+    .page-title {
+      font-size: 2rem;
+    }
+
+    .tag-section {
+      padding: 1.5rem;
+    }
+
+    .tag-post-item {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .post-date {
+      min-width: auto;
+    }
+  }
+</style>
+
