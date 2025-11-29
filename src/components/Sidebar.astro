@@ -3,19 +3,20 @@ import { SITE, AUTHOR, SOCIAL_LINKS } from '@/consts';
 import { Home, FolderOpen, Tag, Archive, Info, Twitter, Github, Menu, X } from 'lucide-astro';
 // import { Search } from 'lucide-astro'; // Temporarily disabled
 
+const baseUrl = import.meta.env.BASE_URL;
 const currentPath = Astro.url.pathname;
 
 const navItems = [
-  { href: '/', label: 'Home', Icon: Home },
-  { href: '/categories/', label: 'Categories', Icon: FolderOpen },
-  { href: '/tags/', label: 'Tags', Icon: Tag },
-  { href: '/archives/', label: 'Archives', Icon: Archive },
-  { href: '/about/', label: 'About', Icon: Info },
+  { href: baseUrl, label: 'Home', Icon: Home },
+  { href: `${baseUrl}categories/`, label: 'Categories', Icon: FolderOpen },
+  { href: `${baseUrl}tags/`, label: 'Tags', Icon: Tag },
+  { href: `${baseUrl}archives/`, label: 'Archives', Icon: Archive },
+  { href: `${baseUrl}about/`, label: 'About', Icon: Info },
 ];
 
 function isActive(href: string): boolean {
-  if (href === '/') {
-    return currentPath === '/';
+  if (href === baseUrl || href === `${baseUrl}`) {
+    return currentPath === baseUrl || currentPath === `${baseUrl}`;
   }
   return currentPath.startsWith(href);
 }
@@ -27,7 +28,7 @@ function isActive(href: string): boolean {
     <div class="mobile-header">
       <div class="mobile-header-left">
         <div class="avatar-container">
-          <a href="/" class="avatar-link">
+          <a href={baseUrl} class="avatar-link">
             <img
               src={AUTHOR.avatar}
               alt={AUTHOR.fullName}
@@ -37,7 +38,7 @@ function isActive(href: string): boolean {
         </div>
         <div class="site-info">
           <h1 class="site-title">
-            <a href="/">{SITE.title}</a>
+            <a href={baseUrl}>{SITE.title}</a>
           </h1>
         </div>
       </div>
@@ -57,14 +58,14 @@ function isActive(href: string): boolean {
     <!-- Desktop: Title and Tagline (centered) -->
     <div class="desktop-site-info">
       <h1 class="site-title">
-        <a href="/">{SITE.title}</a>
+        <a href={baseUrl}>{SITE.title}</a>
       </h1>
       <p class="site-tagline">{SITE.tagline}</p>
     </div>
 
     <!-- Desktop: Avatar (centered) -->
     <div class="desktop-avatar-container">
-      <a href="/" class="avatar-link">
+      <a href={baseUrl} class="avatar-link">
         <img
           src={AUTHOR.avatar}
           alt={AUTHOR.fullName}

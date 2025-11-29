@@ -4,6 +4,8 @@ import Sidebar from '@/components/Sidebar.astro';
 import { getCollection } from 'astro:content';
 import { SITE, PAGINATION } from '@/consts';
 
+const baseUrl = import.meta.env.BASE_URL;
+
 // Get all blog posts, sorted by date (newest first), excluding drafts
 const allPostsRaw = await getCollection('blog');
 const allPosts = allPostsRaw
@@ -89,7 +91,7 @@ function formatDate(date: Date): string {
                 {formatDate(post.data.date)}
               </time>
               <h2 class="post-card-title">
-                <a href={`/posts/${post.slug}/`}>{post.data.title}</a>
+                <a href={`${baseUrl}posts/${post.slug}/`}>{post.data.title}</a>
               </h2>
               {post.data.categories.length > 0 && (
                 <div class="post-card-categories">
@@ -101,7 +103,7 @@ function formatDate(date: Date): string {
               {post.data.tags.length > 0 && (
                 <div class="post-card-tags">
                   {post.data.tags.slice(0, 3).map((tag) => (
-                    <a href={`/tags/${tag.toLowerCase().replace(/\s+/g, '-')}/`} class="tag-badge">#{tag}</a>
+                    <a href={`${baseUrl}tags/${tag.toLowerCase().replace(/\s+/g, '-')}/`} class="tag-badge">#{tag}</a>
                   ))}
                 </div>
               )}
@@ -115,7 +117,7 @@ function formatDate(date: Date): string {
           <div class="pagination-controls">
             {currentPage > 1 && (
               <a
-                href={currentPage === 2 ? '/' : `/?page=${currentPage - 1}`}
+                href={currentPage === 2 ? baseUrl : `${baseUrl}?page=${currentPage - 1}`}
                 class="pagination-link pagination-prev"
                 aria-label="Previous page"
               >
@@ -139,7 +141,7 @@ function formatDate(date: Date): string {
                 return (
                   <a
                     key={page}
-                    href={page === 1 ? '/' : `/?page=${page}`}
+                    href={page === 1 ? baseUrl : `${baseUrl}?page=${page}`}
                     class="pagination-number"
                     aria-label={`Page ${page}`}
                   >
@@ -154,7 +156,7 @@ function formatDate(date: Date): string {
 
             {currentPage < totalPages && (
               <a
-                href={`/?page=${currentPage + 1}`}
+                href={`${baseUrl}?page=${currentPage + 1}`}
                 class="pagination-link pagination-next"
                 aria-label="Next page"
               >

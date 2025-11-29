@@ -1,13 +1,14 @@
-import { defineConfig } from 'astro/config';
-import tailwind from '@astrojs/tailwind';
-import mdx from '@astrojs/mdx';
-import sitemap from '@astrojs/sitemap';
-import remarkSlug from 'remark-slug';
-import rehypeAutolinkHeadings from 'rehype-autolink-headings';
+import { defineConfig } from "astro/config";
+import tailwind from "@astrojs/tailwind";
+import mdx from "@astrojs/mdx";
+import sitemap from "@astrojs/sitemap";
+import remarkSlug from "remark-slug";
+import rehypeAutolinkHeadings from "rehype-autolink-headings";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://codesandtags.github.io',
+  site: "https://codesandtags.io",
+  base: "/blog/",
   integrations: [
     tailwind({
       applyBaseStyles: false,
@@ -17,7 +18,7 @@ export default defineConfig({
   ],
   markdown: {
     shikiConfig: {
-      theme: 'github-dark',
+      theme: "github-dark",
       wrap: true,
     },
     remarkPlugins: [remarkSlug],
@@ -25,13 +26,12 @@ export default defineConfig({
       [
         rehypeAutolinkHeadings,
         {
-          behavior: 'wrap',
+          behavior: "wrap",
           properties: {
-            class: 'anchor-link',
+            class: "anchor-link",
           },
         },
       ],
     ],
   },
 });
-

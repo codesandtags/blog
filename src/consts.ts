@@ -8,8 +8,8 @@ export const SITE = {
   tagline: "",
   description:
     "The space for Edwin Torres to share his knowledge and experience in programming.",
-  url: "https://codesandtags.github.io",
-  baseUrl: "",
+  url: "https://codesandtags.io",
+  baseUrl: "/blog/",
   lang: "en",
 } as const;
 

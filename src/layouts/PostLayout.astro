@@ -19,9 +19,9 @@ const formattedDate = new Intl.DateTimeFormat('en-US', {
   day: 'numeric',
 }).format(post.data.date);
 
-// Generate canonical URL
+// Generate canonical URL (include base path)
 const slug = post.slug;
-const canonicalURL = new URL(`/posts/${slug}/`, SITE.url).toString();
+const canonicalURL = new URL(`${SITE.baseUrl}posts/${slug}/`, SITE.url).toString();
 
 // Extract headings for TOC
 const tocHeadings = headings

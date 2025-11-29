@@ -29,10 +29,12 @@ const {
 const fullTitle = pageTitle === SITE.title
   ? SITE.title
   : `${pageTitle} | ${SITE.title}`;
+// Use canonicalURL if provided, otherwise construct from current path
+// Astro.url.pathname already includes the base path when base is configured
 const url = canonicalURL || new URL(Astro.url.pathname, SITE.url).toString();
 const ogImage = image
-  ? new URL(image, SITE.url).toString()
-  : new URL('/assets/img/logo.png', SITE.url).toString();
+  ? new URL(image.startsWith('/') ? `${SITE.baseUrl}${image.slice(1)}` : image, SITE.url).toString()
+  : new URL(`${SITE.baseUrl}assets/img/logo.png`, SITE.url).toString();
 ---
 
 <!doctype html>
@@ -40,7 +42,7 @@ const ogImage = image
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="/assets/img/favicons/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href={`${SITE.baseUrl}assets/img/favicons/favicon.ico`} />
     <meta name="generator" content={Astro.generator} />
 
     <!-- Primary Meta Tags -->
