@@ -1,0 +1,132 @@
+---
+interface Props {
+  headings: Array<{ depth: number; slug: string; text: string }>;
+}
+
+const { headings } = Astro.props;
+
+if (headings.length === 0) {
+  return null;
+}
+
+// Filter to only show h2 and h3 headings
+const filteredHeadings = headings.filter(h => h.depth <= 3);
+---
+
+<nav class="toc" aria-label="Table of Contents">
+  <h2 class="toc-title">Table of Contents</h2>
+  <ul class="toc-list">
+    {filteredHeadings.map((heading) => (
+      <li class={`toc-item toc-item-depth-${heading.depth}`}>
+        <a href={`#${heading.slug}`} class="toc-link">
+          {heading.text}
+        </a>
+      </li>
+    ))}
+  </ul>
+</nav>
+
+<style>
+  .toc {
+    background-color: var(--color-bg-alt);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    padding: 1.5rem;
+  }
+
+  .toc-title {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--color-text);
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .toc-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .toc-item {
+    margin-bottom: 0.5rem;
+  }
+
+  .toc-item-depth-2 {
+    padding-left: 0;
+    font-weight: 500;
+  }
+
+  .toc-item-depth-3 {
+    padding-left: 1rem;
+    font-weight: 400;
+    font-size: 0.95em;
+  }
+
+  .toc-link {
+    color: var(--color-text-muted);
+    font-size: 0.9rem;
+    display: block;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    transition: all 0.15s ease-in-out;
+    line-height: 1.4;
+  }
+
+  .toc-link:hover {
+    color: var(--color-link);
+    background-color: var(--color-bg);
+    text-decoration: none;
+    transform: translateX(2px);
+  }
+
+  .toc-link:active {
+    transform: translateX(0);
+  }
+
+  /* Active TOC item highlighting (can be enhanced with JS if needed) */
+  .toc-item:has(.toc-link:hover) {
+    color: var(--color-link);
+  }
+
+  @media (max-width: 1024px) {
+    .toc {
+      margin-top: 2rem;
+    }
+
+    .toc-title {
+      font-size: 1.1rem;
+    }
+
+    .toc-link {
+      font-size: 0.95rem;
+      padding: 0.35rem 0.75rem;
+    }
+  }
+
+  /* Scrollbar styling for TOC */
+  .toc {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-border) var(--color-bg-alt);
+  }
+
+  .toc::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .toc::-webkit-scrollbar-track {
+    background: var(--color-bg-alt);
+    border-radius: 3px;
+  }
+
+  .toc::-webkit-scrollbar-thumb {
+    background: var(--color-border);
+    border-radius: 3px;
+  }
+
+  .toc::-webkit-scrollbar-thumb:hover {
+    background: var(--color-text-muted);
+  }
+</style>
+

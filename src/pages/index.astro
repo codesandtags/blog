@@ -1,0 +1,506 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Sidebar from '@/components/Sidebar.astro';
+import { getCollection } from 'astro:content';
+import { SITE, PAGINATION } from '@/consts';
+
+// Get all blog posts, sorted by date (newest first), excluding drafts
+const allPostsRaw = await getCollection('blog');
+const allPosts = allPostsRaw
+  .filter((post) => {
+    // Filter out drafts
+    const isDraft = post.data.draft === true;
+    return !isDraft;
+  })
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+
+// Pagination
+const currentPage = Number(Astro.url.searchParams.get('page')) || 1;
+const postsPerPage = PAGINATION.postsPerPage;
+const totalPages = Math.ceil(allPosts.length / postsPerPage);
+const startIndex = (currentPage - 1) * postsPerPage;
+const endIndex = startIndex + postsPerPage;
+const posts = allPosts.slice(startIndex, endIndex);
+
+// Generate pagination page numbers
+function getPaginationPages(current: number, total: number): number[] {
+  if (total <= 7) {
+    return Array.from({ length: total }, (_, i) => i + 1);
+  }
+
+  const pages: number[] = [];
+
+  // Always include first page
+  if (current > 3) {
+    pages.push(1);
+  }
+
+  // Pages around current
+  const start = Math.max(1, current - 1);
+  const end = Math.min(total, current + 1);
+  for (let i = start; i <= end; i++) {
+    if (!pages.includes(i)) {
+      pages.push(i);
+    }
+  }
+
+  // Always include last page
+  if (current < total - 2) {
+    pages.push(total);
+  }
+
+  return pages;
+}
+
+const paginationPages = getPaginationPages(currentPage, totalPages);
+const firstPageInList = paginationPages[0];
+const lastPageInList = paginationPages[paginationPages.length - 1];
+const showFirstEllipsis = firstPageInList > 2;
+const showLastEllipsis = lastPageInList < totalPages - 1;
+
+// Format date helper
+function formatDate(date: Date): string {
+  return new Intl.DateTimeFormat('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+  }).format(date);
+}
+---
+
+<BaseLayout title={SITE.title} description={SITE.description}>
+  <div class="layout-container">
+    <Sidebar />
+
+    <main class="main-content">
+      <header class="page-header">
+        <h1 class="page-title">Latest Posts</h1>
+      </header>
+
+      {posts.length === 0 ? (
+        <div class="empty-state">
+          <p>No posts found. {allPosts.length} total posts in collection.</p>
+        </div>
+      ) : (
+        <div class="posts-list">
+          {posts.map((post) => (
+            <article class="post-card">
+              <time class="post-date" datetime={post.data.date.toISOString()}>
+                {formatDate(post.data.date)}
+              </time>
+              <h2 class="post-card-title">
+                <a href={`/posts/${post.slug}/`}>{post.data.title}</a>
+              </h2>
+              {post.data.categories.length > 0 && (
+                <div class="post-card-categories">
+                  {post.data.categories.map((category) => (
+                    <span class="category-badge">{category}</span>
+                  ))}
+                </div>
+              )}
+              {post.data.tags.length > 0 && (
+                <div class="post-card-tags">
+                  {post.data.tags.slice(0, 3).map((tag) => (
+                    <a href={`/tags/${tag.toLowerCase().replace(/\s+/g, '-')}/`} class="tag-badge">#{tag}</a>
+                  ))}
+                </div>
+              )}
+            </article>
+          ))}
+        </div>
+      )}
+
+      {totalPages > 1 && (
+        <nav class="pagination" aria-label="Pagination">
+          <div class="pagination-controls">
+            {currentPage > 1 && (
+              <a
+                href={currentPage === 2 ? '/' : `/?page=${currentPage - 1}`}
+                class="pagination-link pagination-prev"
+                aria-label="Previous page"
+              >
+                ← Previous
+              </a>
+            )}
+
+            <div class="pagination-numbers">
+              {showFirstEllipsis && (
+                <span class="pagination-ellipsis">...</span>
+              )}
+              {paginationPages.map((page) => {
+                const isCurrent = page === currentPage;
+                if (isCurrent) {
+                  return (
+                    <span key={page} class="pagination-number pagination-current" aria-current="page">
+                      {page}
+                    </span>
+                  );
+                }
+                return (
+                  <a
+                    key={page}
+                    href={page === 1 ? '/' : `/?page=${page}`}
+                    class="pagination-number"
+                    aria-label={`Page ${page}`}
+                  >
+                    {page}
+                  </a>
+                );
+              })}
+              {showLastEllipsis && (
+                <span class="pagination-ellipsis">...</span>
+              )}
+            </div>
+
+            {currentPage < totalPages && (
+              <a
+                href={`/?page=${currentPage + 1}`}
+                class="pagination-link pagination-next"
+                aria-label="Next page"
+              >
+                Next →
+              </a>
+            )}
+          </div>
+
+          <div class="pagination-info">
+            Page {currentPage} of {totalPages} ({allPosts.length} {allPosts.length === 1 ? 'post' : 'posts'} total)
+          </div>
+        </nav>
+      )}
+    </main>
+  </div>
+</BaseLayout>
+
+<style>
+  .layout-container {
+    display: flex;
+    min-height: 100vh;
+  }
+
+  .main-content {
+    flex: 1;
+    max-width: var(--content-max-width);
+    width: 100%;
+    padding: 3rem 2rem;
+    margin-left: var(--sidebar-width);
+    margin-right: auto;
+  }
+
+  @media (max-width: 1024px) {
+    .layout-container {
+      flex-direction: column;
+      padding-bottom: 70px; /* Space for fixed social links footer */
+    }
+
+    .main-content {
+      margin-left: 0;
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .layout-container {
+      padding-bottom: 60px; /* Smaller footer on mobile */
+    }
+  }
+
+  .page-header {
+    margin-bottom: 3rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid var(--color-border);
+  }
+
+  .page-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--color-text);
+  }
+
+  .posts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .post-card {
+    padding: 2rem;
+    background-color: var(--color-bg-alt);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    transition: all 0.2s;
+  }
+
+  .post-card:hover {
+    border-color: var(--color-link);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .post-date {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    margin-bottom: 0.75rem;
+  }
+
+  .post-card-title {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+
+  .post-card-title a {
+    color: var(--color-text);
+    text-decoration: none;
+  }
+
+  .post-card-title a:hover {
+    color: var(--color-link);
+    text-decoration: underline;
+  }
+
+  .post-card-categories,
+  .post-card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  .category-badge {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    background-color: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    font-size: 0.85rem;
+    color: var(--color-text);
+  }
+
+  .tag-badge {
+    display: inline-block;
+    padding: 0.35rem 0.65rem;
+    color: var(--color-link);
+    font-size: 0.85rem;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: all 0.15s ease-in-out;
+    /* Subtle background to make it look interactive but distinct from categories */
+    background-color: transparent;
+    border: 1px solid transparent;
+  }
+
+  .tag-badge:hover {
+    /* Subtle hover effect: light accent background with opacity */
+    background-color: rgba(255, 107, 53, 0.1);
+    color: var(--color-link-hover);
+    text-decoration: none;
+    border-color: rgba(255, 107, 53, 0.2);
+  }
+
+  .pagination {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--color-border);
+  }
+
+  .pagination-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+  }
+
+  .pagination-numbers {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    flex-wrap: wrap;
+  }
+
+  .pagination-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 2.5rem;
+    height: 2.5rem;
+    padding: 0 0.5rem;
+    background-color: var(--color-bg-alt);
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    color: var(--color-link);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: all 0.2s;
+  }
+
+  .pagination-number:hover {
+    background-color: var(--color-link);
+    color: var(--color-text-on-accent);
+    border-color: var(--color-link);
+    text-decoration: none;
+  }
+
+  .pagination-number.pagination-current {
+    background-color: var(--color-link);
+    color: var(--color-text-on-accent);
+    border-color: var(--color-link);
+    font-weight: 600;
+    cursor: default;
+  }
+
+  .pagination-ellipsis {
+    padding: 0 0.5rem;
+    color: var(--color-text-muted);
+  }
+
+  .pagination-link {
+    padding: 0.5rem 1rem;
+    background-color: var(--color-bg-alt);
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    color: var(--color-link);
+    text-decoration: none;
+    transition: all 0.2s;
+    font-size: 0.9rem;
+  }
+
+  .pagination-link:hover {
+    background-color: var(--color-link);
+    color: var(--color-text-on-accent);
+    border-color: var(--color-link);
+    text-decoration: none;
+  }
+
+  .pagination-info {
+    text-align: center;
+    color: var(--color-text-muted);
+    font-size: 0.9rem;
+  }
+
+  @media (max-width: 1024px) {
+    .main-content {
+      padding: 1.25rem 1rem;
+    }
+
+    .page-header {
+      margin-bottom: 1.5rem;
+      padding-bottom: 0.75rem;
+    }
+
+    .page-title {
+      font-size: 1.75rem;
+      line-height: 1.2;
+    }
+
+    .posts-list {
+      gap: 1.25rem;
+    }
+
+    .post-card {
+      padding: 1.25rem;
+    }
+
+    .post-date {
+      font-size: 0.8rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .post-card-title {
+      font-size: 1.5rem;
+      margin-bottom: 0.75rem;
+      line-height: 1.3;
+    }
+
+    .post-card-categories,
+    .post-card-tags {
+      margin-top: 0.75rem;
+      gap: 0.4rem;
+    }
+
+    .category-badge,
+    .tag-badge {
+      font-size: 0.8rem;
+      padding: 0.3rem 0.6rem;
+    }
+
+    .pagination {
+      margin-top: 2rem;
+      padding-top: 1.5rem;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .main-content {
+      padding: 1rem 0.75rem;
+    }
+
+    .page-header {
+      margin-bottom: 1.25rem;
+      padding-bottom: 0.625rem;
+    }
+
+    .page-title {
+      font-size: 1.5rem;
+    }
+
+    .posts-list {
+      gap: 1rem;
+    }
+
+    .post-card {
+      padding: 1rem;
+    }
+
+    .post-date {
+      font-size: 0.75rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .post-card-title {
+      font-size: 1.25rem;
+      margin-bottom: 0.625rem;
+    }
+
+    .post-card-categories,
+    .post-card-tags {
+      margin-top: 0.625rem;
+      gap: 0.35rem;
+    }
+
+    .category-badge,
+    .tag-badge {
+      font-size: 0.75rem;
+      padding: 0.25rem 0.5rem;
+    }
+
+    .pagination {
+      margin-top: 1.5rem;
+      padding-top: 1.25rem;
+    }
+
+    .pagination-number {
+      min-width: 2rem;
+      height: 2rem;
+      font-size: 0.85rem;
+    }
+
+    .pagination-link {
+      padding: 0.4rem 0.8rem;
+      font-size: 0.85rem;
+    }
+  }
+
+.empty-state {
+  padding: 3rem;
+  text-align: center;
+  color: var(--color-text-muted);
+  background-color: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+}
+</style>
+

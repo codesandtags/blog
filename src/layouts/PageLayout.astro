@@ -1,0 +1,137 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Sidebar from '@/components/Sidebar.astro';
+import { SITE } from '@/consts';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const { title, description } = Astro.props;
+const pageTitle = title || 'Page';
+---
+
+<BaseLayout title={pageTitle} description={description || SITE.description}>
+  <div class="layout-container">
+    <Sidebar />
+
+    <main class="main-content">
+      <article class="page-content">
+        <slot />
+      </article>
+    </main>
+  </div>
+</BaseLayout>
+
+<style>
+  .layout-container {
+    display: flex;
+    min-height: 100vh;
+  }
+
+  .main-content {
+    flex: 1;
+    max-width: var(--content-max-width);
+    width: 100%;
+    padding: 3rem 2rem;
+    margin-left: var(--sidebar-width);
+    margin-right: auto;
+  }
+
+  @media (max-width: 1024px) {
+    .layout-container {
+      flex-direction: column;
+      padding-bottom: 70px; /* Space for fixed social links footer */
+    }
+
+    .main-content {
+      margin-left: 0;
+      padding: 2rem 1rem;
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .layout-container {
+      padding-bottom: 60px; /* Smaller footer on mobile */
+    }
+  }
+
+  .page-content {
+    line-height: 1.7;
+    color: var(--color-text);
+    font-size: 1.05rem;
+  }
+
+  .page-content :global(h1) {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: var(--color-text);
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--color-border);
+  }
+
+  .page-content :global(h2) {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--color-text);
+  }
+
+  .page-content :global(h3) {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .page-content :global(p) {
+    margin-bottom: 1.25rem;
+  }
+
+  .page-content :global(ul),
+  .page-content :global(ol) {
+    margin-bottom: 1.25rem;
+    padding-left: 2rem;
+  }
+
+  .page-content :global(li) {
+    margin-bottom: 0.5rem;
+  }
+
+  .page-content :global(a) {
+    color: var(--color-link);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .page-content :global(a:hover) {
+    color: var(--color-link-hover);
+  }
+
+  .page-content :global(img) {
+    border-radius: 8px;
+    margin: 2rem auto;
+    max-width: 100%;
+    display: block;
+  }
+
+  @media (max-width: 1024px) {
+    .layout-container {
+      grid-template-columns: 1fr;
+    }
+
+    .main-content {
+      padding: 2rem 1rem;
+    }
+
+    .page-content :global(h1) {
+      font-size: 2rem;
+    }
+  }
+</style>
+
