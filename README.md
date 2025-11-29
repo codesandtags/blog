@@ -1,39 +1,105 @@
-![Blog build status](https://github.com/codesandtags/blog/actions/workflows/jekyll.yml/badge.svg)
-
 # Codes and Tags Blog
 
-This is the repository for my personal blog, here I document technical stuffs and knowledge that I want to share with the world.
+This is the repository for my personal blog, where I document technical stuff and knowledge that I want to share with the world.
 
-## Start up the blog
+## 🚀 Getting Started
 
-To start the blog locally, you need to have Ruby installed on your machine. Then you can run the following commands:
+### Prerequisites
 
-```bash
-bundle install
-bundle exec jekyll serve
-```
+- Node.js 18+ and npm (or yarn/pnpm)
 
-## Add new post
+### Installation
 
-To add a new post, you can create a new markdown file in the `_posts` directory. The file name should be in the format `YYYY-MM-DD-title.md`. The content of the file should be like this:
+1. Clone the repository:
 
 ```bash
-bundle exec jekyll post "amazon senior frontend interview"
+git clone https://github.com/codesandtags/blog.git
+cd blog
 ```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Start the development server:
+
+```bash
+npm run dev
+```
+
+The blog will be available at `http://localhost:4321`
+
+## 📝 Adding a New Post
+
+To add a new post, create a new markdown file in the `src/content/blog/` directory. The file name should follow the format `YYYY-MM-DD-title.md`.
+
+Example post structure:
 
 ```markdown
 ---
-layout: post
 title: "Title of the post"
-date: 2021-09-01 12:00:00 +0700
-categories: category1 category2
+date: 2024-01-15
+author: codesandtags
+categories: ["category1", "category2"]
+tags: ["tag1", "tag2"]
+draft: false
 ---
 
-Content
+Content of your post goes here...
 ```
 
-## What I use
+### Post Frontmatter
 
-- [Jekyll](https://jekyllrb.com/)
-- [GitHub Pages](https://pages.github.com/)
-- [Jekyll Theme Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy)
+- `title` (required): The post title
+- `date` (required): Publication date (YYYY-MM-DD format)
+- `author` (optional): Author name (defaults to "codesandtags")
+- `categories` (optional): Array of category names
+- `tags` (optional): Array of tag names
+- `image` (optional): Path to featured image
+- `draft` (optional): Set to `true` to hide from production
+
+## 🛠️ Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production (includes Pagefind search index)
+- `npm run preview` - Preview production build locally
+- `npm run migrate:posts` - Run post migration script
+
+## 🏗️ Build & Deploy
+
+Build the site:
+
+```bash
+npm run build
+```
+
+The output will be in the `dist/` directory, ready to deploy to GitHub Pages or any static hosting service.
+
+## 🎨 Tech Stack
+
+- [Astro](https://astro.build/) - Static site framework
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- [Pagefind](https://pagefind.app/) - Static search library
+- [MDX](https://mdxjs.com/) - Markdown with JSX components
+- [TypeScript](https://www.typescriptlang.org/) - Type safety
+- [GitHub Pages](https://pages.github.com/) - Hosting
+
+## 📁 Project Structure
+
+```
+blog/
+├── src/
+│   ├── components/     # Reusable Astro components
+│   ├── content/        # Blog posts (Markdown/MDX)
+│   ├── layouts/        # Page layouts
+│   ├── pages/          # Route pages
+│   └── utils/          # Utility functions
+├── public/             # Static assets
+└── scripts/            # Migration and utility scripts
+```
+
+## 📄 License
+
+See [LICENSE](LICENSE) file for details.
