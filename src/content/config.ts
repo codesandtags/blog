@@ -1,16 +1,15 @@
-import { defineCollection, z } from 'astro:content';
+import { defineCollection, z } from "astro:content";
 
 /**
  * Blog post schema
  * Handles Jekyll frontmatter fields and ensures date is always present
  *
- * Note: If date is missing from frontmatter, it should be extracted from filename
- * (YYYY-MM-DD-title.md format). This is handled during migration.
+ * Note: Dates are stored in frontmatter. Filenames no longer include dates.
  */
 const blogSchema = z.object({
   title: z.string(),
   date: z.coerce.date(), // Coerce string dates to Date objects (handles ISO strings, timestamps, etc.)
-  author: z.string().default('codesandtags'),
+  author: z.string().default("codesandtags"),
   categories: z.array(z.string()).default([]),
   tags: z.array(z.string()).default([]),
   image: z.string().optional(),
@@ -22,11 +21,10 @@ const blogSchema = z.object({
 });
 
 const blog = defineCollection({
-  type: 'content',
+  type: "content",
   schema: blogSchema,
 });
 
 export const collections = {
   blog,
 };
-
